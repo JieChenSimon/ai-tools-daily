@@ -29,6 +29,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add daily README.md seen.json
+          git add daily README.md README.zh-CN.md LEADERBOARD.md CATEGORIES.md seen.json data.json
           git diff --staged --quiet || git commit -m "chore: daily AI tools digest for $(date -u +%Y-%m-%d)"
           git push
