@@ -14,25 +14,25 @@
 Daily auto-collection of **highly-rated AI tools** and **AI skills**.
 
 - 🔍 **Sources**: GitHub (high-star new AI projects from the last 2 days), Hacker News (top discussions)
-- ⏰ **Updated**: daily at 08:00 (Beijing time, UTC+8) — 17 projects tracked
+- ⏰ **Updated**: daily at 08:00 (Beijing time, UTC+8) — 256 projects tracked
 - 🧹 **Dedup**: featured projects never appear twice
 
 ## 🧭 Browse by Category
 
 <table>
   <tr>
-    <td align="center" width="20%"><a href="CATEGORIES.md#agent">🤖<br/><b>AI Agent</b><br/><sub>智能体 · 6</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#coding">💻<br/><b>Coding</b><br/><sub>编程开发 · 3</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#image-video">🎨<br/><b>Image & Video</b><br/><sub>图像视频 · 4</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#audio">🎙<br/><b>Audio & Voice</b><br/><sub>音频语音 · 1</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#writing">✍️<br/><b>Writing</b><br/><sub>写作 · 1</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#agent">🤖<br/><b>AI Agent</b><br/><sub>智能体 · 40</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#coding">💻<br/><b>Coding</b><br/><sub>编程开发 · 21</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#image-video">🎨<br/><b>Image & Video</b><br/><sub>图像视频 · 46</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#audio">🎙<br/><b>Audio & Voice</b><br/><sub>音频语音 · 29</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#writing">✍️<br/><b>Writing</b><br/><sub>写作 · 12</sub></a></td>
   </tr>
   <tr>
-    <td align="center" width="20%"><a href="CATEGORIES.md#search">🔍<br/><b>Search & Knowledge</b><br/><sub>搜索知识 · 0</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#devtools">🛠️<br/><b>Dev Tools</b><br/><sub>开发工具 · 1</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#data">📊<br/><b>Data & Analysis</b><br/><sub>数据分析 · 0</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#chat">💬<br/><b>Chat & Assistant</b><br/><sub>对话助手 · 0</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#other">📦<br/><b>Other</b><br/><sub>其他 · 1</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#search">🔍<br/><b>Search & Knowledge</b><br/><sub>搜索知识 · 32</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#devtools">🛠️<br/><b>Dev Tools</b><br/><sub>开发工具 · 32</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#data">📊<br/><b>Data & Analysis</b><br/><sub>数据分析 · 2</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#chat">💬<br/><b>Chat & Assistant</b><br/><sub>对话助手 · 26</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#other">📦<br/><b>Other</b><br/><sub>其他 · 16</sub></a></td>
   </tr>
 </table>
 
@@ -44,25 +44,31 @@ Daily auto-collection of **highly-rated AI tools** and **AI skills**.
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) | 1711 |
-| 2 | [finnvoor/PiDurableKit](https://github.com/finnvoor/PiDurableKit) | 134 |
-| 3 | [cporter202/viralwave-studio-guide](https://github.com/cporter202/viralwave-studio-guide) | 36 |
-| 4 | [jameshaworthcs/verifiedhandles-mcp](https://github.com/jameshaworthcs/verifiedhandles-mcp) | 30 |
+| 1 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 20547 |
+| 2 | [yc-software/qm](https://github.com/yc-software/qm) | 15371 |
+| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 14700 |
+| 4 | [google/artemis](https://github.com/google/artemis) | 11219 |
+| 5 | [trycompai/crm](https://github.com/trycompai/crm) | 11172 |
+| 6 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 8425 |
+| 7 | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8191 |
+| 8 | [zai-org/ZCode](https://github.com/zai-org/ZCode) | 7592 |
+| 9 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 6259 |
+| 10 | [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) | 5450 |
 
 ### 🧩 Top AI Skills
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [Miftahul-Islam-Efaz/Motion-graphics-skill](https://github.com/Miftahul-Islam-Efaz/Motion-graphics-skill) | 72 |
-| 2 | [ishuagrawal/skills](https://github.com/ishuagrawal/skills) | 45 |
-| 3 | [robbin/android-adb-control](https://github.com/robbin/android-adb-control) | 40 |
-| 4 | [frypan05/philosopher-OKF](https://github.com/frypan05/philosopher-OKF) | 23 |
-| 5 | [zhouwei713/luobo-ppt](https://github.com/zhouwei713/luobo-ppt) | 23 |
-| 6 | [nasqret/labyrinth-exploration](https://github.com/nasqret/labyrinth-exploration) | 21 |
-| 7 | [JosssphZhou/openzine](https://github.com/JosssphZhou/openzine) | 14 |
-| 8 | [tommy0103/better-readme-skill](https://github.com/tommy0103/better-readme-skill) | 14 |
-| 9 | [echris6/ai-business-skills](https://github.com/echris6/ai-business-skills) | 12 |
-| 10 | [luoling8192/create-pr-with-evidence-skill](https://github.com/luoling8192/create-pr-with-evidence-skill) | 9 |
+| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 11008 |
+| 2 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 9092 |
+| 3 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6014 |
+| 4 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 5902 |
+| 5 | [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 5866 |
+| 6 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 4630 |
+| 7 | [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) | 4301 |
+| 8 | [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) | 4229 |
+| 9 | [Leonxlnx/unlazy](https://github.com/Leonxlnx/unlazy) | 3883 |
+| 10 | [AminBlg/SimpleEnglish](https://github.com/AminBlg/SimpleEnglish) | 3845 |
 
 ## 📰 Latest Digest
 
