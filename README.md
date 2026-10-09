@@ -10,14 +10,16 @@ Daily auto-collection of **highly-rated AI tools** and **AI skills**, with a Chi
 
 ## 🏆 Leaderboard (Top 10)
 
-Full ranking: [LEADERBOARD.md](LEADERBOARD.md) (bilingual · 中英双语）
+Full ranking: [LEADERBOARD.md](LEADERBOARD.md) (bilingual · 中英双语)
+
+Browse by category: [CATEGORIES.md](CATEGORIES.md) (bilingual · 中英双语)
 
 ### 🛠️ Top AI Tools
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) | 1483 |
-| 2 | [finnvoor/PiDurableKit](https://github.com/finnvoor/PiDurableKit) | 125 |
+| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) | 1487 |
+| 2 | [finnvoor/PiDurableKit](https://github.com/finnvoor/PiDurableKit) | 126 |
 | 3 | [cporter202/viralwave-studio-guide](https://github.com/cporter202/viralwave-studio-guide) | 36 |
 
 ### 🧩 Top AI Skills

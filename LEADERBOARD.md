@@ -7,8 +7,8 @@
 
 | # | Project 项目 | ⭐ Stars | Language 语言 | First seen 首次收录 |
 |---|---|---|---|---|
-| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) — AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 | 1482 | Go | 2026-10-09 |
-| 2 | [finnvoor/PiDurableKit](https://github.com/finnvoor/PiDurableKit) — Durable AI agents for Apple platforms: pi-durable on JavaScriptCore with a Swift API | 124 | Swift | 2026-10-09 |
+| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) — AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 | 1487 | Go | 2026-10-09 |
+| 2 | [finnvoor/PiDurableKit](https://github.com/finnvoor/PiDurableKit) — Durable AI agents for Apple platforms: pi-durable on JavaScriptCore with a Swift API | 126 | Swift | 2026-10-09 |
 | 3 | [cporter202/viralwave-studio-guide](https://github.com/cporter202/viralwave-studio-guide) — The complete guide to ViralWave Studio: put your social media content on autopilot. Setup walkthrough, features, brand voice, review workflo… | 36 | - | 2026-10-09 |
 
 ## 🧩 AI Skills · AI 技能
@@ -25,3 +25,5 @@
 | 8 | [echris6/ai-business-skills](https://github.com/echris6/ai-business-skills) — Eight skill files for building and selling a product with an AI agent | 12 | - | 2026-10-09 |
 | 9 | [luoling8192/create-pr-with-evidence-skill](https://github.com/luoling8192/create-pr-with-evidence-skill) — Agent skill: create a pull request with verifiable change context, architecture evidence, and before/after visual evidence | 8 | - | 2026-10-09 |
 | 10 | [DarioFontanel/regia-hyperframes](https://github.com/DarioFontanel/regia-hyperframes) — Skill Claude Code: intervista di regia prima di HyperFrames — opzioni e consiglio a ogni domanda, poi un brief chiuso | 7 | - | 2026-10-09 |
+| 11 | [ZJU-REAL/ViSkill](https://github.com/ZJU-REAL/ViSkill) — ViSkill: Reinforcing VLM Agents with Evolving Visual-Native Skills | 6 | Python | 2026-10-09 |
+| 12 | [zhouwei713/luobo-ppt](https://github.com/zhouwei713/luobo-ppt) — 生成和美化可编辑原生 PPT 的 Agent Skill | 6 | Python | 2026-10-09 |

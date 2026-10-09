@@ -12,12 +12,14 @@
 
 完整榜单：[LEADERBOARD.md](LEADERBOARD.md)（中英双语）
 
+按分类浏览：[CATEGORIES.md](CATEGORIES.md)（中英双语）
+
 ### 🛠️ AI 工具 Top
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) | 1482 |
-| 2 | [finnvoor/PiDurableKit](https://github.com/finnvoor/PiDurableKit) | 124 |
+| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) | 1487 |
+| 2 | [finnvoor/PiDurableKit](https://github.com/finnvoor/PiDurableKit) | 126 |
 | 3 | [cporter202/viralwave-studio-guide](https://github.com/cporter202/viralwave-studio-guide) | 36 |
 
 ### 🧩 AI Skills Top

@@ -1,0 +1,182 @@
+[
+ {
+  "name": "mhtsec/ARTEX",
+  "url": "https://github.com/mhtsec/ARTEX",
+  "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
+  "stars": 1487,
+  "lang": "Go",
+  "category": "tool",
+  "tags": [
+   "agent"
+  ],
+  "first_seen": "2026-10-09"
+ },
+ {
+  "name": "finnvoor/PiDurableKit",
+  "url": "https://github.com/finnvoor/PiDurableKit",
+  "desc": "Durable AI agents for Apple platforms: pi-durable on JavaScriptCore with a Swift API",
+  "stars": 126,
+  "lang": "Swift",
+  "category": "tool",
+  "tags": [
+   "agent"
+  ],
+  "first_seen": "2026-10-09"
+ },
+ {
+  "name": "cporter202/viralwave-studio-guide",
+  "url": "https://github.com/cporter202/viralwave-studio-guide",
+  "desc": "The complete guide to ViralWave Studio: put your social media content on autopilot. Setup walkthrough, features, brand voice, review workflo…",
+  "stars": 36,
+  "lang": "-",
+  "category": "tool",
+  "tags": [
+   "agent"
+  ],
+  "first_seen": "2026-10-09"
+ },
+ {
+  "name": "Miftahul-Islam-Efaz/Motion-graphics-skill",
+  "url": "https://github.com/Miftahul-Islam-Efaz/Motion-graphics-skill",
+  "desc": "Best Motion graphics and video editing skill for Claude Code, Codex and Cursor. Plan, animate, edit, caption and sound-design complete video…",
+  "stars": 67,
+  "lang": "Shell",
+  "category": "skill",
+  "tags": [
+   "agent"
+  ],
+  "first_seen": "2026-10-09"
+ },
+ {
+  "name": "robbin/android-adb-control",
+  "url": "https://github.com/robbin/android-adb-control",
+  "desc": "An Agent Skill for Android phone control via ADB: observe, act, and verify. For Pi, Codex, Claude Code, and OpenCode.",
+  "stars": 31,
+  "lang": "Python",
+  "category": "skill",
+  "tags": [
+   "agent"
+  ],
+  "first_seen": "2026-10-09"
+ },
+ {
+  "name": "nasqret/labyrinth-exploration",
+  "url": "https://github.com/nasqret/labyrinth-exploration",
+  "desc": "An agent skill for Codex, Claude Code and other clients: open-ended research as the exploration of a labyrinth, with a map of what is proved…",
+  "stars": 20,
+  "lang": "Python",
+  "category": "skill",
+  "tags": [
+   "agent"
+  ],
+  "first_seen": "2026-10-09"
+ },
+ {
+  "name": "JosssphZhou/openzine",
+  "url": "https://github.com/JosssphZhou/openzine",
+  "desc": "Turn a PDF or a folder of images into a 3D flip book you can page through. A skill for Claude Code and Codex.",
+  "stars": 13,
+  "lang": "JavaScript",
+  "category": "skill",
+  "tags": [
+   "coding"
+  ],
+  "first_seen": "2026-10-09"
+ },
+ {
+  "name": "DarioFontanel/regia-hyperframes",
+  "url": "https://github.com/DarioFontanel/regia-hyperframes",
+  "desc": "Skill Claude Code: intervista di regia prima di HyperFrames — opzioni e consiglio a ogni domanda, poi un brief chiuso",
+  "stars": 7,
+  "lang": "-",
+  "category": "skill",
+  "tags": [
+   "coding"
+  ],
+  "first_seen": "2026-10-09"
+ },
+ {
+  "name": "ishuagrawal/skills",
+  "url": "https://github.com/ishuagrawal/skills",
+  "desc": "Agent skills for engineering and design",
+  "stars": 41,
+  "lang": "JavaScript",
+  "category": "skill",
+  "tags": [
+   "agent"
+  ],
+  "first_seen": "2026-10-09"
+ },
+ {
+  "name": "frypan05/philosopher-OKF",
+  "url": "https://github.com/frypan05/philosopher-OKF",
+  "desc": "Agent skill that turns any topic into one self-contained HTML study page: minimal, light focused, research-paper styled.",
+  "stars": 19,
+  "lang": "HTML",
+  "category": "skill",
+  "tags": [
+   "agent"
+  ],
+  "first_seen": "2026-10-09"
+ },
+ {
+  "name": "echris6/ai-business-skills",
+  "url": "https://github.com/echris6/ai-business-skills",
+  "desc": "Eight skill files for building and selling a product with an AI agent",
+  "stars": 12,
+  "lang": "-",
+  "category": "skill",
+  "tags": [
+   "agent"
+  ],
+  "first_seen": "2026-10-09"
+ },
+ {
+  "name": "tommy0103/better-readme-skill",
+  "url": "https://github.com/tommy0103/better-readme-skill",
+  "desc": "Audit and rewrite your README so readers can bail fast — an Art of README agent skill",
+  "stars": 13,
+  "lang": "-",
+  "category": "skill",
+  "tags": [
+   "agent"
+  ],
+  "first_seen": "2026-10-09"
+ },
+ {
+  "name": "luoling8192/create-pr-with-evidence-skill",
+  "url": "https://github.com/luoling8192/create-pr-with-evidence-skill",
+  "desc": "Agent skill: create a pull request with verifiable change context, architecture evidence, and before/after visual evidence",
+  "stars": 8,
+  "lang": "-",
+  "category": "skill",
+  "tags": [
+   "coding"
+  ],
+  "first_seen": "2026-10-09"
+ },
+ {
+  "name": "ZJU-REAL/ViSkill",
+  "url": "https://github.com/ZJU-REAL/ViSkill",
+  "desc": "ViSkill: Reinforcing VLM Agents with Evolving Visual-Native Skills",
+  "stars": 6,
+  "lang": "Python",
+  "category": "skill",
+  "tags": [
+   "agent"
+  ],
+  "first_seen": "2026-10-09"
+ },
+ {
+  "name": "zhouwei713/luobo-ppt",
+  "url": "https://github.com/zhouwei713/luobo-ppt",
+  "desc": "生成和美化可编辑原生 PPT 的 Agent Skill",
+  "stars": 6,
+  "lang": "Python",
+  "category": "skill",
+  "tags": [
+   "agent"
+  ],
+  "first_seen": "2026-10-09"
+ }
+]
