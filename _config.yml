@@ -1,0 +1,6 @@
+theme: jekyll-theme-minimal
+title: "ai-tools-daily"
+description: "每天发现最值得关注的 AI 工具与 Skills · Discover the best AI tools & skills, every day"
+plugins:
+  - jekyll-relative-links
+show_downloads: false
