@@ -155,6 +155,40 @@ def _kw_hit(text, words):
     return False
 
 
+def translate_en_to_zh(text):
+    """英文描述译成中文（MyMemory 免费 API），失败返回空字符串。"""
+    if not text or not text.strip():
+        return ""
+    zh_chars = sum(1 for ch in text if "\u4e00" <= ch <= "\u9fff")
+    if zh_chars > len(text) * 0.5:
+        return text  # 本来就是中文
+    try:
+        q = urllib.parse.urlencode({"q": text[:400], "langpair": "en|zh-CN"})
+        req = urllib.request.Request(
+            "https://api.mymemory.translated.net/get?" + q, headers=UA)
+        with urllib.request.urlopen(req, timeout=15) as r:
+            data = json.load(r)
+        t = (data.get("responseData") or {}).get("translatedText", "") or ""
+        t = t.strip()
+        bad = ("QUERY LENGTH LIMIT", "INVALID EMAIL", "MYMEMORY WARNING")
+        if not t or any(b in t.upper() for b in bad) or t == text.strip():
+            return ""
+        return t
+    except Exception as e:
+        print(f"translate failed: {e}")
+        return ""
+
+
+def ensure_zh_desc(items):
+    """给缺中文描述的条目补翻译（带缓存，只翻新增）。"""
+    for d in items:
+        if not d.get("desc_zh"):
+            zh = translate_en_to_zh(d.get("desc", ""))
+            d["desc_zh"] = zh
+            if zh:
+                print(f"translated: {d['name'][:40]}")
+
+
 def categorize(name, desc, topics):
     """先按功能分类（topics 优先、关键词兜底），都不中再看是否为智能体，
     最后归入其他。"""
@@ -308,13 +342,18 @@ def collect_skills(seen):
     return items[:10]
 
 
+def _show_desc(t):
+    d = t.get("desc_zh") or t.get("desc") or ""
+    return f" — {d}" if d else ""
+
+
 def leaderboard_table(items, limit=50):
     lines = [
         "| # | Project 项目 | ⭐ Stars | Language 语言 | First seen 首次收录 |",
         "|---|---|---|---|---|",
     ]
     for i, t in enumerate(items[:limit], 1):
-        desc = f" — {t['desc']}" if t["desc"] else ""
+        desc = _show_desc(t)
         lines.append(
             f"| {i} | [{t['name']}]({t['url']}){desc} "
             f"| {t['stars']} | {t['lang']} | {t['first_seen']} |")
@@ -366,7 +405,7 @@ def render_categories(data):
         lines.append("| Project 项目 | ⭐ Stars | Language 语言 | First seen 首次收录 |")
         lines.append("|---|---|---|---|")
         for t in items:
-            desc = f" — {t['desc']}" if t["desc"] else ""
+            desc = _show_desc(t)
             lines.append(
                 f"| [{t['name']}]({t['url']}){desc} "
                 f"| {t['stars']} | {t['lang']} | {t['first_seen']} |")
@@ -374,59 +413,90 @@ def render_categories(data):
     return "\n".join(lines)
 
 
-def render_digest(tools, hn_items, skills):
+def _item_line_zh(t):
+    d = t.get("desc_zh") or t.get("desc") or ""
+    d = f" — {d}" if d else ""
+    return f"- [{t['name']}]({t['url']}){d} ⭐ {t['stars']} · {t['lang']}"
+
+
+def _item_line_en(t):
+    d = f" — {t['desc']}" if t.get("desc") else ""
+    return f"- [{t['name']}]({t['url']}){d} ⭐ {t['stars']} · {t['lang']}"
+
+
+def render_digest_zh(tools, hn_items, skills):
     lines = [
-        f"# 📰 AI 工具日报 / AI Tools Daily — {DATESTR}",
+        f"# 📰 AI 工具日报 {DATESTR}",
         "",
         "> 每天自动搜集广受好评的 AI 工具与 AI Skills。",
-        "> Daily auto-collection of highly-rated AI tools and AI skills.",
-        "> 数据来源 / Sources: GitHub、Hacker News。",
+        "> 数据来源：GitHub、Hacker News。",
         "",
-        "## 🔥 GitHub 热门 AI 项目 / Trending AI Projects",
+        "## 🔥 GitHub 热门 AI 项目",
         "",
     ]
-    if tools:
-        for t in tools:
-            desc = f" — {t['desc']}" if t["desc"] else ""
-            lines.append(
-                f"- [{t['name']}]({t['url']}){desc} "
-                f"⭐ {t['stars']} · {t['lang']}")
-    else:
-        lines.append("今日暂无新增热门项目。/ No new trending projects today.")
-    lines += ["", "## 💬 Hacker News 热议 / Hot on HN", ""]
+    lines += [_item_line_zh(t) for t in tools] or ["今日暂无新增热门项目。"]
+    lines += ["", "## 💬 Hacker News 热议", ""]
     if hn_items:
         for h in hn_items:
             lines.append(
                 f"- [{h['title']}]({h['url']}) — "
                 f"{h['points']} points · {h['comments']} comments")
     else:
-        lines.append("今日暂无高分讨论。/ No hot discussions today.")
-    lines += ["", "## 🧩 新增 AI Skills / New AI Skills", ""]
-    if skills:
-        for s in skills:
-            desc = f" — {s['desc']}" if s["desc"] else ""
-            lines.append(
-                f"- [{s['name']}]({s['url']}){desc} ⭐ {s['stars']}")
-    else:
-        lines.append("今日暂无新增 Skill。/ No new skills today.")
+        lines.append("今日暂无高分讨论。")
+    lines += ["", "## 🧩 新增 AI Skills", ""]
+    lines += [_item_line_zh(s) for s in skills] or ["今日暂无新增 Skill。"]
     lines += [
         "",
-        "## 📊 今日统计 / Today's stats",
+        "## 📊 今日统计",
         "",
-        f"- GitHub 新增收录 / New projects: {len(tools)}",
-        f"- HN 热议 / HN discussions: {len(hn_items)}",
-        f"- 新增 Skills / New skills: {len(skills)}",
+        f"- GitHub 新增收录：{len(tools)} 个",
+        f"- HN 热议：{len(hn_items)} 条",
+        f"- 新增 Skills：{len(skills)} 个",
         "",
     ]
     return "\n".join(lines)
 
 
-def top_preview(data, category, n=10):
+def render_digest_en(tools, hn_items, skills):
+    lines = [
+        f"# 📰 AI Tools Daily {DATESTR}",
+        "",
+        "> Daily auto-collection of highly-rated AI tools and AI skills.",
+        "> Sources: GitHub, Hacker News.",
+        "",
+        "## 🔥 Trending AI Projects on GitHub",
+        "",
+    ]
+    lines += [_item_line_en(t) for t in tools] or ["No new trending projects today."]
+    lines += ["", "## 💬 Hot on Hacker News", ""]
+    if hn_items:
+        for h in hn_items:
+            lines.append(
+                f"- [{h['title']}]({h['url']}) — "
+                f"{h['points']} points · {h['comments']} comments")
+    else:
+        lines.append("No hot discussions today.")
+    lines += ["", "## 🧩 New AI Skills", ""]
+    lines += [_item_line_en(s) for s in skills] or ["No new skills today."]
+    lines += [
+        "",
+        "## 📊 Today's stats",
+        "",
+        f"- New GitHub projects: {len(tools)}",
+        f"- HN discussions: {len(hn_items)}",
+        f"- New skills: {len(skills)}",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def top_preview(data, category, n=10, lang="en"):
     items = sorted([d for d in data if d["category"] == category],
                    key=lambda x: -x["stars"])[:n]
     if not items:
-        return "暂无 / No data yet."
-    lines = ["| # | Project | ⭐ |", "|---|---|---|"]
+        return "暂无。" if lang == "zh" else "No data yet."
+    head = "| # | 项目 | ⭐ |" if lang == "zh" else "| # | Project | ⭐ |"
+    lines = [head, "|---|---|---|"]
     for i, t in enumerate(items, 1):
         lines.append(f"| {i} | [{t['name']}]({t['url']}) | {t['stars']} |")
     return "\n".join(lines)
@@ -440,15 +510,18 @@ def _cat_counts(data):
     return counts
 
 
-def _cat_grid(counts):
+def _cat_grid(counts, lang="en"):
     """分类导航九宫格（HTML 表格，每行 5 个）。"""
     cells = []
     for key, emoji, en, zh in CATEGORIES:
         n = counts.get(key, 0)
+        if lang == "zh":
+            label = f"<b>{zh}</b><br/><sub>{en} · {n}</sub>"
+        else:
+            label = f"<b>{en}</b><br/><sub>{zh} · {n}</sub>"
         cells.append(
             f'<td align="center" width="20%">'
-            f'<a href="CATEGORIES.md#{key}">{emoji}<br/><b>{en}</b>'
-            f'<br/><sub>{zh} · {n}</sub></a></td>')
+            f'<a href="CATEGORIES.md#{key}">{emoji}<br/>{label}</a></td>')
     rows = []
     for i in range(0, len(cells), 5):
         rows.append("  <tr>\n    " + "\n    ".join(cells[i:i + 5]) + "\n  </tr>")
@@ -467,11 +540,12 @@ def _badges():
 def render_readmes(data, days):
     counts = _cat_counts(data)
     total = len(data)
-    grid = _cat_grid(counts)
+    grid = _cat_grid(counts, "en")
+    grid_zh = _cat_grid(counts, "zh")
     badges = _badges()
     latest = days[0] if days else None
     archive_items = "\n".join(f"- [{d}](daily/{d}.md)" for d in days[:60])
-    latest_link = f"[**{latest}**](daily/{latest}.md)" if latest else "None yet."
+    latest_link = f"[**{latest}**](daily/{latest}.en.md)" if latest else "None yet."
     latest_link_zh = f"[**{latest}**](daily/{latest}.md)" if latest else "暂无。"
 
     readme_en = f"""<div align="center">
@@ -538,7 +612,7 @@ Daily auto-collection of **highly-rated AI tools** and **AI skills**.
 
 ## \U0001F9ED 分类浏览
 
-{grid}
+{grid_zh}
 
 ## \U0001F3C6 排行榜 · Top 10
 
@@ -591,6 +665,7 @@ def main():
             known_urls.add(item["url"])
 
     refresh_stars(data)
+    ensure_zh_desc(data)
     save_data(data)
     save_seen(seen)
 
@@ -600,9 +675,10 @@ def main():
     with open(os.path.join(ROOT, "CATEGORIES.md"), "w", encoding="utf-8") as f:
         f.write(render_categories(data))
 
-    digest = render_digest(new_tools, hn_items, new_skills)
     with open(os.path.join(DAILY_DIR, f"{DATESTR}.md"), "w", encoding="utf-8") as f:
-        f.write(digest)
+        f.write(render_digest_zh(new_tools, hn_items, new_skills))
+    with open(os.path.join(DAILY_DIR, f"{DATESTR}.en.md"), "w", encoding="utf-8") as f:
+        f.write(render_digest_en(new_tools, hn_items, new_skills))
 
     days = sorted(
         (f[:-3] for f in os.listdir(DAILY_DIR) if f.endswith(".md")),
