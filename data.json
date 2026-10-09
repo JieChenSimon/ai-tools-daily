@@ -3,27 +3,29 @@
   "name": "mhtsec/ARTEX",
   "url": "https://github.com/mhtsec/ARTEX",
   "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
-  "stars": 1503,
+  "stars": 1614,
   "lang": "Go",
   "category": "tool",
   "tags": [
    "agent"
   ],
   "first_seen": "2026-10-09",
-  "desc_zh": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目"
+  "desc_zh": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
+  "stars_prev": 1503
  },
  {
   "name": "finnvoor/PiDurableKit",
   "url": "https://github.com/finnvoor/PiDurableKit",
   "desc": "Durable AI agents for Apple platforms: pi-durable on JavaScriptCore with a Swift API",
-  "stars": 126,
+  "stars": 131,
   "lang": "Swift",
   "category": "tool",
   "tags": [
    "agent"
   ],
   "first_seen": "2026-10-09",
-  "desc_zh": "适用于Apple平台的耐用AI代理：使用Swift API在JavaScriptCore上实现pi-durable"
+  "desc_zh": "适用于Apple平台的耐用AI代理：使用Swift API在JavaScriptCore上实现pi-durable",
+  "stars_prev": 126
  },
  {
   "name": "cporter202/viralwave-studio-guide",
@@ -36,33 +38,36 @@
    "audio"
   ],
   "first_seen": "2026-10-09",
-  "desc_zh": "ViralWave Studio完整指南：将您的社交媒体内容自动导航。设置演练、功能、品牌声音、审核工作流程……"
+  "desc_zh": "ViralWave Studio完整指南：将您的社交媒体内容自动导航。设置演练、功能、品牌声音、审核工作流程……",
+  "stars_prev": 36
  },
  {
   "name": "Miftahul-Islam-Efaz/Motion-graphics-skill",
   "url": "https://github.com/Miftahul-Islam-Efaz/Motion-graphics-skill",
   "desc": "Best Motion graphics and video editing skill for Claude Code, Codex and Cursor. Plan, animate, edit, caption and sound-design complete video…",
-  "stars": 67,
+  "stars": 71,
   "lang": "Shell",
   "category": "skill",
   "tags": [
    "image-video"
   ],
   "first_seen": "2026-10-09",
-  "desc_zh": "Claude Code、Codex和Cursor的最佳动态图形和视频编辑技能。规划、动画、编辑、字幕和声音设计完整视频……"
+  "desc_zh": "Claude Code、Codex和Cursor的最佳动态图形和视频编辑技能。规划、动画、编辑、字幕和声音设计完整视频……",
+  "stars_prev": 67
  },
  {
   "name": "robbin/android-adb-control",
   "url": "https://github.com/robbin/android-adb-control",
   "desc": "An Agent Skill for Android phone control via ADB: observe, act, and verify. For Pi, Codex, Claude Code, and OpenCode.",
-  "stars": 31,
+  "stars": 34,
   "lang": "Python",
   "category": "skill",
   "tags": [
    "devtools"
   ],
   "first_seen": "2026-10-09",
-  "desc_zh": "通过ADB控制Android手机的代理技能：观察、行动和验证。对于Pi、Codex、Claude Code和OpenCode。"
+  "desc_zh": "通过ADB控制Android手机的代理技能：观察、行动和验证。对于Pi、Codex、Claude Code和OpenCode。",
+  "stars_prev": 31
  },
  {
   "name": "nasqret/labyrinth-exploration",
@@ -75,59 +80,64 @@
    "agent"
   ],
   "first_seen": "2026-10-09",
-  "desc_zh": "Codex、Claude Code和其他客户的代理技能：作为迷宫探索的开放式研究，附有已证明内容的地图……"
+  "desc_zh": "Codex、Claude Code和其他客户的代理技能：作为迷宫探索的开放式研究，附有已证明内容的地图……",
+  "stars_prev": 20
  },
  {
   "name": "JosssphZhou/openzine",
   "url": "https://github.com/JosssphZhou/openzine",
   "desc": "Turn a PDF or a folder of images into a 3D flip book you can page through. A skill for Claude Code and Codex.",
-  "stars": 13,
+  "stars": 14,
   "lang": "JavaScript",
   "category": "skill",
   "tags": [
    "image-video"
   ],
   "first_seen": "2026-10-09",
-  "desc_zh": "将PDF或图像文件夹转换为可翻页的3D翻页书。Claude Code和Codex的技能。"
+  "desc_zh": "将PDF或图像文件夹转换为可翻页的3D翻页书。Claude Code和Codex的技能。",
+  "stars_prev": 13
  },
  {
   "name": "DarioFontanel/regia-hyperframes",
   "url": "https://github.com/DarioFontanel/regia-hyperframes",
   "desc": "Skill Claude Code: intervista di regia prima di HyperFrames — opzioni e consiglio a ogni domanda, poi un brief chiuso",
-  "stars": 7,
+  "stars": 8,
   "lang": "-",
   "category": "skill",
   "tags": [
    "other"
   ],
   "first_seen": "2026-10-09",
-  "desc_zh": "技能克劳德代码： intervista di regia prima di HyperFrames — opzioni e consiglio a ogni domanda, poi un brief chiuso"
+  "desc_zh": "技能克劳德代码： intervista di regia prima di HyperFrames — opzioni e consiglio a ogni domanda, poi un brief chiuso",
+  "stars_prev": 7
  },
  {
   "name": "ishuagrawal/skills",
   "url": "https://github.com/ishuagrawal/skills",
   "desc": "Agent skills for engineering and design",
-  "stars": 41,
+  "stars": 43,
   "lang": "JavaScript",
   "category": "skill",
   "tags": [
    "image-video"
   ],
   "first_seen": "2026-10-09",
-  "desc_zh": "工程和设计的代理技能"
+  "desc_zh": "工程和设计的代理技能",
+  "stars_prev": 41
  },
  {
   "name": "frypan05/philosopher-OKF",
   "url": "https://github.com/frypan05/philosopher-OKF",
   "desc": "Agent skill that turns any topic into one self-contained HTML study page: minimal, light focused, research-paper styled.",
-  "stars": 19,
+  "stars": 20,
   "lang": "HTML",
   "category": "skill",
   "tags": [
    "writing"
   ],
   "first_seen": "2026-10-09",
-  "desc_zh": "代理技能，可将任何主题转化为一个独立的HTML学习页面：简约、聚焦光线、研究论文风格。"
+  "desc_zh": "代理技能，可将任何主题转化为一个独立的HTML学习页面：简约、聚焦光线、研究论文风格。",
+  "stars_prev": 19
  },
  {
   "name": "echris6/ai-business-skills",
@@ -140,7 +150,8 @@
    "agent"
   ],
   "first_seen": "2026-10-09",
-  "desc_zh": "使用AI代理构建和销售产品的八个技能文件"
+  "desc_zh": "使用AI代理构建和销售产品的八个技能文件",
+  "stars_prev": 12
  },
  {
   "name": "tommy0103/better-readme-skill",
@@ -153,20 +164,22 @@
    "coding"
   ],
   "first_seen": "2026-10-09",
-  "desc_zh": "审核和重写您的自述文件，以便读者可以快速保释—自述文件代理技能的艺术"
+  "desc_zh": "审核和重写您的自述文件，以便读者可以快速保释—自述文件代理技能的艺术",
+  "stars_prev": 13
  },
  {
   "name": "luoling8192/create-pr-with-evidence-skill",
   "url": "https://github.com/luoling8192/create-pr-with-evidence-skill",
   "desc": "Agent skill: create a pull request with verifiable change context, architecture evidence, and before/after visual evidence",
-  "stars": 8,
+  "stars": 9,
   "lang": "-",
   "category": "skill",
   "tags": [
    "coding"
   ],
   "first_seen": "2026-10-09",
-  "desc_zh": "专员技能：使用可验证的变更背景、架构证据和视觉证据之前/之后创建拉取请求"
+  "desc_zh": "专员技能：使用可验证的变更背景、架构证据和视觉证据之前/之后创建拉取请求",
+  "stars_prev": 8
  },
  {
   "name": "ZJU-REAL/ViSkill",
@@ -179,19 +192,35 @@
    "agent"
   ],
   "first_seen": "2026-10-09",
-  "desc_zh": "ViSkill ：通过不断发展的视觉本土技能来加强VLM代理"
+  "desc_zh": "ViSkill ：通过不断发展的视觉本土技能来加强VLM代理",
+  "stars_prev": 6
  },
  {
   "name": "zhouwei713/luobo-ppt",
   "url": "https://github.com/zhouwei713/luobo-ppt",
   "desc": "生成和美化可编辑原生 PPT 的 Agent Skill",
-  "stars": 7,
+  "stars": 17,
   "lang": "Python",
   "category": "skill",
   "tags": [
    "image-video"
   ],
   "first_seen": "2026-10-09",
-  "desc_zh": "生成和美化可编辑原生 PPT的代理技能"
+  "desc_zh": "生成和美化可编辑原生 PPT的代理技能",
+  "stars_prev": 7
+ },
+ {
+  "name": "aa2246740/CC-lineart",
+  "url": "https://github.com/aa2246740/CC-lineart",
+  "desc": "Hand-drawn ink + watercolor SVG icons for coding agents (skill)",
+  "stars": 6,
+  "stars_prev": 6,
+  "lang": "Python",
+  "category": "skill",
+  "tags": [
+   "coding"
+  ],
+  "first_seen": "2026-10-09",
+  "desc_zh": "用于编码代理的手绘墨水+水彩SVG图标（技能）"
  }
 ]

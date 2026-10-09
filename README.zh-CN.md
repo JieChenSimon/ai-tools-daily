@@ -14,7 +14,7 @@
 每天自动搜集**广受好评的 AI 工具**与 **AI Skills**。
 
 - 🔍 **数据来源**：GitHub（近 2 天高 star 新项目）、Hacker News（高分讨论）
-- ⏰ **更新时间**：每天 08:00（北京时间）自动运行 — 已收录 15 个项目
+- ⏰ **更新时间**：每天 08:00（北京时间）自动运行 — 已收录 16 个项目
 - 🧹 **去重**：收录过的项目不会重复出现
 
 ## 🧭 分类浏览
@@ -22,7 +22,7 @@
 <table>
   <tr>
     <td align="center" width="20%"><a href="CATEGORIES.md#agent">🤖<br/><b>智能体</b><br/><sub>AI Agent · 5</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#coding">💻<br/><b>编程开发</b><br/><sub>Coding · 2</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#coding">💻<br/><b>编程开发</b><br/><sub>Coding · 3</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#image-video">🎨<br/><b>图像视频</b><br/><sub>Image & Video · 4</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#audio">🎙<br/><b>音频语音</b><br/><sub>Audio & Voice · 1</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#writing">✍️<br/><b>写作</b><br/><sub>Writing · 1</sub></a></td>
@@ -44,24 +44,24 @@
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) | 1503 |
-| 2 | [finnvoor/PiDurableKit](https://github.com/finnvoor/PiDurableKit) | 126 |
+| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) | 1614 |
+| 2 | [finnvoor/PiDurableKit](https://github.com/finnvoor/PiDurableKit) | 131 |
 | 3 | [cporter202/viralwave-studio-guide](https://github.com/cporter202/viralwave-studio-guide) | 36 |
 
 ### 🧩 AI Skills Top
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [Miftahul-Islam-Efaz/Motion-graphics-skill](https://github.com/Miftahul-Islam-Efaz/Motion-graphics-skill) | 67 |
-| 2 | [ishuagrawal/skills](https://github.com/ishuagrawal/skills) | 41 |
-| 3 | [robbin/android-adb-control](https://github.com/robbin/android-adb-control) | 31 |
+| 1 | [Miftahul-Islam-Efaz/Motion-graphics-skill](https://github.com/Miftahul-Islam-Efaz/Motion-graphics-skill) | 71 |
+| 2 | [ishuagrawal/skills](https://github.com/ishuagrawal/skills) | 43 |
+| 3 | [robbin/android-adb-control](https://github.com/robbin/android-adb-control) | 34 |
 | 4 | [nasqret/labyrinth-exploration](https://github.com/nasqret/labyrinth-exploration) | 20 |
-| 5 | [frypan05/philosopher-OKF](https://github.com/frypan05/philosopher-OKF) | 19 |
-| 6 | [JosssphZhou/openzine](https://github.com/JosssphZhou/openzine) | 13 |
-| 7 | [tommy0103/better-readme-skill](https://github.com/tommy0103/better-readme-skill) | 13 |
-| 8 | [echris6/ai-business-skills](https://github.com/echris6/ai-business-skills) | 12 |
-| 9 | [luoling8192/create-pr-with-evidence-skill](https://github.com/luoling8192/create-pr-with-evidence-skill) | 8 |
-| 10 | [DarioFontanel/regia-hyperframes](https://github.com/DarioFontanel/regia-hyperframes) | 7 |
+| 5 | [frypan05/philosopher-OKF](https://github.com/frypan05/philosopher-OKF) | 20 |
+| 6 | [zhouwei713/luobo-ppt](https://github.com/zhouwei713/luobo-ppt) | 17 |
+| 7 | [JosssphZhou/openzine](https://github.com/JosssphZhou/openzine) | 14 |
+| 8 | [tommy0103/better-readme-skill](https://github.com/tommy0103/better-readme-skill) | 13 |
+| 9 | [echris6/ai-business-skills](https://github.com/echris6/ai-business-skills) | 12 |
+| 10 | [luoling8192/create-pr-with-evidence-skill](https://github.com/luoling8192/create-pr-with-evidence-skill) | 9 |
 
 ## 📰 最新日报
 
