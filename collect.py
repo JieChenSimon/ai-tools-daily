@@ -6,11 +6,18 @@
 - Hacker News Algolia API：近 2 天高分 AI 相关讨论
 - GitHub Search API：近 2 天新增的 agent/claude skill 相关仓库
 
-去重：seen.json 记录已收录 URL。
-输出：daily/YYYY-MM-DD.md，并更新 README.md 的最新日报与归档列表。
+持久化：
+- seen.json：去重（URL -> 首次收录日期）
+- data.json：累积项目库 [{name, url, desc, stars, lang, category, first_seen}]，
+  每天刷新 star 数，用于生成排行榜
+输出：
+- daily/YYYY-MM-DD.md：双语日报
+- LEADERBOARD.md：按 star 排名的双语排行榜
+- README.md（英文）/ README.zh-CN.md（中文）：首页均含 Top 10 排行榜预览
 """
 import json
 import os
+import re
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -24,8 +31,8 @@ HN_SINCE_TS = int((NOW - timedelta(days=2)).timestamp())
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DAILY_DIR = os.path.join(ROOT, "daily")
 SEEN_PATH = os.path.join(ROOT, "seen.json")
+DATA_PATH = os.path.join(ROOT, "data.json")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-
 UA = {"User-Agent": "ai-tools-daily-digest"}
 
 
@@ -57,13 +64,76 @@ def save_seen(seen):
         json.dump(seen, f, ensure_ascii=False, indent=1)
 
 
-def clean_desc(s, limit=120):
+def load_data():
+    if os.path.exists(DATA_PATH):
+        with open(DATA_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    return []
+
+
+def save_data(data):
+    with open(DATA_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=1)
+
+
+def clean_desc(s, limit=140):
     s = (s or "").replace("\r", " ").replace("\n", " ").strip()
     return s[:limit] + ("…" if len(s) > limit else "")
 
 
+def repo_entry(r, category, first_seen):
+    return {
+        "name": r["full_name"],
+        "url": r["html_url"],
+        "desc": clean_desc(r.get("description")),
+        "stars": r.get("stargazers_count", 0),
+        "lang": r.get("language") or "-",
+        "category": category,
+        "first_seen": first_seen,
+    }
+
+
+def backfill_data(seen, data):
+    """首次运行时把 seen.json 里已有的仓库补进 data.json。"""
+    known = {d["url"] for d in data}
+    added = 0
+    for url, first_seen in list(seen.items()):
+        if url in known or not url.startswith("https://github.com/"):
+            continue
+        m = re.match(r"https://github\.com/([^/]+)/([^/]+)/?$", url)
+        if not m:
+            continue
+        try:
+            r = gh_get(f"/repos/{m.group(1)}/{m.group(2)}")
+        except Exception as e:
+            print(f"backfill failed for {url}: {e}")
+            continue
+        desc = (r.get("description") or "").lower()
+        category = "skill" if "skill" in r["full_name"].lower() or "skill" in desc else "tool"
+        data.append(repo_entry(r, category, first_seen))
+        known.add(url)
+        added += 1
+    if added:
+        print(f"backfilled {added} repos into data.json")
+
+
+def refresh_stars(data):
+    """刷新所有收录项目的当前 star 数（失败则保留旧值）。"""
+    ok, fail = 0, 0
+    for d in data:
+        try:
+            r = gh_get(f"/repos/{d['name']}")
+            d["stars"] = r.get("stargazers_count", d["stars"])
+            d["lang"] = r.get("language") or d["lang"]
+            if r.get("description"):
+                d["desc"] = clean_desc(r.get("description"))
+            ok += 1
+        except Exception:
+            fail += 1
+    print(f"star refresh: ok={ok} fail={fail}")
+
+
 def collect_github_tools(seen):
-    """近 2 天创建、已有一定 star 的 AI 工具/应用仓库。"""
     queries = [
         f"ai agent stars:>30 created:>{SINCE}",
         f"llm tool stars:>30 created:>{SINCE}",
@@ -81,19 +151,12 @@ def collect_github_tools(seen):
             if url in seen:
                 continue
             seen[url] = DATESTR
-            items.append({
-                "name": r["full_name"],
-                "url": url,
-                "desc": clean_desc(r.get("description")),
-                "stars": r.get("stargazers_count", 0),
-                "lang": r.get("language") or "-",
-            })
+            items.append(repo_entry(r, "tool", DATESTR))
     items.sort(key=lambda x: -x["stars"])
     return items[:20]
 
 
 def collect_hn(seen):
-    """近 2 天 HN 上高分的 AI 工具相关讨论。"""
     try:
         data = hn_get({
             "query": "AI tool",
@@ -123,7 +186,6 @@ def collect_hn(seen):
 
 
 def collect_skills(seen):
-    """近 2 天新增的 AI agent / Claude skill 相关仓库。"""
     queries = [
         f"claude skill in:name,description stars:>5 created:>{SINCE}",
         f"agent skill in:name,description stars:>5 created:>{SINCE}",
@@ -141,99 +203,211 @@ def collect_skills(seen):
             if url in seen:
                 continue
             seen[url] = DATESTR
-            items.append({
-                "name": r["full_name"],
-                "url": url,
-                "desc": clean_desc(r.get("description")),
-                "stars": r.get("stargazers_count", 0),
-            })
+            items.append(repo_entry(r, "skill", DATESTR))
     items.sort(key=lambda x: -x["stars"])
     return items[:10]
 
 
+def leaderboard_table(items, limit=50):
+    lines = [
+        "| # | Project 项目 | ⭐ Stars | Language 语言 | First seen 首次收录 |",
+        "|---|---|---|---|---|",
+    ]
+    for i, t in enumerate(items[:limit], 1):
+        desc = f" — {t['desc']}" if t["desc"] else ""
+        lines.append(
+            f"| {i} | [{t['name']}]({t['url']}){desc} "
+            f"| {t['stars']} | {t['lang']} | {t['first_seen']} |")
+    return "\n".join(lines)
+
+
+def render_leaderboard(data):
+    tools = sorted([d for d in data if d["category"] == "tool"],
+                   key=lambda x: -x["stars"])
+    skills = sorted([d for d in data if d["category"] == "skill"],
+                    key=lambda x: -x["stars"])
+    return f"""# 🏆 Leaderboard · 排行榜
+
+> Ranked by GitHub stars, updated daily. 按 GitHub star 数排名，每日更新。
+> Last updated · 更新时间：{DATESTR}
+
+## 🛠️ AI Tools · AI 工具
+
+{leaderboard_table(tools) if tools else "暂无 / No data yet."}
+
+## 🧩 AI Skills · AI 技能
+
+{leaderboard_table(skills) if skills else "暂无 / No data yet."}
+"""
+
+
 def render_digest(tools, hn_items, skills):
     lines = [
-        f"# AI 工具日报 {DATESTR}",
+        f"# 📰 AI 工具日报 / AI Tools Daily — {DATESTR}",
         "",
-        "> 每天自动搜集广受好评的 AI 工具与 AI Skills。数据来源：GitHub、Hacker News。",
+        "> 每天自动搜集广受好评的 AI 工具与 AI Skills。",
+        "> Daily auto-collection of highly-rated AI tools and AI skills.",
+        "> 数据来源 / Sources: GitHub、Hacker News。",
         "",
-        "## 🔥 GitHub 热门 AI 项目",
+        "## 🔥 GitHub 热门 AI 项目 / Trending AI Projects",
         "",
     ]
     if tools:
         for t in tools:
+            desc = f" — {t['desc']}" if t["desc"] else ""
             lines.append(
-                f"- [{t['name']}]({t['url']}) — {t['desc']} "
+                f"- [{t['name']}]({t['url']}){desc} "
                 f"⭐ {t['stars']} · {t['lang']}")
     else:
-        lines.append("今日暂无新增热门项目。")
-    lines += ["", "## 💬 Hacker News 热议", ""]
+        lines.append("今日暂无新增热门项目。/ No new trending projects today.")
+    lines += ["", "## 💬 Hacker News 热议 / Hot on HN", ""]
     if hn_items:
         for h in hn_items:
             lines.append(
                 f"- [{h['title']}]({h['url']}) — "
                 f"{h['points']} points · {h['comments']} comments")
     else:
-        lines.append("今日暂无高分讨论。")
-    lines += ["", "## 🛠️ 新增 AI Skills", ""]
+        lines.append("今日暂无高分讨论。/ No hot discussions today.")
+    lines += ["", "## 🧩 新增 AI Skills / New AI Skills", ""]
     if skills:
         for s in skills:
+            desc = f" — {s['desc']}" if s["desc"] else ""
             lines.append(
-                f"- [{s['name']}]({s['url']}) — {s['desc']} ⭐ {s['stars']}")
+                f"- [{s['name']}]({s['url']}){desc} ⭐ {s['stars']}")
     else:
-        lines.append("今日暂无新增 Skill。")
+        lines.append("今日暂无新增 Skill。/ No new skills today.")
     lines += [
         "",
-        "## 📊 今日统计",
+        "## 📊 今日统计 / Today's stats",
         "",
-        f"- GitHub 新增收录：{len(tools)} 个",
-        f"- HN 热议：{len(hn_items)} 条",
-        f"- 新增 Skills：{len(skills)} 个",
+        f"- GitHub 新增收录 / New projects: {len(tools)}",
+        f"- HN 热议 / HN discussions: {len(hn_items)}",
+        f"- 新增 Skills / New skills: {len(skills)}",
         "",
     ]
     return "\n".join(lines)
 
 
-def update_readme():
-    days = sorted(
-        (f[:-3] for f in os.listdir(DAILY_DIR) if f.endswith(".md")),
-        reverse=True,
-    )
+def top_preview(data, category, n=10):
+    items = sorted([d for d in data if d["category"] == category],
+                   key=lambda x: -x["stars"])[:n]
+    if not items:
+        return "暂无 / No data yet."
+    lines = ["| # | Project | ⭐ |", "|---|---|---|"]
+    for i, t in enumerate(items, 1):
+        lines.append(f"| {i} | [{t['name']}]({t['url']}) | {t['stars']} |")
+    return "\n".join(lines)
+
+
+def render_readmes(data, days):
     latest = days[0] if days else None
-    archive = "\n".join(f"- [{d}](daily/{d}.md)" for d in days[:30])
-    readme = f"""# ai-tools-daily
+    archive_en = "\n".join(f"- [{d}](daily/{d}.md)" for d in days[:30]) or "None yet."
+    archive_zh = "\n".join(f"- [{d}](daily/{d}.md)" for d in days[:30]) or "暂无。"
+    latest_en = f"- [{latest}](daily/{latest}.md)" if latest else "None yet."
+    latest_zh = f"- [{latest}](daily/{latest}.md)" if latest else "暂无。"
 
-每天自动搜集**广受好评的 AI 工具**与 **AI Skills**，生成中文日报。
+    readme_en = f"""# ai-tools-daily
 
-- 数据来源：GitHub（近 2 天高 star 新项目）、Hacker News（高分讨论）
-- 更新时间：每天 08:00（北京时间）自动运行
-- 去重：已收录过的项目不会重复出现
+> [中文版](README.zh-CN.md)
+
+Daily auto-collection of **highly-rated AI tools** and **AI skills**, with a Chinese/English daily digest.
+
+- **Sources**: GitHub (high-star new AI projects from the last 2 days), Hacker News (top discussions)
+- **Updated**: daily at 08:00 (Beijing time, UTC+8)
+- **Dedup**: already-featured projects won't appear again
+
+## 🏆 Leaderboard (Top 10)
+
+Full ranking: [LEADERBOARD.md](LEADERBOARD.md) (bilingual · 中英双语）
+
+### 🛠️ Top AI Tools
+
+{top_preview(data, "tool")}
+
+### 🧩 Top AI Skills
+
+{top_preview(data, "skill")}
+
+## 📰 Latest digest
+
+{latest_en}
+
+## 📚 Archive
+
+{archive_en}
+"""
+
+    readme_zh = f"""# ai-tools-daily · AI 工具日报
+
+> [English version](README.md)
+
+每天自动搜集**广受好评的 AI 工具**与 **AI Skills**，生成中英双语日报。
+
+- **数据来源**：GitHub（近 2 天高 star 新项目）、Hacker News（高分讨论）
+- **更新时间**：每天 08:00（北京时间）自动运行
+- **去重**：已收录过的项目不会重复出现
+
+## 🏆 排行榜（Top 10）
+
+完整榜单：[LEADERBOARD.md](LEADERBOARD.md)（中英双语）
+
+### 🛠️ AI 工具 Top
+
+{top_preview(data, "tool")}
+
+### 🧩 AI Skills Top
+
+{top_preview(data, "skill")}
 
 ## 📰 最新日报
 
-{f"- [{latest}](daily/{latest}.md)" if latest else "暂无"}
+{latest_zh}
 
 ## 📚 历史归档
 
-{archive if archive else "暂无"}
+{archive_zh}
 """
     with open(os.path.join(ROOT, "README.md"), "w", encoding="utf-8") as f:
-        f.write(readme)
+        f.write(readme_en)
+    with open(os.path.join(ROOT, "README.zh-CN.md"), "w", encoding="utf-8") as f:
+        f.write(readme_zh)
 
 
 def main():
     os.makedirs(DAILY_DIR, exist_ok=True)
     seen = load_seen()
-    tools = collect_github_tools(seen)
+    data = load_data()
+
+    backfill_data(seen, data)
+
+    new_tools = collect_github_tools(seen)
+    new_skills = collect_skills(seen)
     hn_items = collect_hn(seen)
-    skills = collect_skills(seen)
+
+    known_urls = {d["url"] for d in data}
+    for item in new_tools + new_skills:
+        if item["url"] not in known_urls:
+            data.append(item)
+            known_urls.add(item["url"])
+
+    refresh_stars(data)
+    save_data(data)
     save_seen(seen)
 
-    digest = render_digest(tools, hn_items, skills)
+    with open(os.path.join(ROOT, "LEADERBOARD.md"), "w", encoding="utf-8") as f:
+        f.write(render_leaderboard(data))
+
+    digest = render_digest(new_tools, hn_items, new_skills)
     with open(os.path.join(DAILY_DIR, f"{DATESTR}.md"), "w", encoding="utf-8") as f:
         f.write(digest)
-    update_readme()
-    print(f"digest {DATESTR}: tools={len(tools)} hn={len(hn_items)} skills={len(skills)}")
+
+    days = sorted(
+        (f[:-3] for f in os.listdir(DAILY_DIR) if f.endswith(".md")),
+        reverse=True,
+    )
+    render_readmes(data, days)
+    print(f"done {DATESTR}: new_tools={len(new_tools)} new_skills={len(new_skills)} "
+          f"hn={len(hn_items)} total_tracked={len(data)}")
 
 
 if __name__ == "__main__":
