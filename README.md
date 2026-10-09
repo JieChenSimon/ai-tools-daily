@@ -18,7 +18,7 @@ Browse by category: [CATEGORIES.md](CATEGORIES.md) (bilingual · 中英双语)
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) | 1487 |
+| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) | 1491 |
 | 2 | [finnvoor/PiDurableKit](https://github.com/finnvoor/PiDurableKit) | 126 |
 | 3 | [cporter202/viralwave-studio-guide](https://github.com/cporter202/viralwave-studio-guide) | 36 |
 

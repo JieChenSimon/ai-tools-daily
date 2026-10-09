@@ -3,7 +3,7 @@
   "name": "mhtsec/ARTEX",
   "url": "https://github.com/mhtsec/ARTEX",
   "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
-  "stars": 1487,
+  "stars": 1491,
   "lang": "Go",
   "category": "tool",
   "tags": [
@@ -31,7 +31,7 @@
   "lang": "-",
   "category": "tool",
   "tags": [
-   "agent"
+   "audio"
   ],
   "first_seen": "2026-10-09"
  },
@@ -43,7 +43,7 @@
   "lang": "Shell",
   "category": "skill",
   "tags": [
-   "agent"
+   "image-video"
   ],
   "first_seen": "2026-10-09"
  },
@@ -55,7 +55,7 @@
   "lang": "Python",
   "category": "skill",
   "tags": [
-   "agent"
+   "devtools"
   ],
   "first_seen": "2026-10-09"
  },
@@ -79,7 +79,7 @@
   "lang": "JavaScript",
   "category": "skill",
   "tags": [
-   "coding"
+   "image-video"
   ],
   "first_seen": "2026-10-09"
  },
@@ -91,7 +91,7 @@
   "lang": "-",
   "category": "skill",
   "tags": [
-   "coding"
+   "other"
   ],
   "first_seen": "2026-10-09"
  },
@@ -103,7 +103,7 @@
   "lang": "JavaScript",
   "category": "skill",
   "tags": [
-   "agent"
+   "image-video"
   ],
   "first_seen": "2026-10-09"
  },
@@ -115,7 +115,7 @@
   "lang": "HTML",
   "category": "skill",
   "tags": [
-   "agent"
+   "writing"
   ],
   "first_seen": "2026-10-09"
  },
@@ -139,7 +139,7 @@
   "lang": "-",
   "category": "skill",
   "tags": [
-   "agent"
+   "coding"
   ],
   "first_seen": "2026-10-09"
  },
@@ -175,7 +175,7 @@
   "lang": "Python",
   "category": "skill",
   "tags": [
-   "agent"
+   "image-video"
   ],
   "first_seen": "2026-10-09"
  }

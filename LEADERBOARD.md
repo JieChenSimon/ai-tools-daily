@@ -7,7 +7,7 @@
 
 | # | Project 项目 | ⭐ Stars | Language 语言 | First seen 首次收录 |
 |---|---|---|---|---|
-| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) — AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 | 1487 | Go | 2026-10-09 |
+| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) — AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 | 1491 | Go | 2026-10-09 |
 | 2 | [finnvoor/PiDurableKit](https://github.com/finnvoor/PiDurableKit) — Durable AI agents for Apple platforms: pi-durable on JavaScriptCore with a Swift API | 126 | Swift | 2026-10-09 |
 | 3 | [cporter202/viralwave-studio-guide](https://github.com/cporter202/viralwave-studio-guide) — The complete guide to ViralWave Studio: put your social media content on autopilot. Setup walkthrough, features, brand voice, review workflo… | 36 | - | 2026-10-09 |
 
