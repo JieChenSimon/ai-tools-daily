@@ -82,18 +82,17 @@ def clean_desc(s, limit=140):
 
 # 分类体系：(key, 英文名, 中文名)
 CATEGORIES = [
-    ("agent", "AI Agent", "智能体"),
-    ("coding", "Coding", "编程开发"),
-    ("image-video", "Image & Video", "图像视频"),
-    ("audio", "Audio & Voice", "音频语音"),
-    ("writing", "Writing", "写作"),
-    ("search", "Search & Knowledge", "搜索知识"),
-    ("devtools", "Dev Tools", "开发工具"),
-    ("data", "Data & Analysis", "数据分析"),
-    ("chat", "Chat & Assistant", "对话助手"),
-    ("other", "Other", "其他"),
+    ("agent", "\U0001F916", "AI Agent", "智能体"),
+    ("coding", "\U0001F4BB", "Coding", "编程开发"),
+    ("image-video", "\U0001F3A8", "Image & Video", "图像视频"),
+    ("audio", "\U0001F399", "Audio & Voice", "音频语音"),
+    ("writing", "\u270D\uFE0F", "Writing", "写作"),
+    ("search", "\U0001F50D", "Search & Knowledge", "搜索知识"),
+    ("devtools", "\U0001F6E0\uFE0F", "Dev Tools", "开发工具"),
+    ("data", "\U0001F4CA", "Data & Analysis", "数据分析"),
+    ("chat", "\U0001F4AC", "Chat & Assistant", "对话助手"),
+    ("other", "\U0001F4E6", "Other", "其他"),
 ]
-CATEGORY_NAMES = {k: (en, zh) for k, en, zh in CATEGORIES}
 
 # 功能分类（agent 除外）：topics 映射与关键词
 TOPIC_MAP = {
@@ -344,7 +343,7 @@ def render_leaderboard(data):
 
 def render_categories(data):
     """按功能分类展示所有收录项目（中英双语）。"""
-    groups = {k: [] for k, _, _ in CATEGORIES}
+    groups = {k: [] for k, _, _, _ in CATEGORIES}
     for d in data:
         tag = (d.get("tags") or ["other"])[0]
         groups.setdefault(tag, groups["other"]).append(d)
@@ -358,11 +357,11 @@ def render_categories(data):
         f"> Last updated · 更新时间：{DATESTR}",
         "",
     ]
-    for key, en, zh in CATEGORIES:
+    for key, emoji, en, zh in CATEGORIES:
         items = groups.get(key, [])
         if not items:
             continue
-        lines.append(f"## {en} · {zh}")
+        lines.append(f'## <a id="{key}"></a>{emoji} {en} · {zh}')
         lines.append("")
         lines.append("| Project 项目 | ⭐ Stars | Language 语言 | First seen 首次收录 |")
         lines.append("|---|---|---|---|")
@@ -433,73 +432,140 @@ def top_preview(data, category, n=10):
     return "\n".join(lines)
 
 
+def _cat_counts(data):
+    counts = {}
+    for d in data:
+        tag = (d.get("tags") or ["other"])[0]
+        counts[tag] = counts.get(tag, 0) + 1
+    return counts
+
+
+def _cat_grid(counts):
+    """分类导航九宫格（HTML 表格，每行 5 个）。"""
+    cells = []
+    for key, emoji, en, zh in CATEGORIES:
+        n = counts.get(key, 0)
+        cells.append(
+            f'<td align="center" width="20%">'
+            f'<a href="CATEGORIES.md#{key}">{emoji}<br/><b>{en}</b>'
+            f'<br/><sub>{zh} · {n}</sub></a></td>')
+    rows = []
+    for i in range(0, len(cells), 5):
+        rows.append("  <tr>\n    " + "\n    ".join(cells[i:i + 5]) + "\n  </tr>")
+    return "<table>\n" + "\n".join(rows) + "\n</table>"
+
+
+def _badges():
+    return (
+        '<p>\n'
+        '  <img src="https://img.shields.io/badge/updated-daily-brightgreen" alt="updated daily" />\n'
+        '  <img src="https://img.shields.io/badge/bilingual-EN_/_\u4e2d\u6587-blue" alt="bilingual" />\n'
+        '  <img src="https://img.shields.io/badge/automated-GitHub_Actions-orange" alt="automated" />\n'
+        '</p>')
+
+
 def render_readmes(data, days):
+    counts = _cat_counts(data)
+    total = len(data)
+    grid = _cat_grid(counts)
+    badges = _badges()
     latest = days[0] if days else None
-    archive_en = "\n".join(f"- [{d}](daily/{d}.md)" for d in days[:30]) or "None yet."
-    archive_zh = "\n".join(f"- [{d}](daily/{d}.md)" for d in days[:30]) or "暂无。"
-    latest_en = f"- [{latest}](daily/{latest}.md)" if latest else "None yet."
-    latest_zh = f"- [{latest}](daily/{latest}.md)" if latest else "暂无。"
+    archive_items = "\n".join(f"- [{d}](daily/{d}.md)" for d in days[:60])
+    latest_link = f"[**{latest}**](daily/{latest}.md)" if latest else "None yet."
+    latest_link_zh = f"[**{latest}**](daily/{latest}.md)" if latest else "暂无。"
 
-    readme_en = f"""# ai-tools-daily
+    readme_en = f"""<div align="center">
+  <h1>\U0001F916 ai-tools-daily</h1>
+  <p><b>Discover the best AI tools & skills, every single day</b></p>
+{badges}
+  <p><a href="README.zh-CN.md"><b>\u4e2d\u6587</b></a> · <b>English</b></p>
+</div>
 
-> [中文版](README.zh-CN.md)
+---
 
-Daily auto-collection of **highly-rated AI tools** and **AI skills**, with a Chinese/English daily digest.
+Daily auto-collection of **highly-rated AI tools** and **AI skills**.
 
-- **Sources**: GitHub (high-star new AI projects from the last 2 days), Hacker News (top discussions)
-- **Updated**: daily at 08:00 (Beijing time, UTC+8)
-- **Dedup**: already-featured projects won't appear again
+- \U0001F50D **Sources**: GitHub (high-star new AI projects from the last 2 days), Hacker News (top discussions)
+- ⏰ **Updated**: daily at 08:00 (Beijing time, UTC+8) — {total} projects tracked
+- \U0001F9F9 **Dedup**: featured projects never appear twice
 
-## 🏆 Leaderboard (Top 10)
+## \U0001F9ED Browse by Category
 
-Full ranking: [LEADERBOARD.md](LEADERBOARD.md) (bilingual · 中英双语)\n\nBrowse by category: [CATEGORIES.md](CATEGORIES.md) (bilingual · 中英双语)
+{grid}
 
-### 🛠️ Top AI Tools
+## \U0001F3C6 Leaderboard · Top 10
+
+> Full ranking: [LEADERBOARD.md](LEADERBOARD.md)
+
+### \U0001F6E0\uFE0F Top AI Tools
 
 {top_preview(data, "tool")}
 
-### 🧩 Top AI Skills
+### \U0001F9E9 Top AI Skills
 
 {top_preview(data, "skill")}
 
-## 📰 Latest digest
+## \U0001F4F0 Latest Digest
 
-{latest_en}
+> ### {latest_link}
 
-## 📚 Archive
+<details>
+<summary><b>\U0001F4DA Archive</b></summary>
 
-{archive_en}
+{archive_items or "None yet."}
+
+</details>
+
+---
+
+<sub>\U0001F916 Fully automated by <a href=".github/workflows/daily.yml">GitHub Actions</a> · Data from GitHub & Hacker News public APIs</sub>
 """
 
-    readme_zh = f"""# ai-tools-daily · AI 工具日报
+    readme_zh = f"""<div align="center">
+  <h1>\U0001F916 ai-tools-daily · AI 工具日报</h1>
+  <p><b>每天发现最值得关注的 AI 工具与 Skills</b></p>
+{badges}
+  <p><b>\u4e2d\u6587</b> · <a href="README.md"><b>English</b></a></p>
+</div>
 
-> [English version](README.md)
+---
 
-每天自动搜集**广受好评的 AI 工具**与 **AI Skills**，生成中英双语日报。
+每天自动搜集**广受好评的 AI 工具**与 **AI Skills**。
 
-- **数据来源**：GitHub（近 2 天高 star 新项目）、Hacker News（高分讨论）
-- **更新时间**：每天 08:00（北京时间）自动运行
-- **去重**：已收录过的项目不会重复出现
+- \U0001F50D **数据来源**：GitHub（近 2 天高 star 新项目）、Hacker News（高分讨论）
+- ⏰ **更新时间**：每天 08:00（北京时间）自动运行 — 已收录 {total} 个项目
+- \U0001F9F9 **去重**：收录过的项目不会重复出现
 
-## 🏆 排行榜（Top 10）
+## \U0001F9ED 分类浏览
 
-完整榜单：[LEADERBOARD.md](LEADERBOARD.md)（中英双语）\n\n按分类浏览：[CATEGORIES.md](CATEGORIES.md)（中英双语）
+{grid}
 
-### 🛠️ AI 工具 Top
+## \U0001F3C6 排行榜 · Top 10
+
+> 完整榜单：[LEADERBOARD.md](LEADERBOARD.md)
+
+### \U0001F6E0\uFE0F AI 工具 Top
 
 {top_preview(data, "tool")}
 
-### 🧩 AI Skills Top
+### \U0001F9E9 AI Skills Top
 
 {top_preview(data, "skill")}
 
-## 📰 最新日报
+## \U0001F4F0 最新日报
 
-{latest_zh}
+> ### {latest_link_zh}
 
-## 📚 历史归档
+<details>
+<summary><b>\U0001F4DA 历史归档</b></summary>
 
-{archive_zh}
+{archive_items or "暂无。"}
+
+</details>
+
+---
+
+<sub>\U0001F916 由 <a href=".github/workflows/daily.yml">GitHub Actions</a> 全自动运行 · 数据来自 GitHub 与 Hacker News 公开 API</sub>
 """
     with open(os.path.join(ROOT, "README.md"), "w", encoding="utf-8") as f:
         f.write(readme_en)
