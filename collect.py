@@ -80,15 +80,84 @@ def clean_desc(s, limit=140):
     s = (s or "").replace("\r", " ").replace("\n", " ").strip()
     return s[:limit] + ("…" if len(s) > limit else "")
 
+# 分类体系：(key, 英文名, 中文名)
+CATEGORIES = [
+    ("agent", "AI Agent", "智能体"),
+    ("coding", "Coding", "编程开发"),
+    ("image-video", "Image & Video", "图像视频"),
+    ("audio", "Audio & Voice", "音频语音"),
+    ("writing", "Writing", "写作"),
+    ("search", "Search & Knowledge", "搜索知识"),
+    ("devtools", "Dev Tools", "开发工具"),
+    ("data", "Data & Analysis", "数据分析"),
+    ("chat", "Chat & Assistant", "对话助手"),
+    ("other", "Other", "其他"),
+]
+CATEGORY_NAMES = {k: (en, zh) for k, en, zh in CATEGORIES}
+
+TOPIC_MAP = {
+    "ai-agents": "agent", "agent": "agent", "agents": "agent",
+    "autonomous-agents": "agent", "multi-agent": "agent",
+    "code": "coding", "coding": "coding", "programming": "coding",
+    "code-review": "coding", "copilot": "coding",
+    "image": "image-video", "images": "image-video", "video": "image-video",
+    "animation": "image-video", "motion-graphics": "image-video",
+    "text-to-image": "image-video", "3d": "image-video",
+    "audio": "audio", "voice": "audio", "speech": "audio",
+    "text-to-speech": "audio", "tts": "audio", "music": "audio",
+    "writing": "writing", "blog": "writing", "copywriting": "writing",
+    "search": "search", "search-engine": "search", "rag": "search",
+    "knowledge-base": "search", "retrieval": "search",
+    "devtools": "devtools", "developer-tools": "devtools", "cli": "devtools",
+    "terminal": "devtools", "adb": "devtools", "automation": "devtools",
+    "data": "data", "analytics": "data", "visualization": "data",
+    "chat": "chat", "chatbot": "chat", "assistant": "chat",
+    "conversational-ai": "chat",
+}
+
+KEYWORDS = {
+    "agent": ["agent", "autonomous", "multi-agent", "crewai", "swarm"],
+    "coding": ["code", "coding", "programmer", "developer", "ide", "debug",
+               "pull request", "readme", "refactor"],
+    "image-video": ["image", "video", "motion graphic", "animat", "draw",
+                    "paint", "3d", "flip book", "edit video"],
+    "audio": ["audio", "voice", "speech", "podcast", "music", "sound"],
+    "writing": ["writ", "blog", "copywrit", "essay", "study page", "novel"],
+    "search": ["search", "rag", "knowledge", "retriev", "question answer"],
+    "devtools": ["devtool", "cli", "terminal", "adb", "deploy", "ci/cd",
+                 "control", "pipeline"],
+    "data": ["data analy", "dashboard", "chart", "insight"],
+    "chat": ["chat", "assistant", "companion", "conversation"],
+}
+
+
+def categorize(name, desc, topics):
+    """按 topics 优先、关键词兜底，给仓库定一个主分类。"""
+    for t in topics or []:
+        t = t.lower().replace("_", "-")
+        if t in TOPIC_MAP:
+            return TOPIC_MAP[t]
+        for key, mapped in TOPIC_MAP.items():
+            if key in t:
+                return mapped
+    text = f"{name} {desc}".lower()
+    for cat, words in KEYWORDS.items():
+        if any(w in text for w in words):
+            return cat
+    return "other"
+
 
 def repo_entry(r, category, first_seen):
+    topics = r.get("topics", []) or []
+    desc = clean_desc(r.get("description"))
     return {
         "name": r["full_name"],
         "url": r["html_url"],
-        "desc": clean_desc(r.get("description")),
+        "desc": desc,
         "stars": r.get("stargazers_count", 0),
         "lang": r.get("language") or "-",
         "category": category,
+        "tags": [categorize(r["full_name"], desc, topics)],
         "first_seen": first_seen,
     }
 
@@ -127,6 +196,9 @@ def refresh_stars(data):
             d["lang"] = r.get("language") or d["lang"]
             if r.get("description"):
                 d["desc"] = clean_desc(r.get("description"))
+            if not d.get("tags"):
+                d["tags"] = [categorize(d["name"], d.get("desc", ""),
+                                       r.get("topics", []) or [])]
             ok += 1
         except Exception:
             fail += 1
@@ -241,6 +313,39 @@ def render_leaderboard(data):
 """
 
 
+def render_categories(data):
+    """按功能分类展示所有收录项目（中英双语）。"""
+    groups = {k: [] for k, _, _ in CATEGORIES}
+    for d in data:
+        tag = (d.get("tags") or ["other"])[0]
+        groups.setdefault(tag, groups["other"]).append(d)
+    for items in groups.values():
+        items.sort(key=lambda x: -x["stars"])
+    lines = [
+        "# 🗂️ Categories · 分类浏览",
+        "",
+        "> 按功能分类展示所有收录的 AI 工具与 Skills，中英双语。",
+        "> Browse all collected AI tools and skills by category, bilingual.",
+        f"> Last updated · 更新时间：{DATESTR}",
+        "",
+    ]
+    for key, en, zh in CATEGORIES:
+        items = groups.get(key, [])
+        if not items:
+            continue
+        lines.append(f"## {en} · {zh}")
+        lines.append("")
+        lines.append("| Project 项目 | ⭐ Stars | Language 语言 | First seen 首次收录 |")
+        lines.append("|---|---|---|---|")
+        for t in items:
+            desc = f" — {t['desc']}" if t["desc"] else ""
+            lines.append(
+                f"| [{t['name']}]({t['url']}){desc} "
+                f"| {t['stars']} | {t['lang']} | {t['first_seen']} |")
+        lines.append("")
+    return "\n".join(lines)
+
+
 def render_digest(tools, hn_items, skills):
     lines = [
         f"# 📰 AI 工具日报 / AI Tools Daily — {DATESTR}",
@@ -318,7 +423,7 @@ Daily auto-collection of **highly-rated AI tools** and **AI skills**, with a Chi
 
 ## 🏆 Leaderboard (Top 10)
 
-Full ranking: [LEADERBOARD.md](LEADERBOARD.md) (bilingual · 中英双语）
+Full ranking: [LEADERBOARD.md](LEADERBOARD.md) (bilingual · 中英双语)\n\nBrowse by category: [CATEGORIES.md](CATEGORIES.md) (bilingual · 中英双语)
 
 ### 🛠️ Top AI Tools
 
@@ -349,7 +454,7 @@ Full ranking: [LEADERBOARD.md](LEADERBOARD.md) (bilingual · 中英双语）
 
 ## 🏆 排行榜（Top 10）
 
-完整榜单：[LEADERBOARD.md](LEADERBOARD.md)（中英双语）
+完整榜单：[LEADERBOARD.md](LEADERBOARD.md)（中英双语）\n\n按分类浏览：[CATEGORIES.md](CATEGORIES.md)（中英双语）
 
 ### 🛠️ AI 工具 Top
 
@@ -396,6 +501,9 @@ def main():
 
     with open(os.path.join(ROOT, "LEADERBOARD.md"), "w", encoding="utf-8") as f:
         f.write(render_leaderboard(data))
+
+    with open(os.path.join(ROOT, "CATEGORIES.md"), "w", encoding="utf-8") as f:
+        f.write(render_categories(data))
 
     digest = render_digest(new_tools, hn_items, new_skills)
     with open(os.path.join(DAILY_DIR, f"{DATESTR}.md"), "w", encoding="utf-8") as f:
