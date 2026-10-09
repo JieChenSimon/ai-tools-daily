@@ -21,18 +21,18 @@
 
 <table>
   <tr>
-    <td align="center" width="20%"><a href="CATEGORIES.md#agent">🤖<br/><b>AI Agent</b><br/><sub>智能体 · 5</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#coding">💻<br/><b>Coding</b><br/><sub>编程开发 · 2</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#image-video">🎨<br/><b>Image & Video</b><br/><sub>图像视频 · 4</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#audio">🎙<br/><b>Audio & Voice</b><br/><sub>音频语音 · 1</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#writing">✍️<br/><b>Writing</b><br/><sub>写作 · 1</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#agent">🤖<br/><b>智能体</b><br/><sub>AI Agent · 5</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#coding">💻<br/><b>编程开发</b><br/><sub>Coding · 2</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#image-video">🎨<br/><b>图像视频</b><br/><sub>Image & Video · 4</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#audio">🎙<br/><b>音频语音</b><br/><sub>Audio & Voice · 1</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#writing">✍️<br/><b>写作</b><br/><sub>Writing · 1</sub></a></td>
   </tr>
   <tr>
-    <td align="center" width="20%"><a href="CATEGORIES.md#search">🔍<br/><b>Search & Knowledge</b><br/><sub>搜索知识 · 0</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#devtools">🛠️<br/><b>Dev Tools</b><br/><sub>开发工具 · 1</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#data">📊<br/><b>Data & Analysis</b><br/><sub>数据分析 · 0</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#chat">💬<br/><b>Chat & Assistant</b><br/><sub>对话助手 · 0</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#other">📦<br/><b>Other</b><br/><sub>其他 · 1</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#search">🔍<br/><b>搜索知识</b><br/><sub>Search & Knowledge · 0</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#devtools">🛠️<br/><b>开发工具</b><br/><sub>Dev Tools · 1</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#data">📊<br/><b>数据分析</b><br/><sub>Data & Analysis · 0</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#chat">💬<br/><b>对话助手</b><br/><sub>Chat & Assistant · 0</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#other">📦<br/><b>其他</b><br/><sub>Other · 1</sub></a></td>
   </tr>
 </table>
 
@@ -44,7 +44,7 @@
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) | 1496 |
+| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) | 1503 |
 | 2 | [finnvoor/PiDurableKit](https://github.com/finnvoor/PiDurableKit) | 126 |
 | 3 | [cporter202/viralwave-studio-guide](https://github.com/cporter202/viralwave-studio-guide) | 36 |
 
@@ -65,11 +65,12 @@
 
 ## 📰 最新日报
 
-> ### [**2026-10-09**](daily/2026-10-09.md)
+> ### [**2026-10-09.en**](daily/2026-10-09.en.md)
 
 <details>
 <summary><b>📚 历史归档</b></summary>
 
+- [2026-10-09.en](daily/2026-10-09.en.md)
 - [2026-10-09](daily/2026-10-09.md)
 
 </details>

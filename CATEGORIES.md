@@ -8,48 +8,48 @@
 
 | Project 项目 | ⭐ Stars | Language 语言 | First seen 首次收录 |
 |---|---|---|---|
-| [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) — AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 | 1496 | Go | 2026-10-09 |
-| [finnvoor/PiDurableKit](https://github.com/finnvoor/PiDurableKit) — Durable AI agents for Apple platforms: pi-durable on JavaScriptCore with a Swift API | 126 | Swift | 2026-10-09 |
-| [nasqret/labyrinth-exploration](https://github.com/nasqret/labyrinth-exploration) — An agent skill for Codex, Claude Code and other clients: open-ended research as the exploration of a labyrinth, with a map of what is proved… | 20 | Python | 2026-10-09 |
-| [echris6/ai-business-skills](https://github.com/echris6/ai-business-skills) — Eight skill files for building and selling a product with an AI agent | 12 | - | 2026-10-09 |
-| [ZJU-REAL/ViSkill](https://github.com/ZJU-REAL/ViSkill) — ViSkill: Reinforcing VLM Agents with Evolving Visual-Native Skills | 6 | Python | 2026-10-09 |
+| [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) — AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 | 1503 | Go | 2026-10-09 |
+| [finnvoor/PiDurableKit](https://github.com/finnvoor/PiDurableKit) — 适用于Apple平台的耐用AI代理：使用Swift API在JavaScriptCore上实现pi-durable | 126 | Swift | 2026-10-09 |
+| [nasqret/labyrinth-exploration](https://github.com/nasqret/labyrinth-exploration) — Codex、Claude Code和其他客户的代理技能：作为迷宫探索的开放式研究，附有已证明内容的地图…… | 20 | Python | 2026-10-09 |
+| [echris6/ai-business-skills](https://github.com/echris6/ai-business-skills) — 使用AI代理构建和销售产品的八个技能文件 | 12 | - | 2026-10-09 |
+| [ZJU-REAL/ViSkill](https://github.com/ZJU-REAL/ViSkill) — ViSkill ：通过不断发展的视觉本土技能来加强VLM代理 | 6 | Python | 2026-10-09 |
 
 ## <a id="coding"></a>💻 Coding · 编程开发
 
 | Project 项目 | ⭐ Stars | Language 语言 | First seen 首次收录 |
 |---|---|---|---|
-| [tommy0103/better-readme-skill](https://github.com/tommy0103/better-readme-skill) — Audit and rewrite your README so readers can bail fast — an Art of README agent skill | 13 | - | 2026-10-09 |
-| [luoling8192/create-pr-with-evidence-skill](https://github.com/luoling8192/create-pr-with-evidence-skill) — Agent skill: create a pull request with verifiable change context, architecture evidence, and before/after visual evidence | 8 | - | 2026-10-09 |
+| [tommy0103/better-readme-skill](https://github.com/tommy0103/better-readme-skill) — 审核和重写您的自述文件，以便读者可以快速保释—自述文件代理技能的艺术 | 13 | - | 2026-10-09 |
+| [luoling8192/create-pr-with-evidence-skill](https://github.com/luoling8192/create-pr-with-evidence-skill) — 专员技能：使用可验证的变更背景、架构证据和视觉证据之前/之后创建拉取请求 | 8 | - | 2026-10-09 |
 
 ## <a id="image-video"></a>🎨 Image & Video · 图像视频
 
 | Project 项目 | ⭐ Stars | Language 语言 | First seen 首次收录 |
 |---|---|---|---|
-| [Miftahul-Islam-Efaz/Motion-graphics-skill](https://github.com/Miftahul-Islam-Efaz/Motion-graphics-skill) — Best Motion graphics and video editing skill for Claude Code, Codex and Cursor. Plan, animate, edit, caption and sound-design complete video… | 67 | Shell | 2026-10-09 |
-| [ishuagrawal/skills](https://github.com/ishuagrawal/skills) — Agent skills for engineering and design | 41 | JavaScript | 2026-10-09 |
-| [JosssphZhou/openzine](https://github.com/JosssphZhou/openzine) — Turn a PDF or a folder of images into a 3D flip book you can page through. A skill for Claude Code and Codex. | 13 | JavaScript | 2026-10-09 |
-| [zhouwei713/luobo-ppt](https://github.com/zhouwei713/luobo-ppt) — 生成和美化可编辑原生 PPT 的 Agent Skill | 6 | Python | 2026-10-09 |
+| [Miftahul-Islam-Efaz/Motion-graphics-skill](https://github.com/Miftahul-Islam-Efaz/Motion-graphics-skill) — Claude Code、Codex和Cursor的最佳动态图形和视频编辑技能。规划、动画、编辑、字幕和声音设计完整视频…… | 67 | Shell | 2026-10-09 |
+| [ishuagrawal/skills](https://github.com/ishuagrawal/skills) — 工程和设计的代理技能 | 41 | JavaScript | 2026-10-09 |
+| [JosssphZhou/openzine](https://github.com/JosssphZhou/openzine) — 将PDF或图像文件夹转换为可翻页的3D翻页书。Claude Code和Codex的技能。 | 13 | JavaScript | 2026-10-09 |
+| [zhouwei713/luobo-ppt](https://github.com/zhouwei713/luobo-ppt) — 生成和美化可编辑原生 PPT的代理技能 | 7 | Python | 2026-10-09 |
 
 ## <a id="audio"></a>🎙 Audio & Voice · 音频语音
 
 | Project 项目 | ⭐ Stars | Language 语言 | First seen 首次收录 |
 |---|---|---|---|
-| [cporter202/viralwave-studio-guide](https://github.com/cporter202/viralwave-studio-guide) — The complete guide to ViralWave Studio: put your social media content on autopilot. Setup walkthrough, features, brand voice, review workflo… | 36 | - | 2026-10-09 |
+| [cporter202/viralwave-studio-guide](https://github.com/cporter202/viralwave-studio-guide) — ViralWave Studio完整指南：将您的社交媒体内容自动导航。设置演练、功能、品牌声音、审核工作流程…… | 36 | - | 2026-10-09 |
 
 ## <a id="writing"></a>✍️ Writing · 写作
 
 | Project 项目 | ⭐ Stars | Language 语言 | First seen 首次收录 |
 |---|---|---|---|
-| [frypan05/philosopher-OKF](https://github.com/frypan05/philosopher-OKF) — Agent skill that turns any topic into one self-contained HTML study page: minimal, light focused, research-paper styled. | 19 | HTML | 2026-10-09 |
+| [frypan05/philosopher-OKF](https://github.com/frypan05/philosopher-OKF) — 代理技能，可将任何主题转化为一个独立的HTML学习页面：简约、聚焦光线、研究论文风格。 | 19 | HTML | 2026-10-09 |
 
 ## <a id="devtools"></a>🛠️ Dev Tools · 开发工具
 
 | Project 项目 | ⭐ Stars | Language 语言 | First seen 首次收录 |
 |---|---|---|---|
-| [robbin/android-adb-control](https://github.com/robbin/android-adb-control) — An Agent Skill for Android phone control via ADB: observe, act, and verify. For Pi, Codex, Claude Code, and OpenCode. | 31 | Python | 2026-10-09 |
+| [robbin/android-adb-control](https://github.com/robbin/android-adb-control) — 通过ADB控制Android手机的代理技能：观察、行动和验证。对于Pi、Codex、Claude Code和OpenCode。 | 31 | Python | 2026-10-09 |
 
 ## <a id="other"></a>📦 Other · 其他
 
 | Project 项目 | ⭐ Stars | Language 语言 | First seen 首次收录 |
 |---|---|---|---|
-| [DarioFontanel/regia-hyperframes](https://github.com/DarioFontanel/regia-hyperframes) — Skill Claude Code: intervista di regia prima di HyperFrames — opzioni e consiglio a ogni domanda, poi un brief chiuso | 7 | - | 2026-10-09 |
+| [DarioFontanel/regia-hyperframes](https://github.com/DarioFontanel/regia-hyperframes) — 技能克劳德代码： intervista di regia prima di HyperFrames — opzioni e consiglio a ogni domanda, poi un brief chiuso | 7 | - | 2026-10-09 |

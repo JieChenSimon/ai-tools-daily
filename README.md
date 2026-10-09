@@ -44,7 +44,7 @@ Daily auto-collection of **highly-rated AI tools** and **AI skills**.
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) | 1496 |
+| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) | 1503 |
 | 2 | [finnvoor/PiDurableKit](https://github.com/finnvoor/PiDurableKit) | 126 |
 | 3 | [cporter202/viralwave-studio-guide](https://github.com/cporter202/viralwave-studio-guide) | 36 |
 
@@ -65,11 +65,12 @@ Daily auto-collection of **highly-rated AI tools** and **AI skills**.
 
 ## 📰 Latest Digest
 
-> ### [**2026-10-09**](daily/2026-10-09.md)
+> ### [**2026-10-09.en**](daily/2026-10-09.en.en.md)
 
 <details>
 <summary><b>📚 Archive</b></summary>
 
+- [2026-10-09.en](daily/2026-10-09.en.md)
 - [2026-10-09](daily/2026-10-09.md)
 
 </details>

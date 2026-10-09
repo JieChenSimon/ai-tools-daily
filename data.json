@@ -3,13 +3,14 @@
   "name": "mhtsec/ARTEX",
   "url": "https://github.com/mhtsec/ARTEX",
   "desc": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
-  "stars": 1496,
+  "stars": 1503,
   "lang": "Go",
   "category": "tool",
   "tags": [
    "agent"
   ],
-  "first_seen": "2026-10-09"
+  "first_seen": "2026-10-09",
+  "desc_zh": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目"
  },
  {
   "name": "finnvoor/PiDurableKit",
@@ -21,7 +22,8 @@
   "tags": [
    "agent"
   ],
-  "first_seen": "2026-10-09"
+  "first_seen": "2026-10-09",
+  "desc_zh": "适用于Apple平台的耐用AI代理：使用Swift API在JavaScriptCore上实现pi-durable"
  },
  {
   "name": "cporter202/viralwave-studio-guide",
@@ -33,7 +35,8 @@
   "tags": [
    "audio"
   ],
-  "first_seen": "2026-10-09"
+  "first_seen": "2026-10-09",
+  "desc_zh": "ViralWave Studio完整指南：将您的社交媒体内容自动导航。设置演练、功能、品牌声音、审核工作流程……"
  },
  {
   "name": "Miftahul-Islam-Efaz/Motion-graphics-skill",
@@ -45,7 +48,8 @@
   "tags": [
    "image-video"
   ],
-  "first_seen": "2026-10-09"
+  "first_seen": "2026-10-09",
+  "desc_zh": "Claude Code、Codex和Cursor的最佳动态图形和视频编辑技能。规划、动画、编辑、字幕和声音设计完整视频……"
  },
  {
   "name": "robbin/android-adb-control",
@@ -57,7 +61,8 @@
   "tags": [
    "devtools"
   ],
-  "first_seen": "2026-10-09"
+  "first_seen": "2026-10-09",
+  "desc_zh": "通过ADB控制Android手机的代理技能：观察、行动和验证。对于Pi、Codex、Claude Code和OpenCode。"
  },
  {
   "name": "nasqret/labyrinth-exploration",
@@ -69,7 +74,8 @@
   "tags": [
    "agent"
   ],
-  "first_seen": "2026-10-09"
+  "first_seen": "2026-10-09",
+  "desc_zh": "Codex、Claude Code和其他客户的代理技能：作为迷宫探索的开放式研究，附有已证明内容的地图……"
  },
  {
   "name": "JosssphZhou/openzine",
@@ -81,7 +87,8 @@
   "tags": [
    "image-video"
   ],
-  "first_seen": "2026-10-09"
+  "first_seen": "2026-10-09",
+  "desc_zh": "将PDF或图像文件夹转换为可翻页的3D翻页书。Claude Code和Codex的技能。"
  },
  {
   "name": "DarioFontanel/regia-hyperframes",
@@ -93,7 +100,8 @@
   "tags": [
    "other"
   ],
-  "first_seen": "2026-10-09"
+  "first_seen": "2026-10-09",
+  "desc_zh": "技能克劳德代码： intervista di regia prima di HyperFrames — opzioni e consiglio a ogni domanda, poi un brief chiuso"
  },
  {
   "name": "ishuagrawal/skills",
@@ -105,7 +113,8 @@
   "tags": [
    "image-video"
   ],
-  "first_seen": "2026-10-09"
+  "first_seen": "2026-10-09",
+  "desc_zh": "工程和设计的代理技能"
  },
  {
   "name": "frypan05/philosopher-OKF",
@@ -117,7 +126,8 @@
   "tags": [
    "writing"
   ],
-  "first_seen": "2026-10-09"
+  "first_seen": "2026-10-09",
+  "desc_zh": "代理技能，可将任何主题转化为一个独立的HTML学习页面：简约、聚焦光线、研究论文风格。"
  },
  {
   "name": "echris6/ai-business-skills",
@@ -129,7 +139,8 @@
   "tags": [
    "agent"
   ],
-  "first_seen": "2026-10-09"
+  "first_seen": "2026-10-09",
+  "desc_zh": "使用AI代理构建和销售产品的八个技能文件"
  },
  {
   "name": "tommy0103/better-readme-skill",
@@ -141,7 +152,8 @@
   "tags": [
    "coding"
   ],
-  "first_seen": "2026-10-09"
+  "first_seen": "2026-10-09",
+  "desc_zh": "审核和重写您的自述文件，以便读者可以快速保释—自述文件代理技能的艺术"
  },
  {
   "name": "luoling8192/create-pr-with-evidence-skill",
@@ -153,7 +165,8 @@
   "tags": [
    "coding"
   ],
-  "first_seen": "2026-10-09"
+  "first_seen": "2026-10-09",
+  "desc_zh": "专员技能：使用可验证的变更背景、架构证据和视觉证据之前/之后创建拉取请求"
  },
  {
   "name": "ZJU-REAL/ViSkill",
@@ -165,18 +178,20 @@
   "tags": [
    "agent"
   ],
-  "first_seen": "2026-10-09"
+  "first_seen": "2026-10-09",
+  "desc_zh": "ViSkill ：通过不断发展的视觉本土技能来加强VLM代理"
  },
  {
   "name": "zhouwei713/luobo-ppt",
   "url": "https://github.com/zhouwei713/luobo-ppt",
   "desc": "生成和美化可编辑原生 PPT 的 Agent Skill",
-  "stars": 6,
+  "stars": 7,
   "lang": "Python",
   "category": "skill",
   "tags": [
    "image-video"
   ],
-  "first_seen": "2026-10-09"
+  "first_seen": "2026-10-09",
+  "desc_zh": "生成和美化可编辑原生 PPT的代理技能"
  }
 ]
