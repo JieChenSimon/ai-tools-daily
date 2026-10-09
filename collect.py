@@ -95,14 +95,13 @@ CATEGORIES = [
 ]
 CATEGORY_NAMES = {k: (en, zh) for k, en, zh in CATEGORIES}
 
+# 功能分类（agent 除外）：topics 映射与关键词
 TOPIC_MAP = {
-    "ai-agents": "agent", "agent": "agent", "agents": "agent",
-    "autonomous-agents": "agent", "multi-agent": "agent",
     "code": "coding", "coding": "coding", "programming": "coding",
-    "code-review": "coding", "copilot": "coding",
+    "code-review": "coding",
     "image": "image-video", "images": "image-video", "video": "image-video",
     "animation": "image-video", "motion-graphics": "image-video",
-    "text-to-image": "image-video", "3d": "image-video",
+    "text-to-image": "image-video", "3d": "image-video", "ppt": "image-video",
     "audio": "audio", "voice": "audio", "speech": "audio",
     "text-to-speech": "audio", "tts": "audio", "music": "audio",
     "writing": "writing", "blog": "writing", "copywriting": "writing",
@@ -114,36 +113,67 @@ TOPIC_MAP = {
     "chat": "chat", "chatbot": "chat", "assistant": "chat",
     "conversational-ai": "chat",
 }
+AGENT_TOPICS = {
+    "ai-agents", "agent", "agents", "autonomous-agents", "multi-agent",
+    "agent-framework",
+}
 
 KEYWORDS = {
-    "agent": ["agent", "autonomous", "multi-agent", "crewai", "swarm"],
     "coding": ["code", "coding", "programmer", "developer", "ide", "debug",
-               "pull request", "readme", "refactor"],
-    "image-video": ["image", "video", "motion graphic", "animat", "draw",
-                    "paint", "3d", "flip book", "edit video"],
+               "refactor", "pull request", "readme"],
+    "image-video": ["video", "image", "motion graphic", "animation",
+                    "drawing", "painting", "photo", "flip book", "ppt",
+                    "slide", "3d"],
     "audio": ["audio", "voice", "speech", "podcast", "music", "sound"],
-    "writing": ["writ", "blog", "copywrit", "essay", "study page", "novel"],
-    "search": ["search", "rag", "knowledge", "retriev", "question answer"],
-    "devtools": ["devtool", "cli", "terminal", "adb", "deploy", "ci/cd",
-                 "control", "pipeline"],
-    "data": ["data analy", "dashboard", "chart", "insight"],
-    "chat": ["chat", "assistant", "companion", "conversation"],
+    "writing": ["writing", "write", "blog", "copywriting", "essay",
+                "study page", "novel"],
+    "search": ["search", "rag", "knowledge", "retrieval"],
+    "devtools": ["devtool", "cli", "terminal", "adb", "deploy",
+                 "control", "pipeline", "automation"],
+    "data": ["data analysis", "dashboard", "chart", "insight"],
+    "chat": ["chatbot", "companion", "conversation"],
 }
+AGENT_PHRASES = [
+    "autonomous agent", "multi-agent", "ai agent", "agent framework",
+    "agent system", "vlm agent", "agent",
+]
+# 客户端名称只是载体，不代表功能，匹配前去掉
+CLIENT_NAMES = re.compile(
+    r"\b(claude code|codex|opencode|open code|cursor|windsurf|kilocode)\b")
+
+FUNCTIONAL = ["coding", "image-video", "audio", "writing", "search",
+              "devtools", "data", "chat"]
+
+
+def _norm_topics(topics):
+    return [(t or "").lower().replace("_", "-") for t in (topics or [])]
+
+
+def _kw_hit(text, words):
+    for w in words:
+        if re.search(r"\b" + re.escape(w) + r"s?\b", text):
+            return True
+    return False
 
 
 def categorize(name, desc, topics):
-    """按 topics 优先、关键词兜底，给仓库定一个主分类。"""
-    for t in topics or []:
-        t = t.lower().replace("_", "-")
+    """先按功能分类（topics 优先、关键词兜底），都不中再看是否为智能体，
+    最后归入其他。"""
+    text = CLIENT_NAMES.sub(" ", f"{name} {desc}".lower())
+    norm = _norm_topics(topics)
+    # pass 1: 功能分类 by topics
+    for t in norm:
         if t in TOPIC_MAP:
             return TOPIC_MAP[t]
-        for key, mapped in TOPIC_MAP.items():
-            if key in t:
-                return mapped
-    text = f"{name} {desc}".lower()
-    for cat, words in KEYWORDS.items():
-        if any(w in text for w in words):
+    # pass 2: 功能分类 by 关键词
+    for cat in FUNCTIONAL:
+        if _kw_hit(text, KEYWORDS[cat]):
             return cat
+    # pass 3: 智能体
+    if any(t in AGENT_TOPICS for t in norm):
+        return "agent"
+    if _kw_hit(text, AGENT_PHRASES):
+        return "agent"
     return "other"
 
 
@@ -196,9 +226,8 @@ def refresh_stars(data):
             d["lang"] = r.get("language") or d["lang"]
             if r.get("description"):
                 d["desc"] = clean_desc(r.get("description"))
-            if not d.get("tags"):
-                d["tags"] = [categorize(d["name"], d.get("desc", ""),
-                                       r.get("topics", []) or [])]
+            d["tags"] = [categorize(d["name"], d.get("desc", ""),
+                                   r.get("topics", []) or [])]
             ok += 1
         except Exception:
             fail += 1
