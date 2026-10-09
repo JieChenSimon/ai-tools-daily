@@ -273,6 +273,7 @@ def collect_github_tools(seen):
     queries = [
         f"ai agent stars:>30 created:>{SINCE}",
         f"llm tool stars:>30 created:>{SINCE}",
+        f"mcp stars:>10 created:>{SINCE}",
     ]
     items = []
     for q in queries:
