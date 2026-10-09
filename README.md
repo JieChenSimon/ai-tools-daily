@@ -16,8 +16,8 @@ Full ranking: [LEADERBOARD.md](LEADERBOARD.md) (bilingual · 中英双语）
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) | 1482 |
-| 2 | [finnvoor/PiDurableKit](https://github.com/finnvoor/PiDurableKit) | 124 |
+| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) | 1483 |
+| 2 | [finnvoor/PiDurableKit](https://github.com/finnvoor/PiDurableKit) | 125 |
 | 3 | [cporter202/viralwave-studio-guide](https://github.com/cporter202/viralwave-studio-guide) | 36 |
 
 ### 🧩 Top AI Skills
