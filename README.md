@@ -1,24 +1,50 @@
-# ai-tools-daily
+<div align="center">
+  <h1>🤖 ai-tools-daily</h1>
+  <p><b>Discover the best AI tools & skills, every single day</b></p>
+<p>
+  <img src="https://img.shields.io/badge/updated-daily-brightgreen" alt="updated daily" />
+  <img src="https://img.shields.io/badge/bilingual-EN_/_中文-blue" alt="bilingual" />
+  <img src="https://img.shields.io/badge/automated-GitHub_Actions-orange" alt="automated" />
+</p>
+  <p><a href="README.zh-CN.md"><b>中文</b></a> · <b>English</b></p>
+</div>
 
-> [中文版](README.zh-CN.md)
+---
 
-Daily auto-collection of **highly-rated AI tools** and **AI skills**, with a Chinese/English daily digest.
+Daily auto-collection of **highly-rated AI tools** and **AI skills**.
 
-- **Sources**: GitHub (high-star new AI projects from the last 2 days), Hacker News (top discussions)
-- **Updated**: daily at 08:00 (Beijing time, UTC+8)
-- **Dedup**: already-featured projects won't appear again
+- 🔍 **Sources**: GitHub (high-star new AI projects from the last 2 days), Hacker News (top discussions)
+- ⏰ **Updated**: daily at 08:00 (Beijing time, UTC+8) — 15 projects tracked
+- 🧹 **Dedup**: featured projects never appear twice
 
-## 🏆 Leaderboard (Top 10)
+## 🧭 Browse by Category
 
-Full ranking: [LEADERBOARD.md](LEADERBOARD.md) (bilingual · 中英双语)
+<table>
+  <tr>
+    <td align="center" width="20%"><a href="CATEGORIES.md#agent">🤖<br/><b>AI Agent</b><br/><sub>智能体 · 5</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#coding">💻<br/><b>Coding</b><br/><sub>编程开发 · 2</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#image-video">🎨<br/><b>Image & Video</b><br/><sub>图像视频 · 4</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#audio">🎙<br/><b>Audio & Voice</b><br/><sub>音频语音 · 1</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#writing">✍️<br/><b>Writing</b><br/><sub>写作 · 1</sub></a></td>
+  </tr>
+  <tr>
+    <td align="center" width="20%"><a href="CATEGORIES.md#search">🔍<br/><b>Search & Knowledge</b><br/><sub>搜索知识 · 0</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#devtools">🛠️<br/><b>Dev Tools</b><br/><sub>开发工具 · 1</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#data">📊<br/><b>Data & Analysis</b><br/><sub>数据分析 · 0</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#chat">💬<br/><b>Chat & Assistant</b><br/><sub>对话助手 · 0</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#other">📦<br/><b>Other</b><br/><sub>其他 · 1</sub></a></td>
+  </tr>
+</table>
 
-Browse by category: [CATEGORIES.md](CATEGORIES.md) (bilingual · 中英双语)
+## 🏆 Leaderboard · Top 10
+
+> Full ranking: [LEADERBOARD.md](LEADERBOARD.md)
 
 ### 🛠️ Top AI Tools
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) | 1491 |
+| 1 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) | 1496 |
 | 2 | [finnvoor/PiDurableKit](https://github.com/finnvoor/PiDurableKit) | 126 |
 | 3 | [cporter202/viralwave-studio-guide](https://github.com/cporter202/viralwave-studio-guide) | 36 |
 
@@ -37,10 +63,17 @@ Browse by category: [CATEGORIES.md](CATEGORIES.md) (bilingual · 中英双语)
 | 9 | [luoling8192/create-pr-with-evidence-skill](https://github.com/luoling8192/create-pr-with-evidence-skill) | 8 |
 | 10 | [DarioFontanel/regia-hyperframes](https://github.com/DarioFontanel/regia-hyperframes) | 7 |
 
-## 📰 Latest digest
+## 📰 Latest Digest
+
+> ### [**2026-10-09**](daily/2026-10-09.md)
+
+<details>
+<summary><b>📚 Archive</b></summary>
 
 - [2026-10-09](daily/2026-10-09.md)
 
-## 📚 Archive
+</details>
 
-- [2026-10-09](daily/2026-10-09.md)
+---
+
+<sub>🤖 Fully automated by <a href=".github/workflows/daily.yml">GitHub Actions</a> · Data from GitHub & Hacker News public APIs</sub>
