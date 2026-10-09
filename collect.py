@@ -269,6 +269,52 @@ def refresh_stars(data):
     print(f"star refresh: ok={ok} fail={fail}")
 
 
+def is_quality_repo(r):
+    """质量过滤：剔除归档、fork、禁用、无有效描述的仓库。"""
+    if r.get("archived") or r.get("fork") or r.get("disabled"):
+        return False
+    desc = (r.get("description") or "").strip()
+    if len(desc) < 15:
+        return False
+    return True
+
+
+AI_TERMS = re.compile(
+    r"\b(ai|artificial intelligence|llm|gpt|llama|mistral|gemini|Muse|"
+    r"machine learning|deep learning|neural|diffusion|transformer|"
+    r"agent|agents|mcp|rag|embedding|vector|tts|stt|text-to-image|"
+    r"text-to-speech|speech-to-text|chatbot|copilot|"
+    r"openai|anthropic|huggingface)\b", re.I)
+
+
+def is_ai_relevant(r):
+    """AI 相关性过滤：名称/描述/topics 至少命中一个 AI 相关词。"""
+    text = f"{r.get('full_name','')} {r.get('description','')} {' '.join(r.get('topics') or [])}"
+    return bool(AI_TERMS.search(text))
+
+
+# 回填配置：库中条目少于此数时，触发一次 90 天窗口的大扫荡
+BACKFILL_MIN_ENTRIES = 80
+BACKFILL_DAYS = 90
+# (搜索词, 最低 star)
+BACKFILL_QUERIES = [
+    ("artificial intelligence", 100),
+    ("ai agent", 50),
+    ("llm application", 50),
+    ("mcp server", 20),
+    ("ai coding", 50),
+    ("ai image generation", 50),
+    ("ai video generation", 30),
+    ("ai chatbot", 50),
+    ("rag", 50),
+    ("ai voice", 30),
+    ("text-to-speech ai", 30),
+    ("ai writing assistant", 30),
+    ("claude skill", 10),
+    ("agent skill", 10),
+]
+
+
 def collect_github_tools(seen):
     queries = [
         f"ai agent stars:>30 created:>{SINCE}",
@@ -285,12 +331,41 @@ def collect_github_tools(seen):
             continue
         for r in data.get("items", []):
             url = r["html_url"]
-            if url in seen:
+            if url in seen or not is_quality_repo(r) or not is_ai_relevant(r):
                 continue
             seen[url] = DATESTR
             items.append(repo_entry(r, "tool", DATESTR))
     items.sort(key=lambda x: -x["stars"])
     return items[:20]
+
+
+def collect_backfill(seen):
+    """一次性回填：90 天窗口、多查询扫荡，把项目库撑到 100+。
+    只进 data.json，不进当日日报。库条目数达标后自动停止触发。"""
+    since = (NOW - timedelta(days=BACKFILL_DAYS)).strftime("%Y-%m-%d")
+    items = []
+    for term, min_stars in BACKFILL_QUERIES:
+        q = f"{term} stars:>{min_stars} created:>{since}"
+        try:
+            data = gh_get("/search/repositories?" + urllib.parse.urlencode(
+                {"q": q, "sort": "stars", "order": "desc", "per_page": 30}))
+        except Exception as e:
+            print(f"backfill search failed ({q}): {e}")
+            continue
+        n = 0
+        for r in data.get("items", []):
+            url = r["html_url"]
+            if url in seen or not is_quality_repo(r) or not is_ai_relevant(r):
+                continue
+            seen[url] = DATESTR
+            desc = (r.get("description") or "").lower()
+            category = "skill" if "skill" in r["full_name"].lower() or "skill" in desc else "tool"
+            items.append(repo_entry(r, category, DATESTR))
+            n += 1
+        print(f"backfill '{term}': +{n}")
+    items.sort(key=lambda x: -x["stars"])
+    print(f"backfill total: {len(items)}")
+    return items
 
 
 def collect_hn(seen):
@@ -337,7 +412,7 @@ def collect_skills(seen):
             continue
         for r in data.get("items", []):
             url = r["html_url"]
-            if url in seen:
+            if url in seen or not is_quality_repo(r) or not is_ai_relevant(r):
                 continue
             seen[url] = DATESTR
             items.append(repo_entry(r, "skill", DATESTR))
@@ -677,8 +752,14 @@ def main():
     new_skills = collect_skills(seen)
     hn_items = collect_hn(seen)
 
+    # 回填：库太小时做一次 90 天大扫荡（只进 data.json，不进当日日报）
+    backfilled = []
+    if len(data) < BACKFILL_MIN_ENTRIES:
+        print(f"data has {len(data)} entries < {BACKFILL_MIN_ENTRIES}, running backfill...")
+        backfilled = collect_backfill(seen)
+
     known_urls = {d["url"] for d in data}
-    for item in new_tools + new_skills:
+    for item in new_tools + new_skills + backfilled:
         if item["url"] not in known_urls:
             data.append(item)
             known_urls.add(item["url"])
@@ -705,7 +786,7 @@ def main():
     )
     render_readmes(data, days)
     print(f"done {DATESTR}: new_tools={len(new_tools)} new_skills={len(new_skills)} "
-          f"hn={len(hn_items)} total_tracked={len(data)}")
+          f"hn={len(hn_items)} backfilled={len(backfilled)} total_tracked={len(data)}")
 
 
 if __name__ == "__main__":
