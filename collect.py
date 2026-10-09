@@ -187,7 +187,7 @@ def categorize(name, desc, topics):
 def repo_entry(r, category, first_seen):
     topics = r.get("topics", []) or []
     desc = clean_desc(r.get("description"))
-    return {
+    d = {
         "name": r["full_name"],
         "url": r["html_url"],
         "desc": desc,
@@ -198,6 +198,8 @@ def repo_entry(r, category, first_seen):
         "tags": [categorize(r["full_name"], desc, topics)],
         "first_seen": first_seen,
     }
+    compute_quality(d, r)
+    return d
 
 
 def backfill_data(seen, data):
@@ -224,8 +226,113 @@ def backfill_data(seen, data):
         print(f"backfilled {added} repos into data.json")
 
 
+def _score_popularity(stars):
+    """热度：star 数对数分档，1-5。"""
+    if stars >= 5000:
+        return 5
+    if stars >= 1000:
+        return 4
+    if stars >= 200:
+        return 3
+    if stars >= 50:
+        return 2
+    return 1
+
+
+def _score_momentum(stars, stars_prev):
+    """涨势：24h 增长量 + 增长率，1-5。"""
+    if stars_prev is None:
+        return 3  # 无历史数据，给中间分
+    growth = stars - stars_prev
+    if growth <= 0:
+        return 2 if growth == 0 else 1
+    rate = growth / max(stars_prev, 1)
+    if growth >= 100 or rate >= 0.2:
+        return 5
+    if growth >= 20 or rate >= 0.05:
+        return 4
+    return 3
+
+
+def _score_activity(pushed_at):
+    """活跃度：最近 push 时间，1-5。"""
+    if not pushed_at:
+        return 3
+    try:
+        pushed = datetime.fromisoformat(pushed_at.replace("Z", "+00:00"))
+        days = (NOW - pushed).days
+    except Exception:
+        return 3
+    if days <= 7:
+        return 5
+    if days <= 30:
+        return 4
+    if days <= 90:
+        return 3
+    if days <= 180:
+        return 2
+    return 1
+
+
+def _score_docs(desc, topics):
+    """文档：描述长度 + topics 数量，1-5。"""
+    score = 1
+    dl = len(desc or "")
+    if dl >= 120:
+        score += 2
+    elif dl >= 50:
+        score += 1
+    nt = len(topics or [])
+    if nt >= 5:
+        score += 2
+    elif nt >= 2:
+        score += 1
+    return min(score, 5)
+
+
+def _quality_badges(q, age_days):
+    """根据分项得分打标签。"""
+    badges = []
+    if q["momentum"] >= 5:
+        badges.append("🔥爆火")
+    elif q["momentum"] >= 4:
+        badges.append("📈涨势好")
+    if q["popularity"] >= 5:
+        badges.append("🏆热门")
+    if age_days is not None and age_days <= 30 and q["popularity"] >= 3:
+        badges.append("🆕新锐")
+    if q["docs"] >= 5:
+        badges.append("📚文档完善")
+    if q["activity"] >= 5:
+        badges.append("🛠️活跃维护")
+    return badges
+
+
+def compute_quality(d, repo):
+    """计算四维质量评分，写入 d['quality']。"""
+    stars = d.get("stars", 0)
+    q = {
+        "popularity": _score_popularity(stars),
+        "momentum": _score_momentum(stars, d.get("stars_prev")),
+        "activity": _score_activity(repo.get("pushed_at") if repo else None),
+        "docs": _score_docs(d.get("desc", ""), repo.get("topics") if repo else []),
+    }
+    q["overall"] = round(
+        q["popularity"] * 0.35 + q["momentum"] * 0.25 +
+        q["activity"] * 0.2 + q["docs"] * 0.2, 1)
+    try:
+        created = datetime.fromisoformat(
+            (repo.get("created_at") or "").replace("Z", "+00:00"))
+        age_days = (NOW - created).days
+    except Exception:
+        age_days = None
+    q["badges"] = _quality_badges(q, age_days)
+    d["quality"] = q
+    return q
+
+
 def refresh_stars(data):
-    """刷新所有收录项目的当前 star 数（失败则保留旧值）。"""
+    """刷新所有收录项目的当前 star 数（失败则保留旧值），并计算质量评分。"""
     ok, fail = 0, 0
     for d in data:
         try:
@@ -237,8 +344,12 @@ def refresh_stars(data):
                 d["desc"] = clean_desc(r.get("description"))
             d["tags"] = [categorize(d["name"], d.get("desc", ""),
                                    r.get("topics", []) or [])]
+            compute_quality(d, r)
             ok += 1
         except Exception:
+            # API 失败时用已有数据估算评分
+            if "quality" not in d:
+                compute_quality(d, None)
             fail += 1
     print(f"star refresh: ok={ok} fail={fail}")
 
@@ -399,16 +510,33 @@ def _show_desc(t):
     return f" — {d}" if d else ""
 
 
+def _quality_stars(t):
+    """综合评分渲染成 ★★★★☆，无数据时返回 -。"""
+    q = t.get("quality")
+    if not q:
+        return "-"
+    full = int(round(q["overall"]))
+    full = max(0, min(5, full))
+    return "★" * full + "☆" * (5 - full)
+
+
+def _quality_badges_str(t):
+    q = t.get("quality")
+    if not q or not q.get("badges"):
+        return ""
+    return " " + " ".join(q["badges"])
+
+
 def leaderboard_table(items, limit=50):
     lines = [
-        "| # | Project 项目 | ⭐ Stars | Language 语言 | First seen 首次收录 |",
-        "|---|---|---|---|---|",
+        "| # | Project 项目 | ⭐ Stars | 🌟 评分 | Language 语言 | First seen 首次收录 |",
+        "|---|---|---|---|---|---|",
     ]
     for i, t in enumerate(items[:limit], 1):
         desc = _show_desc(t)
         lines.append(
-            f"| {i} | [{t['name']}]({t['url']}){desc} "
-            f"| {t['stars']} | {t['lang']} | {t['first_seen']} |")
+            f"| {i} | [{t['name']}]({t['url']}){desc}{_quality_badges_str(t)} "
+            f"| {t['stars']} | {_quality_stars(t)} | {t['lang']} | {t['first_seen']} |")
     return "\n".join(lines)
 
 
@@ -431,6 +559,9 @@ def render_leaderboard(data):
 
 > Ranked by GitHub stars, updated daily. 按 GitHub star 数排名，每日更新。
 > Last updated · 更新时间：{DATESTR}
+
+> 🌟 **评分说明**：综合分 = 热度 35% + 涨势 25% + 活跃度 20% + 文档 20%，★ 为综合分四舍五入。
+> 徽章：🔥爆火（涨势拉满） 📈涨势好 🏆热门（star 过 5000） 🆕新锐（30 天内新项目且有热度） 📚文档完善 🛠️活跃维护（7 天内有提交）
 
 ## 📈 Trending Up · 涨幅最快
 
@@ -470,13 +601,13 @@ def render_categories(data):
             continue
         lines.append(f'## <a id="{key}"></a>{emoji} {en} · {zh}')
         lines.append("")
-        lines.append("| Project 项目 | ⭐ Stars | Language 语言 | First seen 首次收录 |")
-        lines.append("|---|---|---|---|")
+        lines.append("| Project 项目 | ⭐ Stars | 🌟 评分 | Language 语言 | First seen 首次收录 |")
+        lines.append("|---|---|---|---|---|")
         for t in items:
             desc = _show_desc(t)
             lines.append(
-                f"| [{t['name']}]({t['url']}){desc} "
-                f"| {t['stars']} | {t['lang']} | {t['first_seen']} |")
+                f"| [{t['name']}]({t['url']}){desc}{_quality_badges_str(t)} "
+                f"| {t['stars']} | {_quality_stars(t)} | {t['lang']} | {t['first_seen']} |")
         lines.append("")
     return "\n".join(lines)
 
