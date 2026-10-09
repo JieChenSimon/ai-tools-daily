@@ -218,6 +218,7 @@ def repo_entry(r, category, first_seen):
         "url": r["html_url"],
         "desc": desc,
         "stars": r.get("stargazers_count", 0),
+        "stars_prev": r.get("stargazers_count", 0),
         "lang": r.get("language") or "-",
         "category": category,
         "tags": [categorize(r["full_name"], desc, topics)],
@@ -255,6 +256,7 @@ def refresh_stars(data):
     for d in data:
         try:
             r = gh_get(f"/repos/{d['name']}")
+            d["stars_prev"] = d.get("stars", 0)
             d["stars"] = r.get("stargazers_count", d["stars"])
             d["lang"] = r.get("language") or d["lang"]
             if r.get("description"):
@@ -365,10 +367,26 @@ def render_leaderboard(data):
                    key=lambda x: -x["stars"])
     skills = sorted([d for d in data if d["category"] == "skill"],
                     key=lambda x: -x["stars"])
+    gainers = [d for d in data
+               if d.get("stars", 0) - d.get("stars_prev", d.get("stars", 0)) > 0]
+    gainers.sort(key=lambda x: -(x["stars"] - x.get("stars_prev", x["stars"])))
+    tlines = ["| # | Project 项目 | ⭐ Stars | 📈 24h 涨幅 |",
+              "|---|---|---|---|"]
+    for i, g in enumerate(gainers[:10], 1):
+        gain = g["stars"] - g.get("stars_prev", g["stars"])
+        tlines.append(f"| {i} | [{g['name']}]({g['url']}) | {g['stars']} | +{gain} |")
+    trending = ("\n".join(tlines) if gainers
+                else "暂无 / No data yet (needs 2 days of history).")
     return f"""# 🏆 Leaderboard · 排行榜
 
 > Ranked by GitHub stars, updated daily. 按 GitHub star 数排名，每日更新。
 > Last updated · 更新时间：{DATESTR}
+
+## 📈 Trending Up · 涨幅最快
+
+> 过去 24 小时 star 增长最多 · Biggest star gains in the last 24 hours.
+
+{trending}
 
 ## 🛠️ AI Tools · AI 工具
 
