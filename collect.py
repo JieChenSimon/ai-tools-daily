@@ -155,38 +155,12 @@ def _kw_hit(text, words):
     return False
 
 
-def translate_en_to_zh(text):
-    """英文描述译成中文（MyMemory 免费 API），失败返回空字符串。"""
-    if not text or not text.strip():
-        return ""
-    zh_chars = sum(1 for ch in text if "\u4e00" <= ch <= "\u9fff")
-    if zh_chars > len(text) * 0.5:
-        return text  # 本来就是中文
-    try:
-        q = urllib.parse.urlencode({"q": text[:400], "langpair": "en|zh-CN"})
-        req = urllib.request.Request(
-            "https://api.mymemory.translated.net/get?" + q, headers=UA)
-        with urllib.request.urlopen(req, timeout=15) as r:
-            data = json.load(r)
-        t = (data.get("responseData") or {}).get("translatedText", "") or ""
-        t = t.strip()
-        bad = ("QUERY LENGTH LIMIT", "INVALID EMAIL", "MYMEMORY WARNING")
-        if not t or any(b in t.upper() for b in bad) or t == text.strip():
-            return ""
-        return t
-    except Exception as e:
-        print(f"translate failed: {e}")
-        return ""
-
-
 def ensure_zh_desc(items):
-    """给缺中文描述的条目补翻译（带缓存，只翻新增）。"""
+    """中文描述由助手直接翻译（不再调用第三方机翻）。
+    这里只保证字段存在，缺失的由每日翻译任务补齐。"""
     for d in items:
-        if not d.get("desc_zh"):
-            zh = translate_en_to_zh(d.get("desc", ""))
-            d["desc_zh"] = zh
-            if zh:
-                print(f"translated: {d['name'][:40]}")
+        if "desc_zh" not in d:
+            d["desc_zh"] = ""
 
 
 def categorize(name, desc, topics):
