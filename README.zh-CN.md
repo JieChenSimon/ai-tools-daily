@@ -14,7 +14,7 @@
 每天自动搜集**广受好评的 AI 工具**与 **AI Skills**。
 
 - 🔍 **数据来源**：GitHub（近 2 天高 star 新项目）、Hacker News（高分讨论）
-- ⏰ **更新时间**：每天 08:00（北京时间）自动运行 — 已收录 162 个项目
+- ⏰ **更新时间**：每天 08:00（北京时间）自动运行 — 已收录 163 个项目
 - 🧹 **去重**：收录过的项目不会重复出现
 
 ## 🧭 分类浏览
@@ -23,7 +23,7 @@
   <tr>
     <td align="center" width="20%"><a href="CATEGORIES.md#agent">🤖<br/><b>智能体</b><br/><sub>AI Agent · 32</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#coding">💻<br/><b>编程开发</b><br/><sub>Coding · 15</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#image-video">🎨<br/><b>图像视频</b><br/><sub>Image & Video · 22</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#image-video">🎨<br/><b>图像视频</b><br/><sub>Image & Video · 23</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#audio">🎙<br/><b>音频语音</b><br/><sub>Audio & Voice · 5</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#writing">✍️<br/><b>写作</b><br/><sub>Writing · 8</sub></a></td>
   </tr>
@@ -44,31 +44,31 @@
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 20601 |
-| 2 | [yc-software/qm](https://github.com/yc-software/qm) | 15372 |
-| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 14910 |
-| 4 | [google/artemis](https://github.com/google/artemis) | 11247 |
-| 5 | [trycompai/crm](https://github.com/trycompai/crm) | 11185 |
-| 6 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 8704 |
-| 7 | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8202 |
-| 8 | [zai-org/ZCode](https://github.com/zai-org/ZCode) | 7605 |
-| 9 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 6277 |
-| 10 | [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) | 5616 |
+| 1 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 20615 |
+| 2 | [yc-software/qm](https://github.com/yc-software/qm) | 15373 |
+| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 14980 |
+| 4 | [google/artemis](https://github.com/google/artemis) | 11257 |
+| 5 | [trycompai/crm](https://github.com/trycompai/crm) | 11190 |
+| 6 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 8751 |
+| 7 | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8206 |
+| 8 | [zai-org/ZCode](https://github.com/zai-org/ZCode) | 7613 |
+| 9 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 6280 |
+| 10 | [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) | 5628 |
 
 ### 🧩 AI Skills Top
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 11052 |
-| 2 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 9128 |
-| 3 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 6069 |
-| 4 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6016 |
+| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 11061 |
+| 2 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 9137 |
+| 3 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 6085 |
+| 4 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6019 |
 | 5 | [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 5872 |
-| 6 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 4651 |
-| 7 | [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) | 4310 |
-| 8 | [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) | 4256 |
+| 6 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 4654 |
+| 7 | [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) | 4316 |
+| 8 | [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) | 4263 |
 | 9 | [Leonxlnx/unlazy](https://github.com/Leonxlnx/unlazy) | 3885 |
-| 10 | [AminBlg/SimpleEnglish](https://github.com/AminBlg/SimpleEnglish) | 3851 |
+| 10 | [AminBlg/SimpleEnglish](https://github.com/AminBlg/SimpleEnglish) | 3852 |
 
 ## 📰 最新日报
 

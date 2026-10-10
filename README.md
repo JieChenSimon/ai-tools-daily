@@ -14,7 +14,7 @@
 Daily auto-collection of **highly-rated AI tools** and **AI skills**.
 
 - 🔍 **Sources**: GitHub (high-star new AI projects from the last 2 days), Hacker News (top discussions)
-- ⏰ **Updated**: daily at 08:00 (Beijing time, UTC+8) — 162 projects tracked
+- ⏰ **Updated**: daily at 08:00 (Beijing time, UTC+8) — 163 projects tracked
 - 🧹 **Dedup**: featured projects never appear twice
 
 ## 🧭 Browse by Category
@@ -23,7 +23,7 @@ Daily auto-collection of **highly-rated AI tools** and **AI skills**.
   <tr>
     <td align="center" width="20%"><a href="CATEGORIES.md#agent">🤖<br/><b>AI Agent</b><br/><sub>智能体 · 32</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#coding">💻<br/><b>Coding</b><br/><sub>编程开发 · 15</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#image-video">🎨<br/><b>Image & Video</b><br/><sub>图像视频 · 22</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#image-video">🎨<br/><b>Image & Video</b><br/><sub>图像视频 · 23</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#audio">🎙<br/><b>Audio & Voice</b><br/><sub>音频语音 · 5</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#writing">✍️<br/><b>Writing</b><br/><sub>写作 · 8</sub></a></td>
   </tr>
@@ -44,31 +44,31 @@ Daily auto-collection of **highly-rated AI tools** and **AI skills**.
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 20601 |
-| 2 | [yc-software/qm](https://github.com/yc-software/qm) | 15372 |
-| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 14910 |
-| 4 | [google/artemis](https://github.com/google/artemis) | 11247 |
-| 5 | [trycompai/crm](https://github.com/trycompai/crm) | 11185 |
-| 6 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 8704 |
-| 7 | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8202 |
-| 8 | [zai-org/ZCode](https://github.com/zai-org/ZCode) | 7605 |
-| 9 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 6277 |
-| 10 | [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) | 5616 |
+| 1 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 20615 |
+| 2 | [yc-software/qm](https://github.com/yc-software/qm) | 15373 |
+| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 14980 |
+| 4 | [google/artemis](https://github.com/google/artemis) | 11257 |
+| 5 | [trycompai/crm](https://github.com/trycompai/crm) | 11190 |
+| 6 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 8751 |
+| 7 | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8206 |
+| 8 | [zai-org/ZCode](https://github.com/zai-org/ZCode) | 7613 |
+| 9 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 6280 |
+| 10 | [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) | 5628 |
 
 ### 🧩 Top AI Skills
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 11052 |
-| 2 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 9128 |
-| 3 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 6069 |
-| 4 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6016 |
+| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 11061 |
+| 2 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 9137 |
+| 3 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 6085 |
+| 4 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6019 |
 | 5 | [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 5872 |
-| 6 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 4651 |
-| 7 | [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) | 4310 |
-| 8 | [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) | 4256 |
+| 6 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 4654 |
+| 7 | [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) | 4316 |
+| 8 | [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) | 4263 |
 | 9 | [Leonxlnx/unlazy](https://github.com/Leonxlnx/unlazy) | 3885 |
-| 10 | [AminBlg/SimpleEnglish](https://github.com/AminBlg/SimpleEnglish) | 3851 |
+| 10 | [AminBlg/SimpleEnglish](https://github.com/AminBlg/SimpleEnglish) | 3852 |
 
 ## 📰 Latest Digest
 
