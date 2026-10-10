@@ -3951,5 +3951,30 @@
    ]
   },
   "desc_zh": ""
+ },
+ {
+  "name": "morluto/rea",
+  "url": "https://github.com/morluto/rea",
+  "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+  "stars": 55225,
+  "stars_prev": 55225,
+  "lang": "TypeScript",
+  "category": "tool",
+  "tags": [
+   "devtools"
+  ],
+  "first_seen": "2026-10-10",
+  "desc_zh": "让 AI 智能体逆向分析一切：从应用行为深入到原生二进制文件。",
+  "quality": {
+   "popularity": 5,
+   "momentum": 2,
+   "activity": 5,
+   "docs": 4,
+   "overall": 4.0,
+   "badges": [
+    "🏆热门",
+    "🛠️活跃维护"
+   ]
+  }
  }
 ]
