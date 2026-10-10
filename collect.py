@@ -382,29 +382,32 @@ def is_ai_relevant(r):
 BACKFILL_MIN_ENTRIES = 80
 BACKFILL_DAYS = 90
 # (搜索词, 最低 star)
+# 最低 star 门槛：低于此数的项目一律不收录，已收录的也会被清理
+MIN_STARS = 200
+
 BACKFILL_QUERIES = [
-    ("artificial intelligence", 100),
-    ("ai agent", 50),
-    ("llm application", 50),
-    ("mcp server", 20),
-    ("ai coding", 50),
-    ("ai image generation", 50),
-    ("ai video generation", 30),
-    ("ai chatbot", 50),
-    ("rag", 50),
-    ("ai voice", 30),
-    ("text-to-speech ai", 30),
-    ("ai writing assistant", 30),
-    ("claude skill", 10),
-    ("agent skill", 10),
+    ("artificial intelligence", 200),
+    ("ai agent", 200),
+    ("llm application", 200),
+    ("mcp server", 200),
+    ("ai coding", 200),
+    ("ai image generation", 200),
+    ("ai video generation", 200),
+    ("ai chatbot", 200),
+    ("rag", 200),
+    ("ai voice", 200),
+    ("text-to-speech ai", 200),
+    ("ai writing assistant", 200),
+    ("claude skill", 200),
+    ("agent skill", 200),
 ]
 
 
 def collect_github_tools(seen):
     queries = [
-        f"ai agent stars:>30 created:>{SINCE}",
-        f"llm tool stars:>30 created:>{SINCE}",
-        f"mcp stars:>10 created:>{SINCE}",
+        f"ai agent stars:>{MIN_STARS} created:>{SINCE}",
+        f"llm tool stars:>{MIN_STARS} created:>{SINCE}",
+        f"mcp stars:>{MIN_STARS} created:>{SINCE}",
     ]
     items = []
     for q in queries:
@@ -484,8 +487,8 @@ def collect_hn(seen):
 
 def collect_skills(seen):
     queries = [
-        f"claude skill in:name,description stars:>5 created:>{SINCE}",
-        f"agent skill in:name,description stars:>5 created:>{SINCE}",
+        f"claude skill in:name,description stars:>{MIN_STARS} created:>{SINCE}",
+        f"agent skill in:name,description stars:>{MIN_STARS} created:>{SINCE}",
     ]
     items = []
     for q in queries:
@@ -871,6 +874,14 @@ def main():
 
     refresh_stars(data)
     ensure_zh_desc(data)
+
+    # 清理：star 低于门槛的条目一律移除
+    before = len(data)
+    data = [d for d in data if d.get("stars", 0) >= MIN_STARS]
+    purged = before - len(data)
+    if purged:
+        print(f"purged {purged} entries below {MIN_STARS} stars")
+
     save_data(data)
     save_seen(seen)
 
