@@ -44,26 +44,26 @@ Daily auto-collection of **highly-rated AI tools** and **AI skills**.
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [morluto/rea](https://github.com/morluto/rea) | 55283 |
-| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 20655 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | 55627 |
+| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 20658 |
 | 3 | [yc-software/qm](https://github.com/yc-software/qm) | 15373 |
-| 4 | [lexmount/moli](https://github.com/lexmount/moli) | 15160 |
+| 4 | [lexmount/moli](https://github.com/lexmount/moli) | 15171 |
 | 5 | [google/artemis](https://github.com/google/artemis) | 11264 |
 | 6 | [trycompai/crm](https://github.com/trycompai/crm) | 11194 |
-| 7 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 8846 |
-| 8 | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8217 |
-| 9 | [zai-org/ZCode](https://github.com/zai-org/ZCode) | 7624 |
+| 7 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 8858 |
+| 8 | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8218 |
+| 9 | [zai-org/ZCode](https://github.com/zai-org/ZCode) | 7625 |
 | 10 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 6287 |
 
 ### 🧩 Top AI Skills
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 11085 |
-| 2 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 9155 |
-| 3 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 6125 |
+| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 11086 |
+| 2 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 9160 |
+| 3 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 6129 |
 | 4 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6025 |
-| 5 | [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 5876 |
+| 5 | [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 5877 |
 | 6 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 4674 |
 | 7 | [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) | 4324 |
 | 8 | [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) | 4272 |
@@ -72,14 +72,12 @@ Daily auto-collection of **highly-rated AI tools** and **AI skills**.
 
 ## 📰 Latest Digest
 
-> ### [**2026-10-10.en**](daily/2026-10-10.en.en.md)
+> ### [**2026-10-10**](daily/2026-10-10.en.md)
 
 <details>
 <summary><b>📚 Archive</b></summary>
 
-- [2026-10-10.en](daily/2026-10-10.en.md)
 - [2026-10-10](daily/2026-10-10.md)
-- [2026-10-09.en](daily/2026-10-09.en.md)
 - [2026-10-09](daily/2026-10-09.md)
 
 </details>
