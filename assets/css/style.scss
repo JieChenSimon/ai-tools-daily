@@ -1,0 +1,183 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ============================================================
+   Notion × Claude 美学覆盖层
+   暖纸底 #fbfaf7 · 暖灰文字 #37352f/#787774 · 衬线标题 · 陶土橙点缀 #c15f3c
+   ============================================================ */
+
+body {
+  background-color: #fbfaf7;
+  color: #37352f;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+}
+
+/* 去掉主题自带的左右分栏 header / footer（README 自带 hero，避免双标题） */
+.wrapper {
+  width: auto;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+header,
+footer {
+  display: none;
+}
+
+section {
+  width: auto;
+  float: none;
+  padding: 56px 40px 80px;
+  background: transparent;
+}
+
+/* 标题：Claude 式编辑衬线 */
+h1,
+h2 {
+  font-family: Georgia, "Songti SC", "STSong", "SimSun", serif;
+  color: #1f1e1c;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 44px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eceae4;
+}
+
+h3 {
+  color: #37352f;
+  font-size: 17px;
+  margin-top: 28px;
+}
+
+/* 链接：陶土橙点缀 */
+a {
+  color: #c15f3c;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #a34e30;
+  text-decoration: underline;
+  font-weight: inherit;
+}
+
+/* 分隔线：暖色 hairline */
+hr {
+  border: 0;
+  height: 1px;
+  background: #eceae4;
+  margin: 28px 0;
+}
+
+/* 引用：Notion 式 */
+blockquote {
+  border-left: 2px solid #e0ddd4;
+  margin: 0;
+  padding: 2px 0 2px 16px;
+  color: #787774;
+}
+
+/* 表格：Notion 数据库风 —— 无纵线、hairline 行分隔、宽松留白 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 28px;
+  background: transparent;
+}
+
+th {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #a3a09a;
+  font-weight: 600;
+  text-align: left;
+  padding: 8px 14px;
+  border: none;
+  border-bottom: 1px solid #eceae4;
+  background: transparent;
+}
+
+td {
+  padding: 11px 14px;
+  border: none;
+  border-bottom: 1px solid #f1efe9;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+tbody tr:hover td {
+  background: #f6f4ef;
+}
+
+/* 分类九宫格：干净磁贴 */
+table td[align="center"] {
+  padding: 18px 10px;
+  border-bottom: 1px solid #f1efe9;
+}
+
+table td[align="center"] a {
+  display: block;
+  color: #37352f;
+}
+
+table td[align="center"] a:hover {
+  text-decoration: none;
+  background: #f6f4ef;
+  border-radius: 8px;
+}
+
+table td[align="center"] sub {
+  color: #a3a09a;
+  font-size: 12px;
+}
+
+/* 徽章行 */
+img[src*="shields.io"] {
+  margin: 2px 3px;
+  vertical-align: middle;
+}
+
+/* 行内代码 */
+code {
+  font-family: "SF Mono", Menlo, Consolas, monospace;
+  font-size: 13px;
+  background: #f4f2ec;
+  color: #9a3412;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+pre {
+  background: #f4f2ec;
+  border: 1px solid #eceae4;
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+
+/* 移动端 */
+@media screen and (max-width: 720px) {
+  section {
+    padding: 36px 20px 56px;
+  }
+
+  h1 {
+    font-size: 27px;
+  }
+}
