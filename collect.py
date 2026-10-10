@@ -897,7 +897,8 @@ def main():
         f.write(render_digest_en(new_tools, hn_items, new_skills))
 
     days = sorted(
-        (f[:-3] for f in os.listdir(DAILY_DIR) if f.endswith(".md")),
+        (f[:-3] for f in os.listdir(DAILY_DIR)
+         if f.endswith(".md") and not f.endswith(".en.md")),
         reverse=True,
     )
     render_readmes(data, days)
