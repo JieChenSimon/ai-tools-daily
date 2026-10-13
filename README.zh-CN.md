@@ -14,7 +14,7 @@
 每天自动搜集**广受好评的 AI 工具**与 **AI Skills**。
 
 - 🔍 **数据来源**：GitHub（近 2 天高 star 新项目）、Hacker News（高分讨论）
-- ⏰ **更新时间**：每天 08:00（北京时间）自动运行 — 已收录 173 个项目
+- ⏰ **更新时间**：每天 08:00（北京时间）自动运行 — 已收录 172 个项目
 - 🧹 **去重**：收录过的项目不会重复出现
 
 ## 🧭 分类浏览
@@ -31,7 +31,7 @@
     <td align="center" width="20%"><a href="CATEGORIES.md#search">🔍<br/><b>搜索知识</b><br/><sub>Search & Knowledge · 31</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#devtools">🛠️<br/><b>开发工具</b><br/><sub>Dev Tools · 27</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#data">📊<br/><b>数据分析</b><br/><sub>Data & Analysis · 2</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#chat">💬<br/><b>对话助手</b><br/><sub>Chat & Assistant · 9</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#chat">💬<br/><b>对话助手</b><br/><sub>Chat & Assistant · 8</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#other">📦<br/><b>其他</b><br/><sub>Other · 14</sub></a></td>
   </tr>
 </table>
@@ -44,31 +44,31 @@
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [morluto/rea](https://github.com/morluto/rea) | 157634 |
-| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 21593 |
-| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 17235 |
-| 4 | [yc-software/qm](https://github.com/yc-software/qm) | 15398 |
-| 5 | [google/artemis](https://github.com/google/artemis) | 11435 |
-| 6 | [trycompai/crm](https://github.com/trycompai/crm) | 11254 |
-| 7 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 10511 |
-| 8 | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8296 |
-| 9 | [zai-org/ZCode](https://github.com/zai-org/ZCode) | 7724 |
-| 10 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 6410 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | 169519 |
+| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 21667 |
+| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 17442 |
+| 4 | [yc-software/qm](https://github.com/yc-software/qm) | 15400 |
+| 5 | [google/artemis](https://github.com/google/artemis) | 11449 |
+| 6 | [trycompai/crm](https://github.com/trycompai/crm) | 11257 |
+| 7 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 10655 |
+| 8 | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8306 |
+| 9 | [zai-org/ZCode](https://github.com/zai-org/ZCode) | 7735 |
+| 10 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 6415 |
 
 ### 🧩 AI Skills Top
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 11514 |
-| 2 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 9461 |
-| 3 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 7089 |
-| 4 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6075 |
-| 5 | [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 5925 |
-| 6 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 5192 |
-| 7 | [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) | 4694 |
-| 8 | [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) | 4459 |
-| 9 | [Leonxlnx/unlazy](https://github.com/Leonxlnx/unlazy) | 3916 |
-| 10 | [AminBlg/SimpleEnglish](https://github.com/AminBlg/SimpleEnglish) | 3887 |
+| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 11565 |
+| 2 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 9486 |
+| 3 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 7144 |
+| 4 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6083 |
+| 5 | [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 5931 |
+| 6 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 5208 |
+| 7 | [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) | 4708 |
+| 8 | [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) | 4468 |
+| 9 | [Leonxlnx/unlazy](https://github.com/Leonxlnx/unlazy) | 3919 |
+| 10 | [AminBlg/SimpleEnglish](https://github.com/AminBlg/SimpleEnglish) | 3888 |
 
 ## 📰 最新日报
 
