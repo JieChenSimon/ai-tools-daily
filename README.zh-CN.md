@@ -21,7 +21,7 @@
 
 <table>
   <tr>
-    <td align="center" width="20%"><a href="CATEGORIES.md#agent">🤖<br/><b>智能体</b><br/><sub>AI Agent · 36</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#agent">🤖<br/><b>智能体</b><br/><sub>AI Agent · 35</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#coding">💻<br/><b>编程开发</b><br/><sub>Coding · 15</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#image-video">🎨<br/><b>图像视频</b><br/><sub>Image & Video · 26</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#audio">🎙<br/><b>音频语音</b><br/><sub>Audio & Voice · 7</sub></a></td>
@@ -32,7 +32,7 @@
     <td align="center" width="20%"><a href="CATEGORIES.md#devtools">🛠️<br/><b>开发工具</b><br/><sub>Dev Tools · 27</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#data">📊<br/><b>数据分析</b><br/><sub>Data & Analysis · 2</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#chat">💬<br/><b>对话助手</b><br/><sub>Chat & Assistant · 8</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#other">📦<br/><b>其他</b><br/><sub>Other · 14</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#other">📦<br/><b>其他</b><br/><sub>Other · 15</sub></a></td>
   </tr>
 </table>
 
@@ -44,39 +44,40 @@
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [morluto/rea](https://github.com/morluto/rea) | 273374 |
-| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 22573 |
-| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 18702 |
-| 4 | [yc-software/qm](https://github.com/yc-software/qm) | 15423 |
-| 5 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 12409 |
-| 6 | [google/artemis](https://github.com/google/artemis) | 11888 |
-| 7 | [trycompai/crm](https://github.com/trycompai/crm) | 11336 |
-| 8 | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8374 |
-| 9 | [zai-org/ZCode](https://github.com/zai-org/ZCode) | 7861 |
-| 10 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 6527 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | 291235 |
+| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 22850 |
+| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 19008 |
+| 4 | [yc-software/qm](https://github.com/yc-software/qm) | 15434 |
+| 5 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 12858 |
+| 6 | [google/artemis](https://github.com/google/artemis) | 12044 |
+| 7 | [trycompai/crm](https://github.com/trycompai/crm) | 11358 |
+| 8 | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8389 |
+| 9 | [zai-org/ZCode](https://github.com/zai-org/ZCode) | 7890 |
+| 10 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 6557 |
 
 ### 🧩 AI Skills Top
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 12095 |
-| 2 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 9778 |
-| 3 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 7945 |
-| 4 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6145 |
-| 5 | [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 6012 |
-| 6 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 5798 |
-| 7 | [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) | 4983 |
-| 8 | [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) | 4617 |
-| 9 | [Leonxlnx/unlazy](https://github.com/Leonxlnx/unlazy) | 3949 |
-| 10 | [AminBlg/SimpleEnglish](https://github.com/AminBlg/SimpleEnglish) | 3943 |
+| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 12192 |
+| 2 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 9848 |
+| 3 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 8087 |
+| 4 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6167 |
+| 5 | [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 6019 |
+| 6 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 5842 |
+| 7 | [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) | 5054 |
+| 8 | [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) | 4672 |
+| 9 | [Leonxlnx/unlazy](https://github.com/Leonxlnx/unlazy) | 3965 |
+| 10 | [AminBlg/SimpleEnglish](https://github.com/AminBlg/SimpleEnglish) | 3961 |
 
 ## 📰 最新日报
 
-> ### [**2026-10-16**](daily/2026-10-16.md)
+> ### [**2026-10-17**](daily/2026-10-17.md)
 
 <details>
 <summary><b>📚 历史归档</b></summary>
 
+- [2026-10-17](daily/2026-10-17.md)
 - [2026-10-16](daily/2026-10-16.md)
 - [2026-10-15](daily/2026-10-15.md)
 - [2026-10-14](daily/2026-10-14.md)
