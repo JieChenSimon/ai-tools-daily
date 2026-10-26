@@ -44,31 +44,31 @@
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [morluto/rea](https://github.com/morluto/rea) | 384723 |
-| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 25621 |
-| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 20668 |
-| 4 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 15841 |
-| 5 | [yc-software/qm](https://github.com/yc-software/qm) | 15533 |
-| 6 | [google/artemis](https://github.com/google/artemis) | 14795 |
-| 7 | [trycompai/crm](https://github.com/trycompai/crm) | 11674 |
-| 8 | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8535 |
-| 9 | [zai-org/ZCode](https://github.com/zai-org/ZCode) | 8232 |
-| 10 | [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) | 7173 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | 385330 |
+| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 25648 |
+| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 20695 |
+| 4 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 15872 |
+| 5 | [yc-software/qm](https://github.com/yc-software/qm) | 15535 |
+| 6 | [google/artemis](https://github.com/google/artemis) | 14819 |
+| 7 | [trycompai/crm](https://github.com/trycompai/crm) | 11676 |
+| 8 | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8539 |
+| 9 | [zai-org/ZCode](https://github.com/zai-org/ZCode) | 8239 |
+| 10 | [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) | 7184 |
 
 ### 🧩 AI Skills Top
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 13602 |
-| 2 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 10832 |
-| 3 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 8955 |
-| 4 | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | 7404 |
-| 5 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 7234 |
-| 6 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6425 |
-| 7 | [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 6162 |
-| 8 | [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) | 5566 |
-| 9 | [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | 5492 |
-| 10 | [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) | 5087 |
+| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 13615 |
+| 2 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 10842 |
+| 3 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 8963 |
+| 4 | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | 7495 |
+| 5 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 7246 |
+| 6 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6429 |
+| 7 | [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 6164 |
+| 8 | [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) | 5569 |
+| 9 | [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | 5510 |
+| 10 | [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) | 5097 |
 
 ## 📰 最新日报
 
