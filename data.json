@@ -4145,7 +4145,7 @@
     "🛠️活跃维护"
    ]
   },
-  "desc_zh": ""
+  "desc_zh": "macOS、Windows 与 Linux 上 Claude Code、Codex 等 AI 客户端的本地网关：不改客户端即可切换上游，API 密钥不经中转，拦截恶意工具调用并追踪每次请求。"
  },
  {
   "name": "DenisSergeevitch/ex-ussr-kinship-research",
@@ -4171,6 +4171,6 @@
     "🛠️活跃维护"
    ]
   },
-  "desc_zh": ""
+  "desc_zh": "以证据为先、面向 AI 智能体（Codex、Claude Code）的家谱研究技能：覆盖前苏联地区的教会簿册、民事、军事、流放与镇压记录，并用你的语言回复。"
  }
 ]
