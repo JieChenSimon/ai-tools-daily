@@ -14,7 +14,7 @@
 Daily auto-collection of **highly-rated AI tools** and **AI skills**.
 
 - 🔍 **Sources**: GitHub (high-star new AI projects from the last 2 days), Hacker News (top discussions)
-- ⏰ **Updated**: daily at 08:00 (Beijing time, UTC+8) — 171 projects tracked
+- ⏰ **Updated**: daily at 08:00 (Beijing time, UTC+8) — 175 projects tracked
 - 🧹 **Dedup**: featured projects never appear twice
 
 ## 🧭 Browse by Category
@@ -22,9 +22,9 @@ Daily auto-collection of **highly-rated AI tools** and **AI skills**.
 <table>
   <tr>
     <td align="center" width="20%"><a href="CATEGORIES.md#agent">🤖<br/><b>AI Agent</b><br/><sub>智能体 · 35</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#coding">💻<br/><b>Coding</b><br/><sub>编程开发 · 16</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#image-video">🎨<br/><b>Image & Video</b><br/><sub>图像视频 · 25</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#audio">🎙<br/><b>Audio & Voice</b><br/><sub>音频语音 · 8</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#coding">💻<br/><b>Coding</b><br/><sub>编程开发 · 17</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#image-video">🎨<br/><b>Image & Video</b><br/><sub>图像视频 · 27</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#audio">🎙<br/><b>Audio & Voice</b><br/><sub>音频语音 · 9</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#writing">✍️<br/><b>Writing</b><br/><sub>写作 · 8</sub></a></td>
   </tr>
   <tr>
@@ -44,39 +44,40 @@ Daily auto-collection of **highly-rated AI tools** and **AI skills**.
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [morluto/rea](https://github.com/morluto/rea) | 385330 |
-| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 25648 |
-| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 20695 |
-| 4 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 15872 |
-| 5 | [yc-software/qm](https://github.com/yc-software/qm) | 15535 |
-| 6 | [google/artemis](https://github.com/google/artemis) | 14819 |
-| 7 | [trycompai/crm](https://github.com/trycompai/crm) | 11676 |
-| 8 | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8539 |
-| 9 | [zai-org/ZCode](https://github.com/zai-org/ZCode) | 8239 |
-| 10 | [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) | 7184 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | 391704 |
+| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 25879 |
+| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 20914 |
+| 4 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 16246 |
+| 5 | [yc-software/qm](https://github.com/yc-software/qm) | 15543 |
+| 6 | [google/artemis](https://github.com/google/artemis) | 15034 |
+| 7 | [trycompai/crm](https://github.com/trycompai/crm) | 11706 |
+| 8 | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8556 |
+| 9 | [zai-org/ZCode](https://github.com/zai-org/ZCode) | 8275 |
+| 10 | [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) | 7248 |
 
 ### 🧩 Top AI Skills
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 13615 |
-| 2 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 10842 |
-| 3 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 8963 |
-| 4 | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | 7495 |
-| 5 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 7246 |
-| 6 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6429 |
-| 7 | [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 6164 |
-| 8 | [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) | 5569 |
-| 9 | [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | 5510 |
-| 10 | [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) | 5097 |
+| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 13832 |
+| 2 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 10958 |
+| 3 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 9020 |
+| 4 | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | 8079 |
+| 5 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 7468 |
+| 6 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6437 |
+| 7 | [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 6194 |
+| 8 | [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | 5797 |
+| 9 | [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) | 5611 |
+| 10 | [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) | 5389 |
 
 ## 📰 Latest Digest
 
-> ### [**2026-10-26**](daily/2026-10-26.en.md)
+> ### [**2026-10-27**](daily/2026-10-27.en.md)
 
 <details>
 <summary><b>📚 Archive</b></summary>
 
+- [2026-10-27](daily/2026-10-27.md)
 - [2026-10-26](daily/2026-10-26.md)
 - [2026-10-25](daily/2026-10-25.md)
 - [2026-10-24](daily/2026-10-24.md)
