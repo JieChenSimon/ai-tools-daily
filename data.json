@@ -4196,7 +4196,7 @@
     "🛠️活跃维护"
    ]
   },
-  "desc_zh": ""
+  "desc_zh": "给它一段你喜欢的视频，就能生成同风格的新视频；由 Claude Code 或 Codex 组成的 AI 团队陪你一起策划、制作与审片。"
  },
  {
   "name": "OneMoh/html-explainer",
@@ -4218,7 +4218,7 @@
    "overall": 3.4,
    "badges": []
   },
-  "desc_zh": ""
+  "desc_zh": "把主题做成带配音、字幕、封面的讲解视频，全本地用 HTML 绘制画面，音画同步稳定；面向 AI 编程智能体的确定性 HTML→MP4 渲染流水线。"
  },
  {
   "name": "andyhuo520/digital-human-koubo",
@@ -4244,7 +4244,7 @@
     "🛠️活跃维护"
    ]
   },
-  "desc_zh": ""
+  "desc_zh": "一张照片生成 AI 数字人 talking-head 视频：Renoise MCP 生成 + 5 种剪辑风格 + 48 个创作者级包装组件。"
  },
  {
   "name": "blakeandersonw/ai-app-playbook",
@@ -4270,6 +4270,6 @@
     "🛠️活跃维护"
    ]
   },
-  "desc_zh": ""
+  "desc_zh": "2026 年如何做出有用且能赚钱的 App：克隆后让你的编程智能体按 AGENTS.md 开工。"
  }
 ]
