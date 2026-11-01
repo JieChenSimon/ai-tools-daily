@@ -4304,7 +4304,7 @@
     "🛠️活跃维护"
    ]
   },
-  "desc_zh": ""
+  "desc_zh": "232 种像素艺术特效，每个都是一小段代码，另附 Claude Code Skill 帮你自创特效。"
  },
  {
   "name": "Pluviobyte/douyin-comments",
@@ -4329,6 +4329,6 @@
     "🛠️活跃维护"
    ]
   },
-  "desc_zh": ""
+  "desc_zh": "抓取抖音单条视频完整评论区（一级 + 楼中楼）的 Agent Skill：在已登录的 Chrome 里复用页面真实请求，签名交由页面 SDK 处理。"
  }
 ]
