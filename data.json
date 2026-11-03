@@ -4341,7 +4341,7 @@
     "🛠️活跃维护"
    ]
   },
-  "desc_zh": ""
+  "desc_zh": "无损、无界面的编程 Agent 框架：单个 7 MB 静态二进制文件，仅四个工具、纯 stdin/stdout 交互，绝不悄悄截断。"
  },
  {
   "name": "caru-ini/stack-diagram",
@@ -4366,6 +4366,6 @@
     "🛠️活跃维护"
    ]
   },
-  "desc_zh": ""
+  "desc_zh": "Agent 技能：一句话描述你的技术栈，即可生成带官方 Logo 的架构图。"
  }
 ]
