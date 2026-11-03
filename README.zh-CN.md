@@ -21,14 +21,14 @@
 
 <table>
   <tr>
-    <td align="center" width="20%"><a href="CATEGORIES.md#agent">🤖<br/><b>智能体</b><br/><sub>AI Agent · 37</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#agent">🤖<br/><b>智能体</b><br/><sub>AI Agent · 38</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#coding">💻<br/><b>编程开发</b><br/><sub>Coding · 17</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#image-video">🎨<br/><b>图像视频</b><br/><sub>Image & Video · 28</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#audio">🎙<br/><b>音频语音</b><br/><sub>Audio & Voice · 9</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#writing">✍️<br/><b>写作</b><br/><sub>Writing · 8</sub></a></td>
   </tr>
   <tr>
-    <td align="center" width="20%"><a href="CATEGORIES.md#search">🔍<br/><b>搜索知识</b><br/><sub>Search & Knowledge · 27</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#search">🔍<br/><b>搜索知识</b><br/><sub>Search & Knowledge · 26</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#devtools">🛠️<br/><b>开发工具</b><br/><sub>Dev Tools · 27</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#data">📊<br/><b>数据分析</b><br/><sub>Data & Analysis · 2</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#chat">💬<br/><b>对话助手</b><br/><sub>Chat & Assistant · 9</sub></a></td>
@@ -44,39 +44,40 @@
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [morluto/rea](https://github.com/morluto/rea) | 419441 |
-| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 27388 |
-| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 22044 |
-| 4 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 18673 |
-| 5 | [google/artemis](https://github.com/google/artemis) | 16128 |
-| 6 | [yc-software/qm](https://github.com/yc-software/qm) | 15604 |
-| 7 | [trycompai/crm](https://github.com/trycompai/crm) | 11797 |
-| 8 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 9630 |
-| 9 | [makecindy/cindy](https://github.com/makecindy/cindy) | 8938 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | 422962 |
+| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 27562 |
+| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 22254 |
+| 4 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 18889 |
+| 5 | [google/artemis](https://github.com/google/artemis) | 16239 |
+| 6 | [yc-software/qm](https://github.com/yc-software/qm) | 15614 |
+| 7 | [trycompai/crm](https://github.com/trycompai/crm) | 11811 |
+| 8 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 9908 |
+| 9 | [makecindy/cindy](https://github.com/makecindy/cindy) | 9017 |
 | 10 | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8660 |
 
 ### 🧩 AI Skills Top
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 15911 |
-| 2 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 11515 |
-| 3 | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | 10674 |
-| 4 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 9322 |
-| 5 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 8574 |
-| 6 | [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | 7006 |
-| 7 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6548 |
-| 8 | [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 6328 |
-| 9 | [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) | 5938 |
-| 10 | [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) | 5857 |
+| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 16176 |
+| 2 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 11574 |
+| 3 | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | 11156 |
+| 4 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 9348 |
+| 5 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 8730 |
+| 6 | [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | 7175 |
+| 7 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6635 |
+| 8 | [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 6340 |
+| 9 | [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) | 5970 |
+| 10 | [eternityspring/shuohao-skills](https://github.com/eternityspring/shuohao-skills) | 5896 |
 
 ## 📰 最新日报
 
-> ### [**2026-11-02**](daily/2026-11-02.md)
+> ### [**2026-11-03**](daily/2026-11-03.md)
 
 <details>
 <summary><b>📚 历史归档</b></summary>
 
+- [2026-11-03](daily/2026-11-03.md)
 - [2026-11-02](daily/2026-11-02.md)
 - [2026-11-01](daily/2026-11-01.md)
 - [2026-10-31](daily/2026-10-31.md)
