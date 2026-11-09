@@ -14,7 +14,7 @@
 每天自动搜集**广受好评的 AI 工具**与 **AI Skills**。
 
 - 🔍 **数据来源**：GitHub（近 2 天高 star 新项目）、Hacker News（高分讨论）
-- ⏰ **更新时间**：每天 08:00（北京时间）自动运行 — 已收录 184 个项目
+- ⏰ **更新时间**：每天 08:00（北京时间）自动运行 — 已收录 185 个项目
 - 🧹 **去重**：收录过的项目不会重复出现
 
 ## 🧭 分类浏览
@@ -29,7 +29,7 @@
   </tr>
   <tr>
     <td align="center" width="20%"><a href="CATEGORIES.md#search">🔍<br/><b>搜索知识</b><br/><sub>Search & Knowledge · 27</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#devtools">🛠️<br/><b>开发工具</b><br/><sub>Dev Tools · 30</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#devtools">🛠️<br/><b>开发工具</b><br/><sub>Dev Tools · 31</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#data">📊<br/><b>数据分析</b><br/><sub>Data & Analysis · 2</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#chat">💬<br/><b>对话助手</b><br/><sub>Chat & Assistant · 9</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#other">📦<br/><b>其他</b><br/><sub>Other · 15</sub></a></td>
@@ -44,39 +44,40 @@
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [morluto/rea](https://github.com/morluto/rea) | 441398 |
-| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 28477 |
-| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 22952 |
-| 4 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 20209 |
-| 5 | [google/artemis](https://github.com/google/artemis) | 16951 |
-| 6 | [yc-software/qm](https://github.com/yc-software/qm) | 15655 |
-| 7 | [trycompai/crm](https://github.com/trycompai/crm) | 11893 |
-| 8 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 10411 |
-| 9 | [makecindy/cindy](https://github.com/makecindy/cindy) | 9470 |
-| 10 | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8690 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | 444299 |
+| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 28656 |
+| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 23085 |
+| 4 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 20416 |
+| 5 | [google/artemis](https://github.com/google/artemis) | 17046 |
+| 6 | [yc-software/qm](https://github.com/yc-software/qm) | 15658 |
+| 7 | [trycompai/crm](https://github.com/trycompai/crm) | 11902 |
+| 8 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 10501 |
+| 9 | [makecindy/cindy](https://github.com/makecindy/cindy) | 9542 |
+| 10 | [deeplethe/utopia](https://github.com/deeplethe/utopia) | 8698 |
 
 ### 🧩 AI Skills Top
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 17669 |
-| 2 | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | 13438 |
-| 3 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 11916 |
-| 4 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 9510 |
-| 5 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 8929 |
-| 6 | [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | 8250 |
-| 7 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6761 |
-| 8 | [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 6455 |
-| 9 | [Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) | 6441 |
-| 10 | [kaankiziltug/logo-design-skill](https://github.com/kaankiziltug/logo-design-skill) | 6279 |
+| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 17958 |
+| 2 | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | 13746 |
+| 3 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 11985 |
+| 4 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 9535 |
+| 5 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 8983 |
+| 6 | [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | 8494 |
+| 7 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6770 |
+| 8 | [Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) | 6563 |
+| 9 | [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) | 6467 |
+| 10 | [kaankiziltug/logo-design-skill](https://github.com/kaankiziltug/logo-design-skill) | 6362 |
 
 ## 📰 最新日报
 
-> ### [**2026-11-08**](daily/2026-11-08.md)
+> ### [**2026-11-09**](daily/2026-11-09.md)
 
 <details>
 <summary><b>📚 历史归档</b></summary>
 
+- [2026-11-09](daily/2026-11-09.md)
 - [2026-11-08](daily/2026-11-08.md)
 - [2026-11-07](daily/2026-11-07.md)
 - [2026-11-06](daily/2026-11-06.md)
