@@ -44,39 +44,40 @@ Daily auto-collection of **highly-rated AI tools** and **AI skills**.
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [morluto/rea](https://github.com/morluto/rea) | 450491 |
-| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 29169 |
-| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 23314 |
-| 4 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 20831 |
-| 5 | [google/artemis](https://github.com/google/artemis) | 17200 |
-| 6 | [yc-software/qm](https://github.com/yc-software/qm) | 15679 |
-| 7 | [trycompai/crm](https://github.com/trycompai/crm) | 11929 |
-| 8 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 10816 |
-| 9 | [makecindy/cindy](https://github.com/makecindy/cindy) | 9757 |
-| 10 | [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) | 8895 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | 453286 |
+| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 29429 |
+| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 23428 |
+| 4 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 21002 |
+| 5 | [google/artemis](https://github.com/google/artemis) | 17282 |
+| 6 | [yc-software/qm](https://github.com/yc-software/qm) | 15691 |
+| 7 | [trycompai/crm](https://github.com/trycompai/crm) | 11948 |
+| 8 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 11132 |
+| 9 | [makecindy/cindy](https://github.com/makecindy/cindy) | 9883 |
+| 10 | [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) | 8978 |
 
 ### 🧩 Top AI Skills
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 18530 |
-| 2 | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | 14550 |
-| 3 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 12124 |
-| 4 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 9597 |
-| 5 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 9122 |
-| 6 | [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | 8825 |
-| 7 | [Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) | 6829 |
-| 8 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6805 |
-| 9 | [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx) | 6728 |
-| 10 | [kaankiziltug/logo-design-skill](https://github.com/kaankiziltug/logo-design-skill) | 6519 |
+| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 18824 |
+| 2 | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | 14980 |
+| 3 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 12191 |
+| 4 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 9633 |
+| 5 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 9336 |
+| 6 | [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | 8995 |
+| 7 | [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx) | 7033 |
+| 8 | [Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) | 6876 |
+| 9 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6822 |
+| 10 | [kaankiziltug/logo-design-skill](https://github.com/kaankiziltug/logo-design-skill) | 6662 |
 
 ## 📰 Latest Digest
 
-> ### [**2026-11-11**](daily/2026-11-11.en.md)
+> ### [**2026-11-12**](daily/2026-11-12.en.md)
 
 <details>
 <summary><b>📚 Archive</b></summary>
 
+- [2026-11-12](daily/2026-11-12.md)
 - [2026-11-11](daily/2026-11-11.md)
 - [2026-11-10](daily/2026-11-10.md)
 - [2026-11-09](daily/2026-11-09.md)
