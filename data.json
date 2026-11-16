@@ -29,8 +29,8 @@
   "name": "franzenzenhofer/big-arrow-on-the-screen",
   "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
   "desc": "Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Co…",
-  "stars": 878,
-  "stars_prev": 876,
+  "stars": 880,
+  "stars_prev": 878,
   "lang": "Swift",
   "category": "tool",
   "tags": [
@@ -41,11 +41,12 @@
   "quality": {
    "popularity": 3,
    "momentum": 3,
-   "activity": 4,
+   "activity": 5,
    "docs": 5,
-   "overall": 3.6,
+   "overall": 3.8,
    "badges": [
-    "📚文档完善"
+    "📚文档完善",
+    "🛠️活跃维护"
    ]
   }
  },
@@ -53,8 +54,8 @@
   "name": "hypit-ai/hypit",
   "url": "https://github.com/hypit-ai/hypit",
   "desc": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one …",
-  "stars": 29869,
-  "stars_prev": 29723,
+  "stars": 30036,
+  "stars_prev": 29869,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -80,8 +81,8 @@
   "name": "yc-software/qm",
   "url": "https://github.com/yc-software/qm",
   "desc": "Multiplayer agent harness for teams",
-  "stars": 15703,
-  "stars_prev": 15696,
+  "stars": 15712,
+  "stars_prev": 15703,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -105,8 +106,8 @@
   "name": "lexmount/moli",
   "url": "https://github.com/lexmount/moli",
   "desc": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
-  "stars": 23766,
-  "stars_prev": 23684,
+  "stars": 23833,
+  "stars_prev": 23766,
   "lang": "Rust",
   "category": "tool",
   "tags": [
@@ -131,8 +132,8 @@
   "name": "google/artemis",
   "url": "https://github.com/google/artemis",
   "desc": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrat…",
-  "stars": 17449,
-  "stars_prev": 17415,
+  "stars": 17491,
+  "stars_prev": 17449,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -157,8 +158,8 @@
   "name": "trycompai/crm",
   "url": "https://github.com/trycompai/crm",
   "desc": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
-  "stars": 12093,
-  "stars_prev": 12064,
+  "stars": 12110,
+  "stars_prev": 12093,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -168,12 +169,11 @@
   "desc_zh": "为 AI 智能体设计的开源 CRM，Agent 优先",
   "quality": {
    "popularity": 5,
-   "momentum": 4,
+   "momentum": 3,
    "activity": 4,
    "docs": 2,
-   "overall": 3.9,
+   "overall": 3.7,
    "badges": [
-    "📈涨势好",
     "🏆热门"
    ]
   }
@@ -182,8 +182,8 @@
   "name": "Vincentwei1021/video-shotcraft",
   "url": "https://github.com/Vincentwei1021/video-shotcraft",
   "desc": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat …",
-  "stars": 19691,
-  "stars_prev": 19234,
+  "stars": 20175,
+  "stars_prev": 19691,
   "lang": "TypeScript",
   "category": "skill",
   "tags": [
@@ -209,8 +209,8 @@
   "name": "genspark-ai/genoffice",
   "url": "https://github.com/genspark-ai/genoffice",
   "desc": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and…",
-  "stars": 12366,
-  "stars_prev": 12315,
+  "stars": 12409,
+  "stars_prev": 12366,
   "lang": "TypeScript",
   "category": "skill",
   "tags": [
@@ -236,8 +236,8 @@
   "name": "DuarteSantos8/openGym",
   "url": "https://github.com/DuarteSantos8/openGym",
   "desc": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines, log workouts, see w…",
-  "stars": 21392,
-  "stars_prev": 21272,
+  "stars": 21573,
+  "stars_prev": 21392,
   "lang": "JavaScript",
   "category": "tool",
   "tags": [
@@ -263,8 +263,8 @@
   "name": "deeplethe/utopia",
   "url": "https://github.com/deeplethe/utopia",
   "desc": "World's first open-source enterprise world model.",
-  "stars": 8711,
-  "stars_prev": 8710,
+  "stars": 8718,
+  "stars_prev": 8711,
   "lang": "Rust",
   "category": "tool",
   "tags": [
@@ -288,8 +288,8 @@
   "name": "zai-org/ZCode",
   "url": "https://github.com/zai-org/ZCode",
   "desc": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
-  "stars": 8689,
-  "stars_prev": 8676,
+  "stars": 8705,
+  "stars_prev": 8689,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -313,8 +313,8 @@
   "name": "CopilotKit/OpenBot",
   "url": "https://github.com/CopilotKit/OpenBot",
   "desc": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and …",
-  "stars": 12302,
-  "stars_prev": 12144,
+  "stars": 12462,
+  "stars_prev": 12302,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -340,8 +340,8 @@
   "name": "larashero3-dotcom/lieflat-charts",
   "url": "https://github.com/larashero3-dotcom/lieflat-charts",
   "desc": "Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将数据快速生成精致、可交互的 HTML 图…",
-  "stars": 6863,
-  "stars_prev": 6852,
+  "stars": 6884,
+  "stars_prev": 6863,
   "lang": "HTML",
   "category": "skill",
   "tags": [
@@ -351,11 +351,12 @@
   "desc_zh": "给 AI 智能体的数据可视化 Skill：把数据变成精美可交互的 HTML 图表",
   "quality": {
    "popularity": 5,
-   "momentum": 3,
+   "momentum": 4,
    "activity": 5,
    "docs": 5,
-   "overall": 4.5,
+   "overall": 4.8,
    "badges": [
+    "📈涨势好",
     "🏆热门",
     "📚文档完善",
     "🛠️活跃维护"
@@ -366,8 +367,8 @@
   "name": "rehan-remade/universal-modder",
   "url": "https://github.com/rehan-remade/universal-modder",
   "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal…",
-  "stars": 9696,
-  "stars_prev": 9673,
+  "stars": 9719,
+  "stars_prev": 9696,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -393,8 +394,8 @@
   "name": "s1dashu/ip-as-logo-skill",
   "url": "https://github.com/s1dashu/ip-as-logo-skill",
   "desc": "A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
-  "stars": 6565,
-  "stars_prev": 6556,
+  "stars": 6575,
+  "stars_prev": 6565,
   "lang": "-",
   "category": "skill",
   "tags": [
@@ -417,8 +418,8 @@
   "name": "miqdadbadjuber/anti-slop",
   "url": "https://github.com/miqdadbadjuber/anti-slop",
   "desc": "Rules for an AI coding agent to filter out generic AI-generated UI designs, text, and code.",
-  "stars": 9244,
-  "stars_prev": 9152,
+  "stars": 9317,
+  "stars_prev": 9244,
   "lang": "JavaScript",
   "category": "tool",
   "tags": [
@@ -443,8 +444,8 @@
   "name": "Ryze-AI-Adgent/open-seo-mcp-skills",
   "url": "https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills",
   "desc": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, backlinks, AI visibility on your r…",
-  "stars": 9800,
-  "stars_prev": 9515,
+  "stars": 10021,
+  "stars_prev": 9800,
   "lang": "Shell",
   "category": "skill",
   "tags": [
@@ -469,8 +470,8 @@
   "name": "Louis-CFM/coucou",
   "url": "https://github.com/Louis-CFM/coucou",
   "desc": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Ant…",
-  "stars": 7198,
-  "stars_prev": 7179,
+  "stars": 7244,
+  "stars_prev": 7198,
   "lang": "Swift",
   "category": "tool",
   "tags": [
@@ -480,11 +481,12 @@
   "desc_zh": "Mac 刘海屏和 iPhone 上的小伙伴：盯着你的 AI 编程智能体（Claude Code、Codex、Cursor、Gemini CLI 等）的状态",
   "quality": {
    "popularity": 5,
-   "momentum": 3,
+   "momentum": 4,
    "activity": 5,
    "docs": 5,
-   "overall": 4.5,
+   "overall": 4.8,
    "badges": [
+    "📈涨势好",
     "🏆热门",
     "📚文档完善",
     "🛠️活跃维护"
@@ -495,8 +497,8 @@
   "name": "eternityspring/shuohao-skills",
   "url": "https://github.com/eternityspring/shuohao-skills",
   "desc": "AI 短剧制作的 skill 集合：拆角色、排大纲、出场景与道具设定、写剧本、切分镜 | Agent skills for AI short-drama production — character bibles, adaptation outlines, art bibles,…",
-  "stars": 6665,
-  "stars_prev": 6616,
+  "stars": 6689,
+  "stars_prev": 6665,
   "lang": "JavaScript",
   "category": "skill",
   "tags": [
@@ -522,7 +524,7 @@
   "url": "https://github.com/wang2122/sprix-sage-router",
   "desc": "Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
   "stars": 3563,
-  "stars_prev": 3562,
+  "stars_prev": 3563,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -532,10 +534,10 @@
   "desc_zh": "Sprix AI 的状态感知路由：SELF / COLLABORATE / HANDOFF 三种模式调度 A2A 智能体网络",
   "quality": {
    "popularity": 4,
-   "momentum": 3,
+   "momentum": 2,
    "activity": 3,
    "docs": 4,
-   "overall": 3.5,
+   "overall": 3.3,
    "badges": []
   }
  },
@@ -543,8 +545,8 @@
   "name": "danyuchn/asd-ste100-skill",
   "url": "https://github.com/danyuchn/asd-ste100-skill",
   "desc": "ASD-STE100 Simplified Technical English rules, repurposed as a Claude Code skill for rewriting ambiguous agent-facing English.",
-  "stars": 6459,
-  "stars_prev": 6432,
+  "stars": 6492,
+  "stars_prev": 6459,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -569,8 +571,8 @@
   "name": "yetone/cumora",
   "url": "https://github.com/yetone/cumora",
   "desc": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / C…",
-  "stars": 4186,
-  "stars_prev": 4185,
+  "stars": 4192,
+  "stars_prev": 4186,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -591,8 +593,8 @@
   "name": "Leonxlnx/unlazy",
   "url": "https://github.com/Leonxlnx/unlazy",
   "desc": "Anti-laziness skill for AI agents. Core: the Depth Tree method, which splits a task N layers deep and gives every leaf the full time budget …",
-  "stars": 4402,
-  "stars_prev": 4387,
+  "stars": 4412,
+  "stars_prev": 4402,
   "lang": "JavaScript",
   "category": "skill",
   "tags": [
@@ -615,8 +617,8 @@
   "name": "AminBlg/SimpleEnglish",
   "url": "https://github.com/AminBlg/SimpleEnglish",
   "desc": "Agent skill: make LLMs write docs in ASD-STE100 Simplified Technical",
-  "stars": 4434,
-  "stars_prev": 4400,
+  "stars": 4461,
+  "stars_prev": 4434,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -640,8 +642,8 @@
   "name": "Jakubantalik/thinking-orbs",
   "url": "https://github.com/Jakubantalik/thinking-orbs",
   "desc": "Dotted thought-orb loading indicators for AI & agent UIs, 9 tuned types, two sizes, auto dark/light",
-  "stars": 4023,
-  "stars_prev": 4017,
+  "stars": 4031,
+  "stars_prev": 4023,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -652,9 +654,9 @@
   "quality": {
    "popularity": 4,
    "momentum": 3,
-   "activity": 3,
+   "activity": 2,
    "docs": 4,
-   "overall": 3.5,
+   "overall": 3.3,
    "badges": []
   }
  },
@@ -662,7 +664,7 @@
   "name": "tigerless-labs/agent-memory",
   "url": "https://github.com/tigerless-labs/agent-memory",
   "desc": "Long-term memory runtime for AI agents — plain Markdown as the source of truth, local ranked retrieval, and an independent sleep-time Manage…",
-  "stars": 4317,
+  "stars": 4321,
   "stars_prev": 4317,
   "lang": "Python",
   "category": "tool",
@@ -673,10 +675,10 @@
   "desc_zh": "AI 智能体长期记忆运行时：Markdown 为真理源，本地排序检索，独立的睡眠时记忆管理",
   "quality": {
    "popularity": 4,
-   "momentum": 2,
+   "momentum": 3,
    "activity": 5,
    "docs": 5,
-   "overall": 3.9,
+   "overall": 4.2,
    "badges": [
     "📚文档完善",
     "🛠️活跃维护"
@@ -711,8 +713,8 @@
   "name": "ZJU-REAL/Easel",
   "url": "https://github.com/ZJU-REAL/Easel",
   "desc": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Dou…",
-  "stars": 4688,
-  "stars_prev": 4669,
+  "stars": 4710,
+  "stars_prev": 4688,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -722,11 +724,12 @@
   "desc_zh": "开源 AI 社媒智能体：发现趋势、创作内容、全平台发布，学习小红书抖音打法",
   "quality": {
    "popularity": 4,
-   "momentum": 3,
+   "momentum": 4,
    "activity": 5,
    "docs": 5,
-   "overall": 4.2,
+   "overall": 4.4,
    "badges": [
+    "📈涨势好",
     "📚文档完善",
     "🛠️活跃维护"
    ]
@@ -736,8 +739,8 @@
   "name": "nykooi1/vibe-wise",
   "url": "https://github.com/nykooi1/vibe-wise",
   "desc": "A Claude Code / Codex plugin that helps you learn how to build while AI writes the code.",
-  "stars": 4383,
-  "stars_prev": 4365,
+  "stars": 4392,
+  "stars_prev": 4383,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -758,8 +761,8 @@
   "name": "ShawnPana/phone-harness",
   "url": "https://github.com/ShawnPana/phone-harness",
   "desc": "let your agent control your phone",
-  "stars": 4995,
-  "stars_prev": 4969,
+  "stars": 5032,
+  "stars_prev": 4995,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -768,13 +771,14 @@
   "first_seen": "2026-10-09",
   "desc_zh": "让你的智能体操控你的手机",
   "quality": {
-   "popularity": 4,
+   "popularity": 5,
    "momentum": 4,
    "activity": 5,
    "docs": 3,
-   "overall": 4.0,
+   "overall": 4.3,
    "badges": [
     "📈涨势好",
+    "🏆热门",
     "🛠️活跃维护"
    ]
   }
@@ -783,8 +787,8 @@
   "name": "shadcn-ui/lint",
   "url": "https://github.com/shadcn-ui/lint",
   "desc": "An agent-first linter for Tailwind design systems. Write design system rules that agents can verify.",
-  "stars": 3362,
-  "stars_prev": 3359,
+  "stars": 3364,
+  "stars_prev": 3362,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -805,8 +809,8 @@
   "name": "zeronsh/zeron",
   "url": "https://github.com/zeronsh/zeron",
   "desc": "A native control plane for Claude Code, Codex, Cursor, Devin and other coding agents.",
-  "stars": 3670,
-  "stars_prev": 3643,
+  "stars": 3687,
+  "stars_prev": 3670,
   "lang": "Rust",
   "category": "tool",
   "tags": [
@@ -816,12 +820,11 @@
   "desc_zh": "Claude Code、Codex、Cursor、Devin 等编程智能体的原生控制台",
   "quality": {
    "popularity": 4,
-   "momentum": 4,
+   "momentum": 3,
    "activity": 5,
    "docs": 4,
-   "overall": 4.2,
+   "overall": 4.0,
    "badges": [
-    "📈涨势好",
     "🛠️活跃维护"
    ]
   }
@@ -830,8 +833,8 @@
   "name": "Nanako0129/sepia",
   "url": "https://github.com/Nanako0129/sepia",
   "desc": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, …",
-  "stars": 3816,
-  "stars_prev": 3809,
+  "stars": 3828,
+  "stars_prev": 3816,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -879,8 +882,8 @@
   "name": "nateherkai/scroll-craft",
   "url": "https://github.com/nateherkai/scroll-craft",
   "desc": "An agent skill for building premium, immersive, scroll-driven websites. Works with Codex, Claude Code, and other coding agents. Also availab…",
-  "stars": 5077,
-  "stars_prev": 5049,
+  "stars": 5111,
+  "stars_prev": 5077,
   "lang": "JavaScript",
   "category": "skill",
   "tags": [
@@ -905,8 +908,8 @@
   "name": "makecindy/cindy",
   "url": "https://github.com/makecindy/cindy",
   "desc": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-  "stars": 10130,
-  "stars_prev": 10075,
+  "stars": 10184,
+  "stars_prev": 10130,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -931,8 +934,8 @@
   "name": "EvoMap/AutoResearch",
   "url": "https://github.com/EvoMap/AutoResearch",
   "desc": "AI/ML research agents from idea to paper-ready evidence. An EvoMap open-source project.",
-  "stars": 3099,
-  "stars_prev": 3097,
+  "stars": 3100,
+  "stars_prev": 3099,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -953,8 +956,8 @@
   "name": "QwenAudio/qwen-audio-agent",
   "url": "https://github.com/QwenAudio/qwen-audio-agent",
   "desc": "A realtime voice runtime that keeps Agents talking, working, and present.  Real-time Voice Runtime for AI Agents",
-  "stars": 3225,
-  "stars_prev": 3222,
+  "stars": 3231,
+  "stars_prev": 3225,
   "lang": "JavaScript",
   "category": "tool",
   "tags": [
@@ -978,7 +981,7 @@
   "url": "https://github.com/feder-cr/invisible_playwright_mcp",
   "desc": "invisible playwright mcp: Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect stealth Firefo…",
   "stars": 865,
-  "stars_prev": 864,
+  "stars_prev": 865,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -988,10 +991,10 @@
   "desc_zh": "反反爬的 Playwright MCP 服务器：AI 智能体用隐身 Firefox 上网，Python 驱动，过验证码",
   "quality": {
    "popularity": 3,
-   "momentum": 3,
+   "momentum": 2,
    "activity": 5,
    "docs": 5,
-   "overall": 3.8,
+   "overall": 3.5,
    "badges": [
     "📚文档完善",
     "🛠️活跃维护"
@@ -1002,8 +1005,8 @@
   "name": "zenstory-ai/drama-skills",
   "url": "https://github.com/zenstory-ai/drama-skills",
   "desc": "AI 短剧与漫剧制作 skill 合集：小说改剧本、角色设定三视图、分镜脚本、生图/生视频提示词与成片审片，适配 Claude Code / Codex 等 ｜ Open-source agent skills for AI short dramas & motion comic…",
-  "stars": 4267,
-  "stars_prev": 4210,
+  "stars": 4307,
+  "stars_prev": 4267,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -1028,8 +1031,8 @@
   "name": "typesafe-ai/skills",
   "url": "https://github.com/typesafe-ai/skills",
   "desc": "Agent skills for building with TypeSafe's System One API",
-  "stars": 2901,
-  "stars_prev": 2899,
+  "stars": 2902,
+  "stars_prev": 2901,
   "lang": "-",
   "category": "skill",
   "tags": [
@@ -1050,8 +1053,8 @@
   "name": "chengyi-ai/native-subtitle-quote-image",
   "url": "https://github.com/chengyi-ai/native-subtitle-quote-image",
   "desc": "保留视频内嵌字幕，精确取帧并生成 3:4 社交长图的 Agent Skill",
-  "stars": 2879,
-  "stars_prev": 2878,
+  "stars": 2881,
+  "stars_prev": 2879,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -1072,8 +1075,8 @@
   "name": "lennney/stop-that-shit",
   "url": "https://github.com/lennney/stop-that-shit",
   "desc": "Stop That Shit（别再造史了）｜面向 Codex/GPT 场景的多平台 Hook + Skill Guard：拦截 AI coding agent 无需求的哈希、校验和与任务范围膨胀。 A multi-platform Hook + Skill Guard for A…",
-  "stars": 3891,
-  "stars_prev": 3878,
+  "stars": 3913,
+  "stars_prev": 3891,
   "lang": "JavaScript",
   "category": "skill",
   "tags": [
@@ -1083,11 +1086,12 @@
   "desc_zh": "别再造史了：面向 Codex/GPT 的多平台 Hook + Skill 守卫，拦截 AI 编程智能体无意义的哈希、校验和与任务范围膨胀",
   "quality": {
    "popularity": 4,
-   "momentum": 3,
+   "momentum": 4,
    "activity": 5,
    "docs": 5,
-   "overall": 4.2,
+   "overall": 4.4,
    "badges": [
+    "📈涨势好",
     "📚文档完善",
     "🛠️活跃维护"
    ]
@@ -1097,8 +1101,8 @@
   "name": "Appllama/appllama-skills",
   "url": "https://github.com/Appllama/appllama-skills",
   "desc": "A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile screens.",
-  "stars": 5183,
-  "stars_prev": 5170,
+  "stars": 5205,
+  "stars_prev": 5183,
   "lang": "-",
   "category": "skill",
   "tags": [
@@ -1108,11 +1112,12 @@
   "desc_zh": "不止研究，更要构建：把畅销 App 的模式变成原生级移动端界面的 Agent Skills",
   "quality": {
    "popularity": 5,
-   "momentum": 3,
+   "momentum": 4,
    "activity": 3,
    "docs": 4,
-   "overall": 3.9,
+   "overall": 4.2,
    "badges": [
+    "📈涨势好",
     "🏆热门"
    ]
   }
@@ -1121,8 +1126,8 @@
   "name": "Prism-Shadow/penguin-harness",
   "url": "https://github.com/Prism-Shadow/penguin-harness",
   "desc": "🐧 Unified and Stable RSI Platform",
-  "stars": 3236,
-  "stars_prev": 3231,
+  "stars": 3247,
+  "stars_prev": 3236,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -1145,8 +1150,8 @@
   "name": "QingYunA/answer-me-with-html",
   "url": "https://github.com/QingYunA/answer-me-with-html",
   "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
-  "stars": 6326,
-  "stars_prev": 6310,
+  "stars": 6347,
+  "stars_prev": 6326,
   "lang": "JavaScript",
   "category": "skill",
   "tags": [
@@ -1156,11 +1161,12 @@
   "desc_zh": "用一页 HTML 回答难题的 Agent Skill：让 AI 智能体把复杂问题讲成人能读的一页纸",
   "quality": {
    "popularity": 5,
-   "momentum": 3,
+   "momentum": 4,
    "activity": 5,
    "docs": 5,
-   "overall": 4.5,
+   "overall": 4.8,
    "badges": [
+    "📈涨势好",
     "🏆热门",
     "📚文档完善",
     "🛠️活跃维护"
@@ -1171,7 +1177,7 @@
   "name": "redhat-et/ripwire",
   "url": "https://github.com/redhat-et/ripwire",
   "desc": "The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents. Cut agent token costs by finding code without reading…",
-  "stars": 2543,
+  "stars": 2545,
   "stars_prev": 2543,
   "lang": "C++",
   "category": "tool",
@@ -1182,10 +1188,10 @@
   "desc_zh": "AI 上下文的 ripgrep：零依赖 C++23 CLI + MCP 服务器，免读仓库直达想要的代码",
   "quality": {
    "popularity": 4,
-   "momentum": 2,
+   "momentum": 3,
    "activity": 5,
    "docs": 5,
-   "overall": 3.9,
+   "overall": 4.2,
    "badges": [
     "📚文档完善",
     "🛠️活跃维护"
@@ -1196,8 +1202,8 @@
   "name": "kaankiziltug/logo-design-skill",
   "url": "https://github.com/kaankiziltug/logo-design-skill",
   "desc": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,4…",
-  "stars": 6936,
-  "stars_prev": 6860,
+  "stars": 7018,
+  "stars_prev": 6936,
   "lang": "HTML",
   "category": "skill",
   "tags": [
@@ -1223,8 +1229,8 @@
   "name": "duty1g/x64dbg-mcp-server",
   "url": "https://github.com/duty1g/x64dbg-mcp-server",
   "desc": "x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Conne…",
-  "stars": 2828,
-  "stars_prev": 2825,
+  "stars": 2830,
+  "stars_prev": 2828,
   "lang": "Zig",
   "category": "tool",
   "tags": [
@@ -1235,11 +1241,12 @@
   "quality": {
    "popularity": 4,
    "momentum": 3,
-   "activity": 4,
+   "activity": 5,
    "docs": 5,
-   "overall": 4.0,
+   "overall": 4.2,
    "badges": [
-    "📚文档完善"
+    "📚文档完善",
+    "🛠️活跃维护"
    ]
   }
  },
@@ -1272,7 +1279,7 @@
   "url": "https://github.com/QoderAI/better-harness",
   "desc": "An open-source Harness Engineering platform for coding agents—define harnesses as code, run controlled experiments, inspect evidence, and co…",
   "stars": 2462,
-  "stars_prev": 2459,
+  "stars_prev": 2462,
   "lang": "JavaScript",
   "category": "tool",
   "tags": [
@@ -1282,10 +1289,10 @@
   "desc_zh": "编程智能体的开源 Harness 工程平台：harness 即代码、对照实验、证据审查",
   "quality": {
    "popularity": 4,
-   "momentum": 3,
+   "momentum": 2,
    "activity": 5,
    "docs": 5,
-   "overall": 4.2,
+   "overall": 3.9,
    "badges": [
     "📚文档完善",
     "🛠️活跃维护"
@@ -1296,8 +1303,8 @@
   "name": "Vincentwei1021/anything2explainer",
   "url": "https://github.com/Vincentwei1021/anything2explainer",
   "desc": "Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video…",
-  "stars": 3321,
-  "stars_prev": 3294,
+  "stars": 3341,
+  "stars_prev": 3321,
   "lang": "TypeScript",
   "category": "skill",
   "tags": [
@@ -1323,7 +1330,7 @@
   "url": "https://github.com/Kritt-ai/open-kritt",
   "desc": "Open-source, self-hosted AI vulnerability research tool that orchestrates agents to find and validate security issues in code.",
   "stars": 2431,
-  "stars_prev": 2429,
+  "stars_prev": 2431,
   "lang": "JavaScript",
   "category": "tool",
   "tags": [
@@ -1333,10 +1340,10 @@
   "desc_zh": "开源自托管 AI 漏洞研究工具：调度智能体发现并验证代码安全问题",
   "quality": {
    "popularity": 4,
-   "momentum": 3,
+   "momentum": 2,
    "activity": 5,
    "docs": 5,
-   "overall": 4.2,
+   "overall": 3.9,
    "badges": [
     "📚文档完善",
     "🛠️活跃维护"
@@ -1347,8 +1354,8 @@
   "name": "0xsline/OpenChatCut",
   "url": "https://github.com/0xsline/OpenChatCut",
   "desc": "Open-source, local-first conversational AI video editor with a professional multi-track timeline, Agent Skills, MCP integration, and Remotio…",
-  "stars": 3118,
-  "stars_prev": 3106,
+  "stars": 3133,
+  "stars_prev": 3118,
   "lang": "TypeScript",
   "category": "skill",
   "tags": [
@@ -1372,8 +1379,8 @@
   "name": "gnipbao/story-to-handdrawn-video",
   "url": "https://github.com/gnipbao/story-to-handdrawn-video",
   "desc": "Agent skill: convert Chinese story copy or ordered images into a hand-drawn diary-comic animation (silent MP4 picture track).",
-  "stars": 2480,
-  "stars_prev": 2472,
+  "stars": 2484,
+  "stars_prev": 2480,
   "lang": "HTML",
   "category": "skill",
   "tags": [
@@ -1394,7 +1401,7 @@
   "name": "memorax-ai/memorax-code",
   "url": "https://github.com/memorax-ai/memorax-code",
   "desc": "A memory plugin for AI coding that turns engineering experience, repository knowledge, and your way of working into memory that remains usef…",
-  "stars": 2105,
+  "stars": 2112,
   "stars_prev": 2105,
   "lang": "JavaScript",
   "category": "tool",
@@ -1405,10 +1412,10 @@
   "desc_zh": "AI 编程记忆插件：把工程经验、仓库知识和你的工作方式变成持久可用的记忆",
   "quality": {
    "popularity": 4,
-   "momentum": 2,
+   "momentum": 3,
    "activity": 5,
    "docs": 5,
-   "overall": 3.9,
+   "overall": 4.2,
    "badges": [
     "📚文档完善",
     "🛠️活跃维护"
@@ -1419,8 +1426,8 @@
   "name": "MemTensor/memmy-agent",
   "url": "https://github.com/MemTensor/memmy-agent",
   "desc": "🍙  A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and persistent context — all…",
-  "stars": 2216,
-  "stars_prev": 2215,
+  "stars": 2218,
+  "stars_prev": 2216,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -1444,8 +1451,8 @@
   "name": "feitangyuan/onetake",
   "url": "https://github.com/feitangyuan/onetake",
   "desc": "Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an orac…",
-  "stars": 4136,
-  "stars_prev": 4105,
+  "stars": 4157,
+  "stars_prev": 4136,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -1493,8 +1500,8 @@
   "name": "coldteadotai/pr-lens",
   "url": "https://github.com/coldteadotai/pr-lens",
   "desc": "The fastest way to understand code",
-  "stars": 2404,
-  "stars_prev": 2401,
+  "stars": 2410,
+  "stars_prev": 2404,
   "lang": "TypeScript",
   "category": "skill",
   "tags": [
@@ -1517,8 +1524,8 @@
   "name": "coji/natural-japanese",
   "url": "https://github.com/coji/natural-japanese",
   "desc": "仕事の日本語を、読みやすくわかりやすく書く・直すための Agent Skill です。",
-  "stars": 2058,
-  "stars_prev": 2055,
+  "stars": 2064,
+  "stars_prev": 2058,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -1539,8 +1546,8 @@
   "name": "RinDig/icm-architect",
   "url": "https://github.com/RinDig/icm-architect",
   "desc": "Agent skill: design any process, idea, or problem into an ICM workspace (folder structure as agent architecture), or restructure an existing…",
-  "stars": 2319,
-  "stars_prev": 2309,
+  "stars": 2328,
+  "stars_prev": 2319,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -1561,8 +1568,8 @@
   "name": "nanaism/yomiyasu",
   "url": "https://github.com/nanaism/yomiyasu",
   "desc": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
-  "stars": 3271,
-  "stars_prev": 3232,
+  "stars": 3287,
+  "stars_prev": 3271,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -1572,12 +1579,11 @@
   "desc_zh": "把 AI 生成的日语润色成自然日语的 Agent Skill",
   "quality": {
    "popularity": 4,
-   "momentum": 4,
+   "momentum": 3,
    "activity": 5,
    "docs": 4,
-   "overall": 4.2,
+   "overall": 4.0,
    "badges": [
-    "📈涨势好",
     "🛠️活跃维护"
    ]
   }
@@ -1587,7 +1593,7 @@
   "url": "https://github.com/tourmind-com/Tourmind-Booking-Skills",
   "desc": "AI agent skills for end-to-end hotel and flight booking—compare live hotel rates across leading OTAs and suppliers, search and verify real-t…",
   "stars": 2406,
-  "stars_prev": 2404,
+  "stars_prev": 2406,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -1597,10 +1603,10 @@
   "desc_zh": "端到端订酒店订机票的 AI 智能体 Skill：跨 OTA 比价、搜索验证真实房态",
   "quality": {
    "popularity": 4,
-   "momentum": 3,
+   "momentum": 2,
    "activity": 4,
    "docs": 5,
-   "overall": 4.0,
+   "overall": 3.7,
    "badges": [
     "📚文档完善"
    ]
@@ -1610,7 +1616,7 @@
   "name": "AMAP-ML/LongHorizon-Harness",
   "url": "https://github.com/AMAP-ML/LongHorizon-Harness",
   "desc": "The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and ma…",
-  "stars": 1873,
+  "stars": 1874,
   "stars_prev": 1873,
   "lang": "Python",
   "category": "tool",
@@ -1621,10 +1627,10 @@
   "desc_zh": "长时程 computer-use harness：让 AI 智能体在桌面应用和 CLI 里长时间运行，保持任务状态",
   "quality": {
    "popularity": 4,
-   "momentum": 2,
+   "momentum": 3,
    "activity": 5,
    "docs": 5,
-   "overall": 3.9,
+   "overall": 4.2,
    "badges": [
     "📚文档完善",
     "🛠️活跃维护"
@@ -1635,8 +1641,8 @@
   "name": "achimala/dream-loop",
   "url": "https://github.com/achimala/dream-loop",
   "desc": "Agent skill for impressive 3D visuals using Blender + image gen + subagent critic",
-  "stars": 2236,
-  "stars_prev": 2106,
+  "stars": 2332,
+  "stars_prev": 2236,
   "lang": "JavaScript",
   "category": "skill",
   "tags": [
@@ -1646,12 +1652,12 @@
   "desc_zh": "用 Blender + 图像生成 + 子智能体评审做惊艳 3D 视觉的 Agent Skill",
   "quality": {
    "popularity": 4,
-   "momentum": 5,
+   "momentum": 4,
    "activity": 3,
    "docs": 2,
-   "overall": 3.6,
+   "overall": 3.4,
    "badges": [
-    "🔥爆火"
+    "📈涨势好"
    ]
   }
  },
@@ -1659,8 +1665,8 @@
   "name": "Jakeschincariol/linkedin-agent-skill",
   "url": "https://github.com/Jakeschincariol/linkedin-agent-skill",
   "desc": "Eleven free Claude skills that run a LinkedIn account: posts off 21 hook formulas, comments, replies, profile score, weekly plan, and a huma…",
-  "stars": 3581,
-  "stars_prev": 3543,
+  "stars": 3610,
+  "stars_prev": 3581,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -1684,8 +1690,8 @@
   "name": "jtydhr88/screenwriting-skills",
   "url": "https://github.com/jtydhr88/screenwriting-skills",
   "desc": "Professional agent skills for screenwriting, television writing and dramaturgy",
-  "stars": 2071,
-  "stars_prev": 2060,
+  "stars": 2088,
+  "stars_prev": 2071,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -1706,8 +1712,8 @@
   "name": "Oldcircle/geo-sleuth",
   "url": "https://github.com/Oldcircle/geo-sleuth",
   "desc": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and show…",
-  "stars": 7035,
-  "stars_prev": 6985,
+  "stars": 7088,
+  "stars_prev": 7035,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -1733,8 +1739,8 @@
   "name": "lemomo-ai/lemo-opuscar",
   "url": "https://github.com/lemomo-ai/lemo-opuscar",
   "desc": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made ent…",
-  "stars": 16296,
-  "stars_prev": 15761,
+  "stars": 16850,
+  "stars_prev": 16296,
   "lang": "JavaScript",
   "category": "skill",
   "tags": [
@@ -1760,8 +1766,8 @@
   "name": "Vincentwei1021/video-talkcraft",
   "url": "https://github.com/Vincentwei1021/video-talkcraft",
   "desc": "Agent skill that turns Claude Code / Codex into a motion-design studio for voiceover-driven explainer videos — word-level voiceover sync, 10…",
-  "stars": 2337,
-  "stars_prev": 2313,
+  "stars": 2351,
+  "stars_prev": 2337,
   "lang": "HTML",
   "category": "skill",
   "tags": [
@@ -1771,12 +1777,11 @@
   "desc_zh": "把 Claude Code / Codex 变成动态设计工作室的 Agent Skill：配音驱动讲解视频，逐词对口型",
   "quality": {
    "popularity": 4,
-   "momentum": 4,
+   "momentum": 3,
    "activity": 5,
    "docs": 5,
-   "overall": 4.4,
+   "overall": 4.2,
    "badges": [
-    "📈涨势好",
     "📚文档完善",
     "🛠️活跃维护"
    ]
@@ -1832,8 +1837,8 @@
   "name": "aoci-spec/aoci-code",
   "url": "https://github.com/aoci-spec/aoci-code",
   "desc": "A persistent, Git-versioned map of your whole codebase and database schema that coding agents read before they touch anything. Local-first M…",
-  "stars": 1918,
-  "stars_prev": 1913,
+  "stars": 1926,
+  "stars_prev": 1918,
   "lang": "Go",
   "category": "tool",
   "tags": [
@@ -1857,8 +1862,8 @@
   "name": "boyang-hu/website-rebuild-skill",
   "url": "https://github.com/boyang-hu/website-rebuild-skill",
   "desc": "复刻网站的 Agent Skill：抓只读镜像、从压缩代码逐行还原、自动比对验收。An agent skill that mirrors a website, rebuilds it from the minified code, and verifies the result …",
-  "stars": 1753,
-  "stars_prev": 1745,
+  "stars": 1758,
+  "stars_prev": 1753,
   "lang": "JavaScript",
   "category": "skill",
   "tags": [
@@ -1882,8 +1887,8 @@
   "name": "yuezhiai/jonex",
   "url": "https://github.com/yuezhiai/jonex",
   "desc": "All-in-One Multimodal Parsing Engine + Ontology-Powered, LLM Wiki-Driven AI-Ready Knowledge Engine",
-  "stars": 1675,
-  "stars_prev": 1661,
+  "stars": 1683,
+  "stars_prev": 1675,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -1904,8 +1909,8 @@
   "name": "kharmanskyi/open-steps",
   "url": "https://github.com/kharmanskyi/open-steps",
   "desc": "Plain-language agent skills for Claude Code, Codex, Cursor and Gemini CLI: honest session reports, straight verdicts, steps you can follow. …",
-  "stars": 1283,
-  "stars_prev": 1282,
+  "stars": 1284,
+  "stars_prev": 1283,
   "lang": "Shell",
   "category": "skill",
   "tags": [
@@ -1929,8 +1934,8 @@
   "name": "Jakeschincariol/replica-skill",
   "url": "https://github.com/Jakeschincariol/replica-skill",
   "desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
-  "stars": 9370,
-  "stars_prev": 9267,
+  "stars": 9472,
+  "stars_prev": 9370,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -1955,8 +1960,8 @@
   "name": "2akouwu/reverify",
   "url": "https://github.com/2akouwu/reverify",
   "desc": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Ground…",
-  "stars": 1342,
-  "stars_prev": 1341,
+  "stars": 1343,
+  "stars_prev": 1342,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -2025,8 +2030,8 @@
   "name": "youngyangyang04/llm-master",
   "url": "https://github.com/youngyangyang04/llm-master",
   "desc": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
-  "stars": 1650,
-  "stars_prev": 1645,
+  "stars": 1656,
+  "stars_prev": 1650,
   "lang": "-",
   "category": "tool",
   "tags": [
@@ -2061,9 +2066,9 @@
   "quality": {
    "popularity": 4,
    "momentum": 2,
-   "activity": 4,
+   "activity": 3,
    "docs": 3,
-   "overall": 3.3,
+   "overall": 3.1,
    "badges": []
   }
  },
@@ -2071,8 +2076,8 @@
   "name": "echris6/motion-video-kit",
   "url": "https://github.com/echris6/motion-video-kit",
   "desc": "Claude Code skill kit for premium AI-assisted business videos: independent critic loop, motion principles from 28 launch films, quality bar,…",
-  "stars": 1398,
-  "stars_prev": 1393,
+  "stars": 1403,
+  "stars_prev": 1398,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -2093,8 +2098,8 @@
   "name": "kerpopule/hermes-jev-skills",
   "url": "https://github.com/kerpopule/hermes-jev-skills",
   "desc": "Jev-powered model routing, memory, compaction, skill selection, computer and browser use for Hermes agents (also Claude Code and Codex)",
-  "stars": 1342,
-  "stars_prev": 1340,
+  "stars": 1346,
+  "stars_prev": 1342,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -2118,7 +2123,7 @@
   "url": "https://github.com/jaredrhod/fullstack-agent",
   "desc": "Give your AI a full stack: memory, voice, face, and hands. This is the \"I want an AI agent\" shortcut. It sets up the entire jaredrhod stack …",
   "stars": 1266,
-  "stars_prev": 1264,
+  "stars_prev": 1266,
   "lang": "Batchfile",
   "category": "tool",
   "tags": [
@@ -2128,10 +2133,10 @@
   "desc_zh": "给你的 AI 配齐全栈：记忆、语音、脸和手。想要 AI 智能体的一键方案",
   "quality": {
    "popularity": 4,
-   "momentum": 3,
+   "momentum": 2,
    "activity": 3,
    "docs": 3,
-   "overall": 3.4,
+   "overall": 3.1,
    "badges": []
   }
  },
@@ -2139,8 +2144,8 @@
   "name": "undefined-ui/second-brain-os",
   "url": "https://github.com/undefined-ui/second-brain-os",
   "desc": "Guides and resources for AI engineers: an agents course, five handbooks, a hands-on second-brain project and a vetted reading list.",
-  "stars": 1576,
-  "stars_prev": 1573,
+  "stars": 1579,
+  "stars_prev": 1576,
   "lang": "HTML",
   "category": "skill",
   "tags": [
@@ -2163,8 +2168,8 @@
   "name": "panxunying/ai-coding-welfare",
   "url": "https://github.com/panxunying/ai-coding-welfare",
   "desc": "AI Coding 福利站导航：免费白嫖 Claude Code / Codex 的中转站与公益站合集，含额度、模型、价格自动更新与一键配置脚本",
-  "stars": 1321,
-  "stars_prev": 1317,
+  "stars": 1339,
+  "stars_prev": 1321,
   "lang": "JavaScript",
   "category": "tool",
   "tags": [
@@ -2187,8 +2192,8 @@
   "name": "punkpeye/awesome-remote-mcp-servers",
   "url": "https://github.com/punkpeye/awesome-remote-mcp-servers",
   "desc": "A collection of remote MCP servers.",
-  "stars": 3222,
-  "stars_prev": 3164,
+  "stars": 3282,
+  "stars_prev": 3222,
   "lang": "-",
   "category": "tool",
   "tags": [
@@ -2211,7 +2216,7 @@
   "name": "AgriciDaniel/compass",
   "url": "https://github.com/AgriciDaniel/compass",
   "desc": "Compass: run your whole life out of Obsidian. Daily questions, quarterly retreats, planning, habits, tasks, writing, and an AI assistant in …",
-  "stars": 1044,
+  "stars": 1045,
   "stars_prev": 1044,
   "lang": "JavaScript",
   "category": "tool",
@@ -2222,10 +2227,10 @@
   "desc_zh": "用 Obsidian 经营整个人生：每日提问、季度复盘、规划、习惯、任务、写作，内置 AI 助手",
   "quality": {
    "popularity": 4,
-   "momentum": 2,
+   "momentum": 3,
    "activity": 3,
    "docs": 5,
-   "overall": 3.5,
+   "overall": 3.8,
    "badges": [
     "📚文档完善"
    ]
@@ -2257,8 +2262,8 @@
   "name": "HexRaysSA/ida-mcp",
   "url": "https://github.com/HexRaysSA/ida-mcp",
   "desc": "Official Hex-Rays IDA MCP Server.",
-  "stars": 1622,
-  "stars_prev": 1615,
+  "stars": 1625,
+  "stars_prev": 1622,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -2279,7 +2284,7 @@
   "name": "karanb192/itr-wala",
   "url": "https://github.com/karanb192/itr-wala",
   "desc": "File your Indian income tax return (ITR) from your terminal. Deterministic tax engine, both regimes, AY 2026-27. Claude Code / Codex / Gemin…",
-  "stars": 886,
+  "stars": 888,
   "stars_prev": 886,
   "lang": "Python",
   "category": "skill",
@@ -2290,10 +2295,10 @@
   "desc_zh": "在终端里报印度个税（ITR）：确定性税引擎，双税制，AY 2026-27，Claude Code / Codex / Gemini 可用",
   "quality": {
    "popularity": 3,
-   "momentum": 2,
+   "momentum": 3,
    "activity": 4,
    "docs": 5,
-   "overall": 3.3,
+   "overall": 3.6,
    "badges": [
     "📚文档完善"
    ]
@@ -2327,7 +2332,7 @@
   "name": "okf-memory/okf-agent-memory",
   "url": "https://github.com/okf-memory/okf-agent-memory",
   "desc": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and…",
-  "stars": 866,
+  "stars": 865,
   "stars_prev": 866,
   "lang": "Go",
   "category": "tool",
@@ -2338,10 +2343,10 @@
   "desc_zh": "AI 编程智能体的 Git 原生持久记忆：实现 Google OKF v0.2，内存 BM25 搜索亚 300 微秒，内嵌 MCP 服务器",
   "quality": {
    "popularity": 3,
-   "momentum": 2,
+   "momentum": 1,
    "activity": 5,
    "docs": 5,
-   "overall": 3.5,
+   "overall": 3.3,
    "badges": [
     "📚文档完善",
     "🛠️活跃维护"
@@ -2353,7 +2358,7 @@
   "url": "https://github.com/calmrocks/ai-engineer-notebooks",
   "desc": "Hands-on, framework-free Colab notebooks for the AI Engineer / Forward Deployed Engineer (FDE) skill set — model APIs, structured output, to…",
   "stars": 749,
-  "stars_prev": 747,
+  "stars_prev": 749,
   "lang": "Jupyter Notebook",
   "category": "skill",
   "tags": [
@@ -2363,10 +2368,10 @@
   "desc_zh": "AI 工程师实战 Colab 笔记本：零框架，模型 API、结构化输出、工具调用",
   "quality": {
    "popularity": 3,
-   "momentum": 3,
+   "momentum": 2,
    "activity": 4,
    "docs": 5,
-   "overall": 3.6,
+   "overall": 3.3,
    "badges": [
     "📚文档完善"
    ]
@@ -2376,8 +2381,8 @@
   "name": "wangzhishou/OneBox",
   "url": "https://github.com/wangzhishou/OneBox",
   "desc": "A free AI agent & toolbox for Android | 一站式安卓 AI 智能体 & 工具箱",
-  "stars": 1188,
-  "stars_prev": 1186,
+  "stars": 1189,
+  "stars_prev": 1188,
   "lang": "Kotlin",
   "category": "tool",
   "tags": [
@@ -2400,8 +2405,8 @@
   "name": "amitshekhariitbhu/ai-system-design",
   "url": "https://github.com/amitshekhariitbhu/ai-system-design",
   "desc": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
-  "stars": 872,
-  "stars_prev": 865,
+  "stars": 883,
+  "stars_prev": 872,
   "lang": "Markdown",
   "category": "tool",
   "tags": [
@@ -2424,7 +2429,7 @@
   "name": "AnotiaWang/awesome-decision-models",
   "url": "https://github.com/AnotiaWang/awesome-decision-models",
   "desc": "A curated list of decision models (System One / typed decision models): hosted APIs, open-weight models, runtimes, SDKs, applications, bench…",
-  "stars": 715,
+  "stars": 717,
   "stars_prev": 715,
   "lang": "Python",
   "category": "tool",
@@ -2435,10 +2440,10 @@
   "desc_zh": "决策模型精选：托管 API、开源权重、运行时、SDK、应用、榜单",
   "quality": {
    "popularity": 3,
-   "momentum": 2,
+   "momentum": 3,
    "activity": 5,
    "docs": 5,
-   "overall": 3.5,
+   "overall": 3.8,
    "badges": [
     "📚文档完善",
     "🛠️活跃维护"
@@ -2496,7 +2501,7 @@
   "url": "https://github.com/jzjzzzzzzz/agent-me",
   "desc": "Distill your knowledge, memories, and decisions into an open-source, inspectable AI Agent Twin.",
   "stars": 630,
-  "stars_prev": 629,
+  "stars_prev": 630,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -2506,10 +2511,10 @@
   "desc_zh": "把你的知识和记忆蒸馏成开源可审查的 AI 分身",
   "quality": {
    "popularity": 3,
-   "momentum": 3,
+   "momentum": 2,
    "activity": 4,
    "docs": 4,
-   "overall": 3.4,
+   "overall": 3.1,
    "badges": []
   }
  },
@@ -2542,8 +2547,8 @@
   "name": "Likely7/Veyra-NRVideo",
   "url": "https://github.com/Likely7/Veyra-NRVideo",
   "desc": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, …",
-  "stars": 2354,
-  "stars_prev": 1689,
+  "stars": 2845,
+  "stars_prev": 2354,
   "lang": "C++",
   "category": "tool",
   "tags": [
@@ -2567,8 +2572,8 @@
   "name": "phoenix-zhou/industrial-general-rag",
   "url": "https://github.com/phoenix-zhou/industrial-general-rag",
   "desc": "The project integrates the RAG and FAQ dual mechanisms, introduces intent recognition, dynamic adaptive retrieval, and the RAGAS automated e…",
-  "stars": 665,
-  "stars_prev": 663,
+  "stars": 668,
+  "stars_prev": 665,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -2589,8 +2594,8 @@
   "name": "amitshekhariitbhu/ai-engineering-course",
   "url": "https://github.com/amitshekhariitbhu/ai-engineering-course",
   "desc": "AI Engineering Course - A free and complete AI Engineering Course to learn AI Engineering step by step - from Machine Learning, Neural Netwo…",
-  "stars": 735,
-  "stars_prev": 731,
+  "stars": 737,
+  "stars_prev": 735,
   "lang": "Markdown",
   "category": "tool",
   "tags": [
@@ -2614,8 +2619,8 @@
   "name": "vincentsch/explainroo",
   "url": "https://github.com/vincentsch/explainroo",
   "desc": "Explainer videos and product demos made by your AI agent. Free and open source: a local voice (Kokoro), word timing (Whisper) and a canvas r…",
-  "stars": 1307,
-  "stars_prev": 1290,
+  "stars": 1323,
+  "stars_prev": 1307,
   "lang": "JavaScript",
   "category": "tool",
   "tags": [
@@ -2639,7 +2644,7 @@
   "name": "benchen4395/alpha_agentic_search",
   "url": "https://github.com/benchen4395/alpha_agentic_search",
   "desc": "Alpha Agentic Search — 分层记忆 RAG 检索问答系统",
-  "stars": 475,
+  "stars": 476,
   "stars_prev": 475,
   "lang": "Python",
   "category": "tool",
@@ -2650,10 +2655,10 @@
   "desc_zh": "分层记忆 RAG 检索问答系统",
   "quality": {
    "popularity": 3,
-   "momentum": 2,
+   "momentum": 3,
    "activity": 3,
    "docs": 1,
-   "overall": 2.4,
+   "overall": 2.6,
    "badges": []
   }
  },
@@ -2661,8 +2666,8 @@
   "name": "DevnorsAI/devnors-data-mcp",
   "url": "https://github.com/DevnorsAI/devnors-data-mcp",
   "desc": "Devnors Data - MCP Server: MCP,Model Context Protocol,Claude,Cursor,WorkBuddy,接口,数据API,裁判文书,Legal Case,法律法规,法条,Law Article,企业工商,Company Regi…",
-  "stars": 756,
-  "stars_prev": 752,
+  "stars": 759,
+  "stars_prev": 756,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -2705,8 +2710,8 @@
   "name": "sam70361/aora-bot",
   "url": "https://github.com/sam70361/aora-bot",
   "desc": "Aora Bot：代码绘制的网页角色引擎。71 个角色、16 种脸、44 种动画状态、三种画风，另有 7 个节日主题共 122 个角色。支持 React、Web Component 与头像接口。（原 Emotion Ball 表情馆）",
-  "stars": 663,
-  "stars_prev": 660,
+  "stars": 666,
+  "stars_prev": 663,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -2751,8 +2756,8 @@
   "name": "Awesome-AI-Pedia/Awesome-AI-Pedia",
   "url": "https://github.com/Awesome-AI-Pedia/Awesome-AI-Pedia",
   "desc": "🔥🔥🔥AI skills大全 mcp ai知识库 Agent 全维度 AI 资源百科，DSH插件 收录大模型、智能 Agent、RAG 检索增强、多模态、MLOps、AI 应用工具、AI面试集、Vibe coding 大全、零基础学习路线，持续更新前沿 AI 开源项目，开发者一站…",
-  "stars": 707,
-  "stars_prev": 703,
+  "stars": 715,
+  "stars_prev": 707,
   "lang": "TypeScript",
   "category": "skill",
   "tags": [
@@ -2801,7 +2806,7 @@
   "url": "https://github.com/mrmps/classifier-dev",
   "desc": "Zero-shot text classification over plain HTTP — no API key, no account. One Cloudflare Worker, a CLI, and an MCP server. https://classifier.…",
   "stars": 439,
-  "stars_prev": 438,
+  "stars_prev": 439,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -2811,10 +2816,10 @@
   "desc_zh": "纯 HTTP 零样本文本分类：免 API Key，Cloudflare Worker + CLI + MCP 服务器",
   "quality": {
    "popularity": 3,
-   "momentum": 3,
+   "momentum": 2,
    "activity": 4,
    "docs": 5,
-   "overall": 3.6,
+   "overall": 3.3,
    "badges": [
     "📚文档完善"
    ]
@@ -2825,7 +2830,7 @@
   "url": "https://github.com/modelscope/ms-cookbook",
   "desc": "魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、Agent 与 AIGC，从跑通第一个模型到构建实际应用。",
   "stars": 526,
-  "stars_prev": 525,
+  "stars_prev": 526,
   "lang": "HTML",
   "category": "tool",
   "tags": [
@@ -2835,10 +2840,10 @@
   "desc_zh": "魔搭紫皮书：面向开发者的开源模型应用实战指南，中文",
   "quality": {
    "popularity": 3,
-   "momentum": 3,
+   "momentum": 2,
    "activity": 4,
    "docs": 4,
-   "overall": 3.4,
+   "overall": 3.1,
    "badges": []
   }
  },
@@ -2916,8 +2921,8 @@
   "name": "FuRongJun-1999/dsh-memory",
   "url": "https://github.com/FuRongJun-1999/dsh-memory",
   "desc": "白箱AGI架构探索：元认知（自我认知循环）、持续学习（知识飞轮）、世界模型（条件空间+语义时空图）、自我改进（自举纪律）、零LLM白箱管线与可审计信任护栏。",
-  "stars": 679,
-  "stars_prev": 673,
+  "stars": 693,
+  "stars_prev": 679,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -2941,7 +2946,7 @@
   "url": "https://github.com/zj-unicom-ai/UniEmployee",
   "desc": "面向企业的数字员工构建与运行平台：把专业员工的经验、流程与判断标准，固化为可随时上岗、可配置、可审批、可观测的 AI 数字员工。",
   "stars": 854,
-  "stars_prev": 853,
+  "stars_prev": 854,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -2951,10 +2956,10 @@
   "desc_zh": "企业数字员工平台：把专家经验固化为可上岗的 AI 数字员工",
   "quality": {
    "popularity": 3,
-   "momentum": 3,
+   "momentum": 2,
    "activity": 4,
    "docs": 4,
-   "overall": 3.4,
+   "overall": 3.1,
    "badges": []
   }
  },
@@ -2963,7 +2968,7 @@
   "url": "https://github.com/emir/AIKON",
   "desc": "A 2007 Nokia can't search Google anymore, so I gave it Claude, ChatGPT, Gemini and Grok. J2ME app for Nokia S40/S60 + tiny Go server.",
   "stars": 391,
-  "stars_prev": 390,
+  "stars_prev": 391,
   "lang": "Java",
   "category": "tool",
   "tags": [
@@ -2973,10 +2978,10 @@
   "desc_zh": "给 2007 年的诺基亚装上 Claude、ChatGPT、Gemini 和 Grok：J2ME 应用 + Go 小服务器",
   "quality": {
    "popularity": 3,
-   "momentum": 3,
+   "momentum": 2,
    "activity": 3,
    "docs": 5,
-   "overall": 3.4,
+   "overall": 3.1,
    "badges": [
     "📚文档完善"
    ]
@@ -3011,8 +3016,8 @@
   "name": "czg86389-hub/muse2api",
   "url": "https://github.com/czg86389-hub/muse2api",
   "desc": "把 Muse(muse.ai) 逆向封装为 OpenAI 兼容接口，支持对话、文生图、文生视频/图生视频、多账号池轮转与 48h 自动续期。OpenAI-compatible API for Muse.ai with Chat, Image & Video generation.",
-  "stars": 1287,
-  "stars_prev": 1262,
+  "stars": 1318,
+  "stars_prev": 1287,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -3037,7 +3042,7 @@
   "url": "https://github.com/JordyZomer/lemmalog",
   "desc": "A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental derivation, and an MCP server that lets your …",
   "stars": 348,
-  "stars_prev": 347,
+  "stars_prev": 348,
   "lang": "Rust",
   "category": "tool",
   "tags": [
@@ -3047,10 +3052,10 @@
   "desc_zh": "LLM 智能体记忆的 Datalog 引擎：分层规则、溯源事实，带 MCP 服务器",
   "quality": {
    "popularity": 3,
-   "momentum": 3,
+   "momentum": 2,
    "activity": 3,
    "docs": 5,
-   "overall": 3.4,
+   "overall": 3.1,
    "badges": [
     "📚文档完善"
    ]
@@ -3085,7 +3090,7 @@
   "name": "zorost/AI-Engineering-Lab",
   "url": "https://github.com/zorost/AI-Engineering-Lab",
   "desc": "A free, self-paced 24-week AI engineering course: Python, machine learning, LLMs, RAG, fine-tuning, agents and MCP, Azure and Vertex and Bed…",
-  "stars": 318,
+  "stars": 319,
   "stars_prev": 318,
   "lang": "Jupyter Notebook",
   "category": "tool",
@@ -3096,10 +3101,10 @@
   "desc_zh": "免费 24 周 AI 工程课程：Python、机器学习、LLM、RAG、智能体、MCP",
   "quality": {
    "popularity": 3,
-   "momentum": 2,
+   "momentum": 3,
    "activity": 3,
    "docs": 5,
-   "overall": 3.1,
+   "overall": 3.4,
    "badges": [
     "📚文档完善"
    ]
@@ -3110,7 +3115,7 @@
   "url": "https://github.com/fidetolabs/qanat",
   "desc": "A data platform for investment research. Ingests financial data sources and computes point-in-time financial metrics for valuation and scree…",
   "stars": 332,
-  "stars_prev": 331,
+  "stars_prev": 332,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -3120,10 +3125,10 @@
   "desc_zh": "量化因子处理与回测的 MCP 服务器，连上智能体直接问",
   "quality": {
    "popularity": 3,
-   "momentum": 3,
+   "momentum": 2,
    "activity": 5,
    "docs": 5,
-   "overall": 3.8,
+   "overall": 3.5,
    "badges": [
     "📚文档完善",
     "🛠️活跃维护"
@@ -3158,8 +3163,8 @@
   "name": "noskillish/bankmcp",
   "url": "https://github.com/noskillish/bankmcp",
   "desc": "BankMCP™: your AI can now read your bank. Self-hosted, read-only MCP server for your own bank accounts via open banking (Enable Banking). St…",
-  "stars": 323,
-  "stars_prev": 322,
+  "stars": 324,
+  "stars_prev": 323,
   "lang": "TypeScript",
   "category": "skill",
   "tags": [
@@ -3182,7 +3187,7 @@
   "name": "arielshad/3d-asset-server",
   "url": "https://github.com/arielshad/3d-asset-server",
   "desc": "3d assets api and mcp",
-  "stars": 338,
+  "stars": 340,
   "stars_prev": 338,
   "lang": "TypeScript",
   "category": "tool",
@@ -3193,10 +3198,10 @@
   "desc_zh": "3D 资产 API 与 MCP 服务器",
   "quality": {
    "popularity": 3,
-   "momentum": 2,
+   "momentum": 3,
    "activity": 5,
    "docs": 1,
-   "overall": 2.8,
+   "overall": 3.0,
    "badges": [
     "🛠️活跃维护"
    ]
@@ -3207,7 +3212,7 @@
   "url": "https://github.com/Nomily-Ai/nomily-app",
   "desc": "BYOK voice recording companion with ASR transcription, speaker diarization, AI summaries, and local ASR endpoint support.",
   "stars": 1012,
-  "stars_prev": 1011,
+  "stars_prev": 1012,
   "lang": "-",
   "category": "tool",
   "tags": [
@@ -3217,10 +3222,10 @@
   "desc_zh": "自带 Key 的语音记录伴侣：ASR 转写、说话人分离、AI 摘要",
   "quality": {
    "popularity": 4,
-   "momentum": 3,
+   "momentum": 2,
    "activity": 5,
    "docs": 5,
-   "overall": 4.2,
+   "overall": 3.9,
    "badges": [
     "📚文档完善",
     "🛠️活跃维护"
@@ -3232,7 +3237,7 @@
   "url": "https://github.com/AgentSwarms-fyi/agentswarms",
   "desc": "Unified Agentic AI and Data Platform",
   "stars": 302,
-  "stars_prev": 301,
+  "stars_prev": 302,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -3242,10 +3247,10 @@
   "desc_zh": "统一的智能体 AI 与数据平台",
   "quality": {
    "popularity": 3,
-   "momentum": 3,
+   "momentum": 2,
    "activity": 5,
    "docs": 3,
-   "overall": 3.4,
+   "overall": 3.1,
    "badges": [
     "🛠️活跃维护"
    ]
@@ -3255,8 +3260,8 @@
   "name": "XiaoPuOuO/openchatx-mcp",
   "url": "https://github.com/XiaoPuOuO/openchatx-mcp",
   "desc": "Turn ChatGPT into a local agent runtime. Operate your computer, use local tools, discover MCP servers, and delegate work to your own models …",
-  "stars": 396,
-  "stars_prev": 395,
+  "stars": 397,
+  "stars_prev": 396,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -3303,7 +3308,7 @@
   "url": "https://github.com/VoltAgent/official-mcp-servers",
   "desc": "A curated directory of 390+ official MCP servers from the companies behind the products. No unofficial forks, no abandoned projects.",
   "stars": 425,
-  "stars_prev": 423,
+  "stars_prev": 425,
   "lang": "-",
   "category": "tool",
   "tags": [
@@ -3313,12 +3318,13 @@
   "desc_zh": "280+ 官方 MCP 服务器目录：只收各产品官方出品，无第三方分叉、无弃坑",
   "quality": {
    "popularity": 3,
-   "momentum": 3,
-   "activity": 4,
+   "momentum": 2,
+   "activity": 5,
    "docs": 5,
-   "overall": 3.6,
+   "overall": 3.5,
    "badges": [
-    "📚文档完善"
+    "📚文档完善",
+    "🛠️活跃维护"
    ]
   }
  },
@@ -3351,8 +3357,8 @@
   "name": "himovo/movo",
   "url": "https://github.com/himovo/movo",
   "desc": "Turn DeepSeek Harness into a self-hosted enterprise Agent platform with knowledge, deep research, content generation, vibe coding, browser a…",
-  "stars": 681,
-  "stars_prev": 679,
+  "stars": 683,
+  "stars_prev": 681,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -3376,8 +3382,8 @@
   "name": "Aletheore/Aletheore",
   "url": "https://github.com/Aletheore/Aletheore",
   "desc": "Open source (AGPL-3.0) evidence-grounded repository audit CLI - deterministic scanner, MCP server, live dashboard, and a GitHub Action that …",
-  "stars": 480,
-  "stars_prev": 478,
+  "stars": 483,
+  "stars_prev": 480,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -3471,7 +3477,7 @@
   "name": "Ayuilos/Miffan",
   "url": "https://github.com/Ayuilos/Miffan",
   "desc": "RikkaHub fork，Android AI 客户端。支持 IM（类 Grok-Bot）模式，ChatGPT 订阅登录使用、跨应用划词悬浮翻译、高性能低延迟远程云电脑控制。",
-  "stars": 311,
+  "stars": 313,
   "stars_prev": 311,
   "lang": "Kotlin",
   "category": "tool",
@@ -3482,10 +3488,10 @@
   "desc_zh": "RikkaHub fork，Android AI 客户端。支持 ChatGPT 订阅登录使用、跨应用划词悬浮翻译、助手工作区文件隔离、远程云电脑控制、文档与 HTML 预览、可定制动态角色。",
   "quality": {
    "popularity": 3,
-   "momentum": 2,
+   "momentum": 3,
    "activity": 5,
    "docs": 4,
-   "overall": 3.3,
+   "overall": 3.6,
    "badges": [
     "🛠️活跃维护"
    ]
@@ -3495,8 +3501,8 @@
   "name": "rasonyang/ai-native-callcenter",
   "url": "https://github.com/rasonyang/ai-native-callcenter",
   "desc": "Self-hosted API-first AI call center: AI talks, code controls the call. AI agents answer every call; humans take over without dropping it. R…",
-  "stars": 628,
-  "stars_prev": 619,
+  "stars": 643,
+  "stars_prev": 628,
   "lang": "Go",
   "category": "tool",
   "tags": [
@@ -3520,7 +3526,7 @@
   "name": "Cuongyd196/auto-compare-video",
   "url": "https://github.com/Cuongyd196/auto-compare-video",
   "desc": "🎬 Tạo video \"so sánh kiến thức\" ngắn tự động — HyperFrames + AI voice, 1 template nhiều chủ đề.",
-  "stars": 227,
+  "stars": 226,
   "stars_prev": 227,
   "lang": "HTML",
   "category": "tool",
@@ -3531,10 +3537,10 @@
   "desc_zh": "自动生成知识对比短视频：HyperFrames + AI 配音，一套模板多个主题（越南语）",
   "quality": {
    "popularity": 3,
-   "momentum": 2,
+   "momentum": 1,
    "activity": 3,
    "docs": 4,
-   "overall": 3.0,
+   "overall": 2.7,
    "badges": []
   }
  },
@@ -3657,8 +3663,8 @@
   "name": "sirioberati/Genjustsu-Open-Source-Workflow",
   "url": "https://github.com/sirioberati/Genjustsu-Open-Source-Workflow",
   "desc": "Open-source AI video replacement workflow by TEIN. Combine depth maps, SAM segmentation, face meshes, and audio processing to replace charac…",
-  "stars": 1577,
-  "stars_prev": 1564,
+  "stars": 1585,
+  "stars_prev": 1577,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -3679,8 +3685,8 @@
   "name": "morluto/rea",
   "url": "https://github.com/morluto/rea",
   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-  "stars": 460215,
-  "stars_prev": 457973,
+  "stars": 462299,
+  "stars_prev": 460215,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -3705,8 +3711,8 @@
   "name": "mrsarac/ff-tracking",
   "url": "https://github.com/mrsarac/ff-tracking",
   "desc": "A virtual camera films an AI agent's screen while a tracker locks onto every glyph. Two fframes passes, one SkSL shader, all sound synthesiz…",
-  "stars": 617,
-  "stars_prev": 611,
+  "stars": 627,
+  "stars_prev": 617,
   "lang": "Rust",
   "category": "tool",
   "tags": [
@@ -3729,8 +3735,8 @@
   "name": "rociiu/talorys",
   "url": "https://github.com/rociiu/talorys",
   "desc": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx cr…",
-  "stars": 1469,
-  "stars_prev": 1468,
+  "stars": 1468,
+  "stars_prev": 1469,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -3739,10 +3745,10 @@
   "first_seen": "2026-10-11",
   "quality": {
    "popularity": 4,
-   "momentum": 3,
+   "momentum": 1,
    "activity": 5,
    "docs": 5,
-   "overall": 4.2,
+   "overall": 3.6,
    "badges": [
     "📚文档完善",
     "🛠️活跃维护"
@@ -3755,7 +3761,7 @@
   "url": "https://github.com/finnvoor/PiDurableKit",
   "desc": "Durable AI agents for Apple platforms: pi-durable on JavaScriptCore with a Swift API",
   "stars": 301,
-  "stars_prev": 299,
+  "stars_prev": 301,
   "lang": "Swift",
   "category": "tool",
   "tags": [
@@ -3764,10 +3770,10 @@
   "first_seen": "2026-10-09",
   "quality": {
    "popularity": 3,
-   "momentum": 3,
+   "momentum": 2,
    "activity": 4,
    "docs": 2,
-   "overall": 3.0,
+   "overall": 2.7,
    "badges": []
   },
   "desc_zh": "面向苹果平台的持久化 AI 智能体：在 JavaScriptCore 上运行 pi-durable，提供 Swift API。"
@@ -3776,8 +3782,8 @@
   "name": "zhouwei713/luobo-ppt",
   "url": "https://github.com/zhouwei713/luobo-ppt",
   "desc": "生成和美化可编辑原生 PPT 的 Agent Skill",
-  "stars": 480,
-  "stars_prev": 471,
+  "stars": 484,
+  "stars_prev": 480,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -3798,8 +3804,8 @@
   "name": "Pal-AI-Lab/Cortico",
   "url": "https://github.com/Pal-AI-Lab/Cortico",
   "desc": "Event-stream AI Agent framework for building your persona bot 🍊",
-  "stars": 352,
-  "stars_prev": 347,
+  "stars": 356,
+  "stars_prev": 352,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -3822,8 +3828,8 @@
   "name": "Akshayykadam/PixelBoard",
   "url": "https://github.com/Akshayykadam/PixelBoard",
   "desc": "Unlock Google 11's Gemini \"Rambler\" Natural Voice Dictation & AI Writing Tools on ANY Android phone. No root required.",
-  "stars": 1555,
-  "stars_prev": 1544,
+  "stars": 1568,
+  "stars_prev": 1555,
   "lang": "Kotlin",
   "category": "tool",
   "tags": [
@@ -3846,8 +3852,8 @@
   "name": "morluto/awesome-reverse-engineering",
   "url": "https://github.com/morluto/awesome-reverse-engineering",
   "desc": "Curated reverse-engineering tools and learning resources for binaries, apps, firmware, formats, and protocols.",
-  "stars": 2135,
-  "stars_prev": 2109,
+  "stars": 2160,
+  "stars_prev": 2135,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -3871,8 +3877,8 @@
   "name": "liyupi/ai-promo-video-maker",
   "url": "https://github.com/liyupi/ai-promo-video-maker",
   "desc": "一句话让 AI 帮你做产品宣传片！把产品名或网址告诉 Cursor、Claude Code、Codex 等 AI 编程工具，它会自己调研产品、画出多种风格样图让你挑选、截取 4K 真实页面、按音乐节拍卡点剪辑、生成 AI 旁白并逐句转写校验、自动审图，最后交付一支 4K 商业宣传…",
-  "stars": 477,
-  "stars_prev": 476,
+  "stars": 478,
+  "stars_prev": 477,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -3917,8 +3923,8 @@
   "name": "juliobsz/skills",
   "url": "https://github.com/juliobsz/skills",
   "desc": "An agent skill that builds award-caliber websites from one line",
-  "stars": 1318,
-  "stars_prev": 1309,
+  "stars": 1328,
+  "stars_prev": 1318,
   "lang": "JavaScript",
   "category": "skill",
   "tags": [
@@ -3939,8 +3945,8 @@
   "name": "Arekejoker/qwen21-nsfw-pose-skill",
   "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
   "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
-  "stars": 4408,
-  "stars_prev": 4392,
+  "stars": 4422,
+  "stars_prev": 4408,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -3961,8 +3967,8 @@
   "name": "beiyege-01/dsh-voice-ai-girlfriend",
   "url": "https://github.com/beiyege-01/dsh-voice-ai-girlfriend",
   "desc": "语音 AI 女友（Voice AI girlfriend for DeepSeek Harness）：Whisper 语音输入 + Qwen3-TTS 声音克隆 + 句子级流式朗读 + 数字人动画窗。插话/排队双模式，说话即打断。",
-  "stars": 1059,
-  "stars_prev": 1056,
+  "stars": 1062,
+  "stars_prev": 1059,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -3983,8 +3989,8 @@
   "name": "aicodeking/leanrea",
   "url": "https://github.com/aicodeking/leanrea",
   "desc": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
-  "stars": 4286,
-  "stars_prev": 4267,
+  "stars": 4315,
+  "stars_prev": 4286,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -3993,11 +3999,12 @@
   "first_seen": "2026-10-18",
   "quality": {
    "popularity": 4,
-   "momentum": 3,
+   "momentum": 4,
    "activity": 4,
    "docs": 3,
-   "overall": 3.6,
+   "overall": 3.8,
    "badges": [
+    "📈涨势好",
     "🆕新锐"
    ]
   },
@@ -4007,8 +4014,8 @@
   "name": "sobranie2406/modureader",
   "url": "https://github.com/sobranie2406/modureader",
   "desc": "An open-source, cross-platform ebook and PDF reader.",
-  "stars": 271,
-  "stars_prev": 270,
+  "stars": 273,
+  "stars_prev": 271,
   "lang": "Dart",
   "category": "tool",
   "tags": [
@@ -4056,8 +4063,8 @@
   "name": "SupercmoHQ/superCMO-skills",
   "url": "https://github.com/SupercmoHQ/superCMO-skills",
   "desc": "Open-source skills that empower any AI agent (Claude, Cursor, Hermes, etc.) to generate end-to-end marketing campaigns - UGC videos, ad vide…",
-  "stars": 311,
-  "stars_prev": 310,
+  "stars": 314,
+  "stars_prev": 311,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -4106,8 +4113,8 @@
   "name": "DenisSergeevitch/ex-ussr-kinship-research",
   "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
   "desc": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across …",
-  "stars": 2501,
-  "stars_prev": 2421,
+  "stars": 2543,
+  "stars_prev": 2501,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -4133,8 +4140,8 @@
   "name": "edenfunf/reelmimic",
   "url": "https://github.com/edenfunf/reelmimic",
   "desc": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
-  "stars": 1974,
-  "stars_prev": 1954,
+  "stars": 1996,
+  "stars_prev": 1974,
   "lang": "JavaScript",
   "category": "tool",
   "tags": [
@@ -4159,8 +4166,8 @@
   "name": "OneMoh/html-explainer",
   "url": "https://github.com/OneMoh/html-explainer",
   "desc": "把一个主题做成有配音、字幕、封面的讲解分析类视频 —— 全本地、用 HTML 写画面，稳定音画同步。 面向 AI 编程智能体的确定性 HTML → MP4 渲染流水线。",
-  "stars": 301,
-  "stars_prev": 299,
+  "stars": 303,
+  "stars_prev": 301,
   "lang": "Python",
   "category": "tool",
   "tags": [
@@ -4181,8 +4188,8 @@
   "name": "andyhuo520/digital-human-koubo",
   "url": "https://github.com/andyhuo520/digital-human-koubo",
   "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agen…",
-  "stars": 1979,
-  "stars_prev": 1970,
+  "stars": 2000,
+  "stars_prev": 1979,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -4191,11 +4198,12 @@
   "first_seen": "2026-10-27",
   "quality": {
    "popularity": 4,
-   "momentum": 3,
+   "momentum": 4,
    "activity": 4,
    "docs": 3,
-   "overall": 3.6,
+   "overall": 3.8,
    "badges": [
+    "📈涨势好",
     "🆕新锐"
    ]
   },
@@ -4205,8 +4213,8 @@
   "name": "blakeandersonw/ai-app-playbook",
   "url": "https://github.com/blakeandersonw/ai-app-playbook",
   "desc": "How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md.",
-  "stars": 651,
-  "stars_prev": 649,
+  "stars": 652,
+  "stars_prev": 651,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -4229,8 +4237,8 @@
   "name": "patch-gg/pixelfx",
   "url": "https://github.com/patch-gg/pixelfx",
   "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
-  "stars": 7484,
-  "stars_prev": 7355,
+  "stars": 7625,
+  "stars_prev": 7484,
   "lang": "JavaScript",
   "category": "skill",
   "tags": [
@@ -4256,8 +4264,8 @@
   "name": "Pluviobyte/douyin-comments",
   "url": "https://github.com/Pluviobyte/douyin-comments",
   "desc": "Hand your SaaS growth chores to an agent: new-term radar, keyword-to-site discovery, competitor backlinks, directory submissions, plus a soc…",
-  "stars": 539,
-  "stars_prev": 533,
+  "stars": 540,
+  "stars_prev": 539,
   "lang": "Python",
   "category": "skill",
   "tags": [
@@ -4282,8 +4290,8 @@
   "name": "Balanov/uncut",
   "url": "https://github.com/Balanov/uncut",
   "desc": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
-  "stars": 267,
-  "stars_prev": 266,
+  "stars": 268,
+  "stars_prev": 267,
   "lang": "Go",
   "category": "tool",
   "tags": [
@@ -4307,8 +4315,8 @@
   "name": "caru-ini/stack-diagram",
   "url": "https://github.com/caru-ini/stack-diagram",
   "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
-  "stars": 2500,
-  "stars_prev": 2485,
+  "stars": 2523,
+  "stars_prev": 2500,
   "lang": "TypeScript",
   "category": "skill",
   "tags": [
@@ -4317,11 +4325,12 @@
   "first_seen": "2026-11-02",
   "quality": {
    "popularity": 4,
-   "momentum": 3,
+   "momentum": 4,
    "activity": 5,
    "docs": 4,
-   "overall": 4.0,
+   "overall": 4.2,
    "badges": [
+    "📈涨势好",
     "🆕新锐",
     "🛠️活跃维护"
    ]
@@ -4332,8 +4341,8 @@
   "name": "KKKKhazix/agent-autoloop",
   "url": "https://github.com/KKKKhazix/agent-autoloop",
   "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
-  "stars": 5378,
-  "stars_prev": 5169,
+  "stars": 5550,
+  "stars_prev": 5378,
   "lang": "TypeScript",
   "category": "tool",
   "tags": [
@@ -4359,8 +4368,8 @@
   "name": "JosssphZhou/poki",
   "url": "https://github.com/JosssphZhou/poki",
   "desc": "Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
-  "stars": 1280,
-  "stars_prev": 1114,
+  "stars": 1365,
+  "stars_prev": 1280,
   "lang": "Swift",
   "category": "tool",
   "tags": [
@@ -4369,12 +4378,12 @@
   "first_seen": "2026-11-06",
   "quality": {
    "popularity": 4,
-   "momentum": 5,
+   "momentum": 4,
    "activity": 5,
    "docs": 4,
-   "overall": 4.5,
+   "overall": 4.2,
    "badges": [
-    "🔥爆火",
+    "📈涨势好",
     "🆕新锐",
     "🛠️活跃维护"
    ]
@@ -4513,7 +4522,7 @@
   "name": "trackboatwrightplan/GitHub-Copilot-app",
   "url": "https://github.com/trackboatwrightplan/GitHub-Copilot-app",
   "desc": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub re…",
-  "stars": 672,
+  "stars": 382,
   "stars_prev": 672,
   "lang": "-",
   "category": "tool",
@@ -4523,10 +4532,10 @@
   "first_seen": "2026-11-15",
   "quality": {
    "popularity": 3,
-   "momentum": 2,
+   "momentum": 1,
    "activity": 5,
    "docs": 5,
-   "overall": 3.5,
+   "overall": 3.3,
    "badges": [
     "🆕新锐",
     "📚文档完善",
@@ -4565,7 +4574,7 @@
   "name": "topapothecarycanal/ai--manus2.0",
   "url": "https://github.com/topapothecarycanal/ai--manus2.0",
   "desc": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-  "stars": 666,
+  "stars": 381,
   "stars_prev": 666,
   "lang": "-",
   "category": "tool",
@@ -4575,10 +4584,10 @@
   "first_seen": "2026-11-15",
   "quality": {
    "popularity": 3,
-   "momentum": 2,
+   "momentum": 1,
    "activity": 5,
    "docs": 5,
-   "overall": 3.5,
+   "overall": 3.3,
    "badges": [
     "🆕新锐",
     "📚文档完善",
@@ -4591,7 +4600,7 @@
   "name": "trackersnailgrip/GitHub-Copilot-app",
   "url": "https://github.com/trackersnailgrip/GitHub-Copilot-app",
   "desc": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub re…",
-  "stars": 666,
+  "stars": 385,
   "stars_prev": 666,
   "lang": "-",
   "category": "tool",
@@ -4601,10 +4610,10 @@
   "first_seen": "2026-11-15",
   "quality": {
    "popularity": 3,
-   "momentum": 2,
+   "momentum": 1,
    "activity": 5,
    "docs": 5,
-   "overall": 3.5,
+   "overall": 3.3,
    "badges": [
     "🆕新锐",
     "📚文档完善",
@@ -4617,7 +4626,7 @@
   "name": "toppatronweave/GitHub-Copilot-app",
   "url": "https://github.com/toppatronweave/GitHub-Copilot-app",
   "desc": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub re…",
-  "stars": 665,
+  "stars": 381,
   "stars_prev": 665,
   "lang": "-",
   "category": "tool",
@@ -4627,10 +4636,10 @@
   "first_seen": "2026-11-15",
   "quality": {
    "popularity": 3,
-   "momentum": 2,
+   "momentum": 1,
    "activity": 5,
    "docs": 5,
-   "overall": 3.5,
+   "overall": 3.3,
    "badges": [
     "🆕新锐",
     "📚文档完善",
@@ -4643,7 +4652,7 @@
   "name": "toppatronweave/ai--manus2.0",
   "url": "https://github.com/toppatronweave/ai--manus2.0",
   "desc": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-  "stars": 665,
+  "stars": 380,
   "stars_prev": 665,
   "lang": "-",
   "category": "tool",
@@ -4653,10 +4662,10 @@
   "first_seen": "2026-11-15",
   "quality": {
    "popularity": 3,
-   "momentum": 2,
+   "momentum": 1,
    "activity": 5,
    "docs": 5,
-   "overall": 3.5,
+   "overall": 3.3,
    "badges": [
     "🆕新锐",
     "📚文档完善",
@@ -4721,7 +4730,7 @@
   "name": "TurquoiseConsultant/GitHub-Copilot-app",
   "url": "https://github.com/TurquoiseConsultant/GitHub-Copilot-app",
   "desc": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub re…",
-  "stars": 664,
+  "stars": 378,
   "stars_prev": 664,
   "lang": "-",
   "category": "tool",
@@ -4731,10 +4740,10 @@
   "first_seen": "2026-11-15",
   "quality": {
    "popularity": 3,
-   "momentum": 2,
+   "momentum": 1,
    "activity": 5,
    "docs": 5,
-   "overall": 3.5,
+   "overall": 3.3,
    "badges": [
     "🆕新锐",
     "📚文档完善",
@@ -4747,7 +4756,7 @@
   "name": "TrapBladesmith/GitHub-Copilot-app",
   "url": "https://github.com/TrapBladesmith/GitHub-Copilot-app",
   "desc": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub re…",
-  "stars": 664,
+  "stars": 379,
   "stars_prev": 664,
   "lang": "-",
   "category": "tool",
@@ -4757,10 +4766,10 @@
   "first_seen": "2026-11-15",
   "quality": {
    "popularity": 3,
-   "momentum": 2,
+   "momentum": 1,
    "activity": 5,
    "docs": 5,
-   "overall": 3.5,
+   "overall": 3.3,
    "badges": [
     "🆕新锐",
     "📚文档完善",
@@ -4825,7 +4834,7 @@
   "name": "topconstableinlet67/ai--manus2.0",
   "url": "https://github.com/topconstableinlet67/ai--manus2.0",
   "desc": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-  "stars": 663,
+  "stars": 378,
   "stars_prev": 663,
   "lang": "-",
   "category": "tool",
@@ -4835,10 +4844,10 @@
   "first_seen": "2026-11-15",
   "quality": {
    "popularity": 3,
-   "momentum": 2,
+   "momentum": 1,
    "activity": 5,
    "docs": 5,
-   "overall": 3.5,
+   "overall": 3.3,
    "badges": [
     "🆕新锐",
     "📚文档完善",
@@ -4851,7 +4860,7 @@
   "name": "topconstableinlet67/GitHub-Copilot-app",
   "url": "https://github.com/topconstableinlet67/GitHub-Copilot-app",
   "desc": "The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub re…",
-  "stars": 661,
+  "stars": 375,
   "stars_prev": 661,
   "lang": "-",
   "category": "tool",
@@ -4861,10 +4870,10 @@
   "first_seen": "2026-11-15",
   "quality": {
    "popularity": 3,
-   "momentum": 2,
+   "momentum": 1,
    "activity": 5,
    "docs": 5,
-   "overall": 3.5,
+   "overall": 3.3,
    "badges": [
     "🆕新锐",
     "📚文档完善",
@@ -4929,7 +4938,7 @@
   "name": "trackersnailgrip/ai--manus2.0",
   "url": "https://github.com/trackersnailgrip/ai--manus2.0",
   "desc": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-  "stars": 654,
+  "stars": 373,
   "stars_prev": 654,
   "lang": "-",
   "category": "tool",
@@ -4939,10 +4948,10 @@
   "first_seen": "2026-11-15",
   "quality": {
    "popularity": 3,
-   "momentum": 2,
+   "momentum": 1,
    "activity": 5,
    "docs": 5,
-   "overall": 3.5,
+   "overall": 3.3,
    "badges": [
     "🆕新锐",
     "📚文档完善",
@@ -4955,8 +4964,60 @@
   "name": "Ultimateakiln/ai--manus2.0",
   "url": "https://github.com/Ultimateakiln/ai--manus2.0",
   "desc": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-  "stars": 654,
+  "stars": 371,
   "stars_prev": 654,
+  "lang": "-",
+  "category": "tool",
+  "tags": [
+   "chat"
+  ],
+  "first_seen": "2026-11-15",
+  "quality": {
+   "popularity": 3,
+   "momentum": 1,
+   "activity": 5,
+   "docs": 5,
+   "overall": 3.3,
+   "badges": [
+    "🆕新锐",
+    "📚文档完善",
+    "🛠️活跃维护"
+   ]
+  },
+  "desc_zh": ""
+ },
+ {
+  "name": "TrapBladesmith/ai--manus2.0",
+  "url": "https://github.com/TrapBladesmith/ai--manus2.0",
+  "desc": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+  "stars": 370,
+  "stars_prev": 653,
+  "lang": "-",
+  "category": "tool",
+  "tags": [
+   "chat"
+  ],
+  "first_seen": "2026-11-15",
+  "quality": {
+   "popularity": 3,
+   "momentum": 1,
+   "activity": 5,
+   "docs": 5,
+   "overall": 3.3,
+   "badges": [
+    "🆕新锐",
+    "📚文档完善",
+    "🛠️活跃维护"
+   ]
+  },
+  "desc_zh": ""
+ },
+ {
+  "name": "violetkomodolimit/ai--manus2.0",
+  "url": "https://github.com/violetkomodolimit/ai--manus2.0",
+  "desc": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+  "stars": 375,
+  "stars_prev": 375,
   "lang": "-",
   "category": "tool",
   "tags": [
@@ -4978,15 +5039,93 @@
   "desc_zh": ""
  },
  {
-  "name": "TrapBladesmith/ai--manus2.0",
-  "url": "https://github.com/TrapBladesmith/ai--manus2.0",
+  "name": "taboospecialistblade/ai--manus2.0",
+  "url": "https://github.com/taboospecialistblade/ai--manus2.0",
   "desc": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-  "stars": 653,
-  "stars_prev": 653,
+  "stars": 371,
+  "stars_prev": 371,
   "lang": "-",
   "category": "tool",
   "tags": [
    "chat"
+  ],
+  "first_seen": "2026-11-15",
+  "quality": {
+   "popularity": 3,
+   "momentum": 2,
+   "activity": 5,
+   "docs": 5,
+   "overall": 3.5,
+   "badges": [
+    "🆕新锐",
+    "📚文档完善",
+    "🛠️活跃维护"
+   ]
+  },
+  "desc_zh": ""
+ },
+ {
+  "name": "Tonephorepair/ai--manus2.0",
+  "url": "https://github.com/Tonephorepair/ai--manus2.0",
+  "desc": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+  "stars": 370,
+  "stars_prev": 370,
+  "lang": "-",
+  "category": "tool",
+  "tags": [
+   "chat"
+  ],
+  "first_seen": "2026-11-15",
+  "quality": {
+   "popularity": 3,
+   "momentum": 2,
+   "activity": 5,
+   "docs": 5,
+   "overall": 3.5,
+   "badges": [
+    "🆕新锐",
+    "📚文档完善",
+    "🛠️活跃维护"
+   ]
+  },
+  "desc_zh": ""
+ },
+ {
+  "name": "trackboatwrightplan/ai--manus2.0",
+  "url": "https://github.com/trackboatwrightplan/ai--manus2.0",
+  "desc": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+  "stars": 370,
+  "stars_prev": 370,
+  "lang": "-",
+  "category": "tool",
+  "tags": [
+   "chat"
+  ],
+  "first_seen": "2026-11-15",
+  "quality": {
+   "popularity": 3,
+   "momentum": 2,
+   "activity": 5,
+   "docs": 5,
+   "overall": 3.5,
+   "badges": [
+    "🆕新锐",
+    "📚文档完善",
+    "🛠️活跃维护"
+   ]
+  },
+  "desc_zh": ""
+ },
+ {
+  "name": "Outpostkrewhirl86/Capri-AI",
+  "url": "https://github.com/Outpostkrewhirl86/Capri-AI",
+  "desc": "Capri: a local-first desktop AI agent with a cyberpunk HUD. Your personal Jarvis for Windows. Controls files, apps, terminal and browser, po…",
+  "stars": 345,
+  "stars_prev": 345,
+  "lang": "-",
+  "category": "tool",
+  "tags": [
+   "devtools"
   ],
   "first_seen": "2026-11-15",
   "quality": {
