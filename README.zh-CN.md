@@ -14,22 +14,22 @@
 每天自动搜集**广受好评的 AI 工具**与 **AI Skills**。
 
 - 🔍 **数据来源**：GitHub（近 2 天高 star 新项目）、Hacker News（高分讨论）
-- ⏰ **更新时间**：每天 08:00（北京时间）自动运行 — 已收录 210 个项目
+- ⏰ **更新时间**：每天 08:00（北京时间）自动运行 — 已收录 213 个项目
 - 🧹 **去重**：收录过的项目不会重复出现
 
 ## 🧭 分类浏览
 
 <table>
   <tr>
-    <td align="center" width="20%"><a href="CATEGORIES.md#agent">🤖<br/><b>智能体</b><br/><sub>AI Agent · 50</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#agent">🤖<br/><b>智能体</b><br/><sub>AI Agent · 51</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#coding">💻<br/><b>编程开发</b><br/><sub>Coding · 17</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#image-video">🎨<br/><b>图像视频</b><br/><sub>Image & Video · 28</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#audio">🎙<br/><b>音频语音</b><br/><sub>Audio & Voice · 9</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#writing">✍️<br/><b>写作</b><br/><sub>Writing · 8</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#writing">✍️<br/><b>写作</b><br/><sub>Writing · 9</sub></a></td>
   </tr>
   <tr>
     <td align="center" width="20%"><a href="CATEGORIES.md#search">🔍<br/><b>搜索知识</b><br/><sub>Search & Knowledge · 27</sub></a></td>
-    <td align="center" width="20%"><a href="CATEGORIES.md#devtools">🛠️<br/><b>开发工具</b><br/><sub>Dev Tools · 33</sub></a></td>
+    <td align="center" width="20%"><a href="CATEGORIES.md#devtools">🛠️<br/><b>开发工具</b><br/><sub>Dev Tools · 34</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#data">📊<br/><b>数据分析</b><br/><sub>Data & Analysis · 2</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#chat">💬<br/><b>对话助手</b><br/><sub>Chat & Assistant · 22</sub></a></td>
     <td align="center" width="20%"><a href="CATEGORIES.md#other">📦<br/><b>其他</b><br/><sub>Other · 14</sub></a></td>
@@ -44,39 +44,40 @@
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [morluto/rea](https://github.com/morluto/rea) | 462299 |
-| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 30036 |
-| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 23833 |
-| 4 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 21573 |
-| 5 | [google/artemis](https://github.com/google/artemis) | 17491 |
-| 6 | [yc-software/qm](https://github.com/yc-software/qm) | 15712 |
-| 7 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 12462 |
-| 8 | [trycompai/crm](https://github.com/trycompai/crm) | 12110 |
-| 9 | [makecindy/cindy](https://github.com/makecindy/cindy) | 10184 |
-| 10 | [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) | 9317 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | 464662 |
+| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 30249 |
+| 3 | [lexmount/moli](https://github.com/lexmount/moli) | 23890 |
+| 4 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 22270 |
+| 5 | [google/artemis](https://github.com/google/artemis) | 17568 |
+| 6 | [yc-software/qm](https://github.com/yc-software/qm) | 15717 |
+| 7 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | 12636 |
+| 8 | [trycompai/crm](https://github.com/trycompai/crm) | 12123 |
+| 9 | [makecindy/cindy](https://github.com/makecindy/cindy) | 10238 |
+| 10 | [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) | 9381 |
 
 ### 🧩 AI Skills Top
 
 | # | Project | ⭐ |
 |---|---|---|
-| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 20175 |
-| 2 | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | 16850 |
-| 3 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 12409 |
-| 4 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 10021 |
-| 5 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 9719 |
-| 6 | [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | 9472 |
-| 7 | [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx) | 7625 |
-| 8 | [Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) | 7088 |
-| 9 | [kaankiziltug/logo-design-skill](https://github.com/kaankiziltug/logo-design-skill) | 7018 |
-| 10 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6884 |
+| 1 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 20735 |
+| 2 | [lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | 17384 |
+| 3 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 12469 |
+| 4 | [Ryze-AI-Adgent/open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) | 10279 |
+| 5 | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 9736 |
+| 6 | [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) | 9620 |
+| 7 | [patch-gg/pixelfx](https://github.com/patch-gg/pixelfx) | 7816 |
+| 8 | [Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) | 7169 |
+| 9 | [kaankiziltug/logo-design-skill](https://github.com/kaankiziltug/logo-design-skill) | 7111 |
+| 10 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | 6899 |
 
 ## 📰 最新日报
 
-> ### [**2026-11-16**](daily/2026-11-16.md)
+> ### [**2026-11-17**](daily/2026-11-17.md)
 
 <details>
 <summary><b>📚 历史归档</b></summary>
 
+- [2026-11-17](daily/2026-11-17.md)
 - [2026-11-16](daily/2026-11-16.md)
 - [2026-11-15](daily/2026-11-15.md)
 - [2026-11-14](daily/2026-11-14.md)
